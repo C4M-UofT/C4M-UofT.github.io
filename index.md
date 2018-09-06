@@ -2,16 +2,16 @@
 
 Welcome to the webpage for the 2018 Computing for Medicine workshops.
 
-### Course Staff
+## Course Staff
 
 - Marzyeh Ghassemi
 - John Giorgi
 - Daniyal Liaqat
 
-### Table of contents
+## Table of contents
 
-1. [Installation](#Installation)
-2. [Schedule](#Schedule)
+1. [Installation](#installation)
+2. [Schedule](#schedule)
 
 # Installation
 
