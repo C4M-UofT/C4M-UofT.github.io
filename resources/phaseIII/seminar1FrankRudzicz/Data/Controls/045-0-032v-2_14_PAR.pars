@@ -1,0 +1,9 @@
+(ROOT
+  (S
+    (NP (EX there))
+    (VP
+      (VBP are)
+      (VP
+        (VBG hedges)
+        (ADVP (RB also))
+        (NP (DT the) (NN tree) (NN sid))))))

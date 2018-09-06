@@ -1,0 +1,17 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (PP
+      (IN on)
+      (NP
+        (NP (DT the) (JJ uh) (NN sink))
+        (ADVP (RB also))
+        (SBAR
+          (S
+            (NP (EX there))
+            (VP
+              (VBP are)
+              (NP
+                (NP (CD two) (NNS cups))
+                (CC and)
+                (NP (DT a) (NN pl))))))))))

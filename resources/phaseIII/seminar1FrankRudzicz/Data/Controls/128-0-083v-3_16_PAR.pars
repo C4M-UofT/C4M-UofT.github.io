@@ -1,0 +1,66 @@
+(ROOT
+  (S
+    (VP
+      (VB hes)
+      (ADVP (RB supposedly))
+      (S
+        (VP
+          (VP
+            (VBG going)
+            (S
+              (VP
+                (TO to)
+                (VP
+                  (VP
+                    (VB hand)
+                    (NP (CD one))
+                    (NP
+                      (NP (NN cookie))
+                      (SBAR
+                        (S
+                          (NP (PRP it))
+                          (VP
+                            (VBZ looks)
+                            (SBAR
+                              (RB as)
+                              (IN though)
+                              (S
+                                (NP (PRP he))
+                                (VP
+                                  (VBZ is)
+                                  (PP
+                                    (TO to)
+                                    (NP (PRP$ his) (NN sister)))))))))))
+                  (CC and)
+                  (VP
+                    (VB grab)
+                    (NP
+                      (NP (DT another) (NN one))
+                      (PP (IN for) (NP (PRP himself)))))))))
+          (CC but)
+          (VP
+            (VBG i)
+            (NP (NN doubt) (NN hes))
+            (SBAR
+              (IN that)
+              (S
+                (NP
+                  (NP (NN hes))
+                  (VP
+                    (VBG gon)
+                    (S
+                      (VP
+                        (TO na)
+                        (VP
+                          (VB get)
+                          (NP
+                            (NP (DT all))
+                            (SBAR
+                              (WHNP (WDT that))
+                              (S
+                                (VP
+                                  (VBN done)
+                                  (PP
+                                    (IN before)
+                                    (NP (DT the) (NN stool))))))))))))
+                (VP (VBZ falls) (NP (NN ov)))))))))))

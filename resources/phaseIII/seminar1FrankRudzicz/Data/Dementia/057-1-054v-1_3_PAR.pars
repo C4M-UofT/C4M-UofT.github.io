@@ -1,0 +1,18 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (NNS shes))
+      (SBAR
+        (S
+          (ADVP (RB also))
+          (VP
+            (VBZ uh)
+            (S
+              (VP
+                (VBG reaching)
+                (PRT (RP up))
+                (S
+                  (VP
+                    (TO to)
+                    (VP (VB get) (NP (DT a) (JJ uh) (NN cooki)))))))))))))

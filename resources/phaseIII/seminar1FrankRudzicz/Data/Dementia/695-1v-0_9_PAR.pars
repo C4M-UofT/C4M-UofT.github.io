@@ -1,0 +1,12 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (NNS theres))
+      (SBAR
+        (S
+          (NP (NN something) (RB else))
+          (ADVP
+            (RB up)
+            (PP (IN on) (NP (DT the) (NN shelf)) (ADVP (RB there))))
+          (VP (VBZ is) (ADJP (JJ fal))))))))

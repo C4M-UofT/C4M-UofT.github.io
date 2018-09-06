@@ -1,0 +1,11 @@
+(ROOT
+  (S
+    (NP (FW i))
+    (VP
+      (VBP use)
+      (S
+        (NP (NN rubber) (NNS gloves))
+        (VP
+          (VB cause)
+          (NP (PRP$ my) (NN skin) (NNS cracks))
+          (PP (IN around) (NP (PRP$ my) (NN nail))))))))

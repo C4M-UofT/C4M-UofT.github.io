@@ -1,0 +1,15 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (DT the)
+      (NN boy)
+      (SBAR
+        (S
+          (VP
+            (VBZ is)
+            (ADVP (RB also))
+            (VP
+              (VBG falling)
+              (PRT (RP over))
+              (PP (IN off) (NP (DT the) (NN stool))))))))))

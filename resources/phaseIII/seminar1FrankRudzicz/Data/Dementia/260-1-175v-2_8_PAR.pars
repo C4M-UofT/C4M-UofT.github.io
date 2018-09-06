@@ -1,0 +1,8 @@
+(ROOT
+  (S
+    (NP (JJ i) (NN dont))
+    (VP
+      (VBP know)
+      (SBAR
+        (WHNP (WP what))
+        (S (NP (RB else) (PRP she)) (VP (VBZ is) (VP (NN laugh))))))))

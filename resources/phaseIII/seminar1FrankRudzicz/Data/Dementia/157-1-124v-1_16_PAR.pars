@@ -1,0 +1,26 @@
+(ROOT
+  (UCP
+    (ADJP
+      (RB well)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP
+            (VBD had)
+            (NP
+              (NP (DT the) (JJ little) (NNS boys))
+              (PP (IN on) (NP (DT the) (NN stool))))))))
+    (CC and)
+    (NP
+      (NP (DT the) (NNS stools))
+      (PP
+        (RB just)
+        (IN about)
+        (ADJP
+          (JJ ready)
+          (S
+            (VP
+              (TO to)
+              (VP
+                (VB t)
+                (S (NP (NNS laughs)) (VP (VB fall) (PRT (RP down))))))))))))

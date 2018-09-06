@@ -1,0 +1,22 @@
+(ROOT
+  (FRAG
+    (ADVP (RB also))
+    (NP
+      (NP (DT a) (NN path) (CC and) (NN uh) (NN uh))
+      (SBAR
+        (S
+          (NP
+            (NP (DT a) (NN window))
+            (PP
+              (IN into)
+              (NP
+                (NP
+                  (DT the)
+                  (RRC
+                    (PP (IN into) (NP (NNP uh)))
+                    (NP (DT a) (NN garage))))
+                (CC or)
+                (NP
+                  (NP (DT another) (NN portion))
+                  (PP (IN of) (NP (DT the) (NN house)))))))
+          (VP (VBZ is) (ADJP (JJ vis))))))))

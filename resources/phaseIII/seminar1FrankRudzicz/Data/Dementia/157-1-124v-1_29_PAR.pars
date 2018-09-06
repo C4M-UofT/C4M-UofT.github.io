@@ -1,0 +1,17 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (NNP beside))
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP
+            (VBZ theres)
+            (NP (DT a) (JJ little))
+            (PP (RB also) (NP (DT a) (JJ little) (NN cross)))
+            (SBAR
+              (IN that)
+              (S
+                (NP (NNP uh))
+                (VP (VBZ indicates) (NP (DT the) (NN th)))))))))))

@@ -1,0 +1,8 @@
+(ROOT
+  (S
+    (NP (DT the) (JJ little) (NNS girls))
+    (VP
+      (VBD got)
+      (NP (PRP$ her) (NN hand))
+      (PRT (RP up))
+      (PP (IN for) (PP (IN on))))))

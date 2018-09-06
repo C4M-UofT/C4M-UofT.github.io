@@ -1,0 +1,22 @@
+(ROOT
+  (UCP
+    (VP
+      (VBN uh)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP
+            (VBZ is)
+            (VP
+              (VBG trying)
+              (S
+                (VP
+                  (TO to)
+                  (VP
+                    (VB get)
+                    (NP
+                      (NP (DT a) (NN cookie))
+                      (PP (IN for) (NP (PRP himself))))))))))))
+    (CC and)
+    (RB also)
+    (NP (NP (CD one)) (PP (IN for) (NP (PRP$ his) (NN sist))))))

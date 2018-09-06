@@ -1,0 +1,19 @@
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ his) (NNS sisters))
+      (VP
+        (VBG wearing)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (VP
+              (VBZ amounts)
+              (S
+                (VP
+                  (TO to)
+                  (VP (VB sort) (PP (IN of) (NP (DT a) (NN mini)))))))))))
+    (VP
+      (VBP dress)
+      (NP (JJ mini) (NN skirt))
+      (PP (IN with) (NP (JJ uh) (NN sand))))))

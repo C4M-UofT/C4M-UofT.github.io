@@ -1,0 +1,17 @@
+(ROOT
+  (PRN
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP
+        (MD might)
+        (ADVP (RB just))
+        (VP
+          (VB pull)
+          (NP (PDT all) (DT the) (NN cookie) (NN jar))
+          (PP (IN with) (NP (PRP him)))
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (PRP he))
+              (VP (VBZ falls) (ADJP (RB too) (JJ laugh))))))))))

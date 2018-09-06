@@ -1,0 +1,19 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (DT the) (DT the) (NNS girls))
+      (SBAR
+        (S
+          (NP
+            (NP (NN cryin))
+            (PP (IN for) (NP (DT the) (NNS laughs))))
+          (VP
+            (VBZ s)
+            (SBAR
+              (S
+                (NP (PRP she))
+                (VP
+                  (VBZ wants)
+                  (NP (DT a) (JJ laughs) (NN coo) (NN cook))
+                  (FRAG (X (SYM c)) (NP (NN cooki))))))))))))

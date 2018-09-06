@@ -1,0 +1,100 @@
+== Beginners ==
+
+= Session 1 =
+
+Installing Python and Wing 101.
+Using Python as a calculator (int, float, arithmetic operators) and built-in functions
+Variables
+Intro to strings
+Functions (Function Design Recipe)
+Converting Between Types
+Writing Programs
+
+= Session 2 =
+
+Revisiting programs (level 1)
+Docstrings, dir, help
+Booleans
+if statements
+Function reuse and nested function calls
+More strings (escape sequences, len, in, methods?, etc.)
+Possible additional homework:
+Visualizing Program Execution (w2 perform)
+
+= Session 3 =
+for loops over strings
+lists, loops, range
+Mutability (memory model)
+parallel lists
+
+= Session 4 =
+nested lists and nested loops
+while loops (maybe)
+More memory model
+
+
+== Advanced ==
+
+= Session 1 =
+
+Installing Python and Wing 101.
+Using Python as a calculator (int, float, arithmetic operators) and built-in functions
+Variables
+Intro to strings
+Functions (Function Design Recipe)
+Docstrings, dir, help
+Converting Between Types
+Writing Programs
+Booleans
+if statements
+
+(I rushed through if statements at the very end of the session, but didn't spend much time on them and they didn't do any practice problems.)
+
+= Session 2 =
+Practice with if statements
+for loops over strings
+lists, loops, range
+- hw: Out of bounds
+Mutability (memory model)
+
+= Session 3 =
+
+I have put together a set of Jupyter notebooks that will be posted on the C4M website (http://c4m.cdf.toronto.edu/cohort2/phase1/level2/).  
+
+I use the notebooks as a rough outline for my presentation.  I generally teach for a little while, then have them solve problems.  At this point, they are solving problems for at least half of the time.
+
+In the notes, when you reach a practice problem, have them work on it.  If needed, take up the answer with the class.  I don't solve every problem with the class, only those that seem to be tripping up at least a few people.
+
+1. Practice problems on list mutability
+
+Last lecture we talked about mutability and the difference between functions that build new lists and those that mutate lists.  I showed two examples and were assigned some problems for homework.
+
+Please start the session by having them do the two List Mutability practice exercises (report_digits and replace_digits).  I don't think it will take them much more than about 15 minutes to finish these.  I don't take up the questions with the whole group unless it seems like they need it. 
+
+2. Parallel lists and strings
+
+Next, please cover the material in the parallel lists and strings notes.  Please emphasize the idea of corresponding items in two objects (that is, items at the same index in two lists, strs, etc.).  
+
+3. Nested lists and nested loops
+
+I expect you may want to take up the last problem (heart rate ranges) with the group, since there are multiple ways to solve it.  I've used the phrase accumulator variable, but they've never seen two accumulator variables in the same function.  They may also solve it different ways.
+
+- From last name female problem. *Homework*: write more interesting function where need to access 2 elements to make decision and need to make lastname, firstname combo to put in created list.
+
+4. while loops
+memory model (scope of variables)
+
+=======
+Phase 2
+
+dictionaries
+file I/O
+
+** Homework **
+From C1: L1 W2 P2
+1. Two in a row (list of str, indexing)
+2. Blood pressure (parallel lists)
+3. Core body temperature (list of int)
+4. starts_with (used as practice exercise)
+5. match_dna (on PCRS)
+6. consistent_growth_exact_n

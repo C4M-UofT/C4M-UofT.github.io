@@ -1,0 +1,10 @@
+(ROOT
+  (SINV
+    (S
+      (ADVP (RB also))
+      (NP (EX there))
+      (VP (VBP are) (NP (DT a) (JJ few) (JJR more) (NNS dishes))))
+    (VP
+      (VBD left)
+      (SBAR (IN that) (S (NP (NN didnt)) (VP (VBP get)))))
+    (NP (NN finish))))

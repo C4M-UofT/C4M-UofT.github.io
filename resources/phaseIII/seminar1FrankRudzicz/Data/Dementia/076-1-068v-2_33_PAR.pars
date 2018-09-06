@@ -1,0 +1,6 @@
+(ROOT
+  (SINV
+    (VP
+      (VBZ shes)
+      (S (VP (VBG thinking) (NP (NN something) (FW else) (FW i)))))
+    (NP (VB think))))

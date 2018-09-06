@@ -1,0 +1,32 @@
+(ROOT
+  (S
+    (NP (FW i))
+    (VP
+      (VP
+        (VBP see)
+        (NP (DT the) (JJ little) (NN boy))
+        (S
+          (VP
+            (VBG reaching)
+            (PRT (RP up))
+            (PP (IN for) (NP (DT the) (NN cookie) (NN jar))))))
+      (CC but)
+      (VP
+        (VBP hes)
+        (ADVP (RB also))
+        (PP
+          (IN on)
+          (NP
+            (NP (DT the) (NN stool))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP
+                  (VBZ is)
+                  (VP
+                    (VP (VBG tumbling) (PRT (RP over)))
+                    (CC and)
+                    (ADVP (RB hes))
+                    (VP
+                      (VBG going)
+                      (S (VP (TO to) (VP (VB be) (VP (VBN hurt))))))))))))))))

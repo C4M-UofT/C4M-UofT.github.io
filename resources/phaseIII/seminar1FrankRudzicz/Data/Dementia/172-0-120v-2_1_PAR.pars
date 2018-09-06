@@ -1,0 +1,21 @@
+(ROOT
+  (FRAG
+    (FRAG
+      (CC and)
+      (NP
+        (NP (NNP uh))
+        (SBAR
+          (S
+            (NP (DT the) (JJ little) (NN boy))
+            (VP
+              (VBZ is)
+              (ADVP (RB up))
+              (VP
+                (VBG getting)
+                (NP
+                  (NP (NNS cookies))
+                  (PP (RB out) (IN of) (NP (DT the) (NN jar))))))))))
+    (CC and)
+    (FRAG
+      (NP (DT the) (NNS stools))
+      (ADJP (IN about) (S (VP (TO to) (VP (VB fall) (NP (NN ov)))))))))

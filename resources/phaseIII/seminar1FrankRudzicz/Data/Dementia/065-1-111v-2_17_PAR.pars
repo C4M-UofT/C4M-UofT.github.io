@@ -1,0 +1,16 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (PP
+      (IN in)
+      (PP
+        (IN in)
+        (NP
+          (NP (DT the) (NN um))
+          (PP
+            (IN on)
+            (NP
+              (NP (DT the) (NN kol))
+              (PP (IN in) (NP (DT the) (NN garage) (NNS theres)))
+              (ADVP (RB also))
+              (NP (DT a) (NN window)))))))))

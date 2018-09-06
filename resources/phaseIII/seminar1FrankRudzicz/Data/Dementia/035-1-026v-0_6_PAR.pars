@@ -1,0 +1,11 @@
+(ROOT
+  (PRN
+    (CC and)
+    (S
+      (NP (PRP she))
+      (VP
+        (VBZ is)
+        (ADVP (RB also))
+        (VP
+          (VBG standing)
+          (PP (IN in) (NP (NP (DT some)) (PP (IN in) (NP (NN wat))))))))))

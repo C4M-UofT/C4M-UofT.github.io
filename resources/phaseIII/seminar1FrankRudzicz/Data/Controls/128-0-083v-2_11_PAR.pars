@@ -1,0 +1,43 @@
+(ROOT
+  (S
+    (NP
+      (NP (NN um))
+      (PP
+        (IN below)
+        (NP
+          (NP (DT the) (NN counter))
+          (SBAR
+            (S
+              (NP (PRP we))
+              (VP
+                (VBP have)
+                (NP
+                  (NP (DT a) (NN cupboard))
+                  (PP
+                    (IN on)
+                    (NP
+                      (NP (DT each) (NN side))
+                      (PP
+                        (IN of)
+                        (NP
+                          (NP (DT the) (JJ uh) (NN sink))
+                          (CC and)
+                          (NP (FW i) (FW cant)))))))))))))
+    (VP
+      (VBP see)
+      (NP (DT the) (NN handles))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (VP
+            (VBZ theres)
+            (SBAR
+              (S
+                (NP (EX there))
+                (ADVP (RB probably))
+                (VP
+                  (VBZ is)
+                  (PP
+                    (IN under)
+                    (NP (DT the) (NN sink) (NN cupboard)))
+                  (ADVP (RB also)))))))))))

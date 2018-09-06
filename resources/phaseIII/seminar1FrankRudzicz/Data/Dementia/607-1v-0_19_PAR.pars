@@ -1,0 +1,8 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (ADVP
+      (ADVP (RB uh))
+      (SBAR
+        (WHNP (WP what))
+        (S (ADVP (RB else)) (VP (VBZ is) (ADJP (JJ ther))))))))

@@ -1,0 +1,6 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (JJ theres) (NN somethin))
+      (ADVP (RB else) (PP (IN over) (NP (NN ther)))))))

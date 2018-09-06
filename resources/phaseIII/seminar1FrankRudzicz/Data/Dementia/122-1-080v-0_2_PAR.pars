@@ -1,0 +1,25 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (DT the) (NNS children))
+      (SBAR
+        (S
+          (VP
+            (VBP have)
+            (VP
+              (ADVP (RB uh))
+              (VBN havin)
+              (NP (DT a) (JJ good) (NN time))
+              (PP (IN because) (NP (NN theyre)))
+              (SBAR
+                (IN while)
+                (S
+                  (NP
+                    (NP (PRP$ their) (NNS mothers))
+                    (ADJP
+                      (JJ interested)
+                      (PP (IN in) (NP (NN something) (RB else)))))
+                  (VP
+                    (VBP theyre)
+                    (S (VP (VBG stealing) (NP (NNS cooki))))))))))))))

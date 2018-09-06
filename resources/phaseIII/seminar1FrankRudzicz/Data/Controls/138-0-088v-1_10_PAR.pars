@@ -1,0 +1,14 @@
+(ROOT
+  (S
+    (NP (CD two) (NNS cups))
+    (VP
+      (VBP are)
+      (VP
+        (VBG sitting)
+        (PP
+          (IN on)
+          (NP
+            (NP (DT a) (NN counter))
+            (CC and)
+            (ADVP (RB also))
+            (NP (DT a) (NN pl))))))))

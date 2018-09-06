@@ -1,0 +1,8 @@
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS girls))
+    (S
+      (VP
+        (VBG reaching)
+        (PRT (RP up))
+        (PP (IN for) (NP (DT the) (NN cooki)))))))

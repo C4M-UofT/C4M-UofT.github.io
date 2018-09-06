@@ -1,0 +1,13 @@
+Miller formula for body weight (from Level 1, W1)
+
+Level 1, W2:
+#4 (starts_with)
+5. match_dna
+
+def match_at(seq, subseq, i):
+    match = True
+    for ch in subseq:
+        if i >= len(seq) or seq[i] != ch:
+            match = False
+        i = i + 1
+    return match

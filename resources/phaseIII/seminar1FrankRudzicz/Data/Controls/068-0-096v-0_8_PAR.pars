@@ -1,0 +1,10 @@
+(ROOT
+  (SBARQ
+    (WHNP (WP what) (RB else))
+    (SQ
+      (MD can)
+      (NP (FW i))
+      (VP
+        (VB tell)
+        (NP (PRP you))
+        (PP (IN about) (NP (DT the) (NN pictur)))))))

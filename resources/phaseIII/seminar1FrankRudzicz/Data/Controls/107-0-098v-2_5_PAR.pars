@@ -1,0 +1,7 @@
+(ROOT
+  (S
+    (NP (NNS shes))
+    (VP
+      (ADVP (RB also))
+      (VBN lookin)
+      (PP (IN out) (NP (DT the) (NN window))))))

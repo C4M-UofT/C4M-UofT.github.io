@@ -1,0 +1,8 @@
+(ROOT
+  (FRAG
+    (S
+      (ADVP (RB also))
+      (VP
+        (VBG taking)
+        (NP (NNS cookies))
+        (PP (IN from) (NP (DT the) (NN cupboard)))))))

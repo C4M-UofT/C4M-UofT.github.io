@@ -1,0 +1,71 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (NNS shes))
+      (SBAR
+        (S
+          (VP
+            (VBN preoccupied)
+            (PP
+              (IN with)
+              (S
+                (VP
+                  (VBG drying)
+                  (NP
+                    (NP (DT the) (NN dish))
+                    (VP
+                      (VBG drying)
+                      (NP (DT a) (NN dish))
+                      (SBAR
+                        (CC but)
+                        (S
+                          (NP (PRP she))
+                          (ADVP (RB also))
+                          (VP
+                            (VBZ seems)
+                            (S
+                              (VP
+                                (TO to)
+                                (VP
+                                  (VP
+                                    (VB be)
+                                    (VP
+                                      (VBG looking)
+                                      (PRT (RP out))
+                                      (NP (DT the) (NN window))))
+                                  (CC and)
+                                  (VP
+                                    (VB doesnt)
+                                    (S
+                                      (INTJ (UH uh))
+                                      (VP
+                                        (VB isnt)
+                                        (ADJP (JJ aware))
+                                        (SBAR
+                                          (IN that)
+                                          (S
+                                            (NP (DT the) (NN water))
+                                            (VP
+                                              (VBZ is)
+                                              (VP
+                                                (VBG overflowing)
+                                                (PP
+                                                  (IN onto)
+                                                  (NP
+                                                    (NP
+                                                      (DT the)
+                                                      (NN floor)
+                                                      (CC and)
+                                                      (NNS shes)
+                                                      (NN standing))
+                                                    (PP
+                                                      (IN in)
+                                                      (NP
+                                                        (NP
+                                                          (DT a)
+                                                          (NN puddle))
+                                                        (PP
+                                                          (IN of)
+                                                          (NP
+                                                            (NN wat)))))))))))))))))))))))))))))))

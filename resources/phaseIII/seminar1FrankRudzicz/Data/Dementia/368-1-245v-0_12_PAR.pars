@@ -1,0 +1,6 @@
+(ROOT
+  (S
+    (NP (JJ i) (NN dont))
+    (VP
+      (VBP see)
+      (NP (NP (NN anything) (RB else)) (PP (IN on) (NP (DT that)))))))

@@ -1,0 +1,29 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (PP
+      (IN if)
+      (NP
+        (NP
+          (NP (DT the) (NN kitchen) (NNS windows))
+          (NP
+            (NP (DT the) (JJ same) (NN type))
+            (PP (IN of) (NP (NN window)))))
+        (CONJP (RB as) (RB well))
+        (NP
+          (NP (DT the) (JJ other) (NN part))
+          (PP
+            (IN of)
+            (NP
+              (DT the)
+              (NN house)
+              (NX
+                (DT the)
+                (NNS styles)
+                (PP
+                  (RB only)
+                  (IN in)
+                  (NP
+                    (NP (DT the) (JJ upper))
+                    (CC and)
+                    (NP (DT the) (JJ later))))))))))))

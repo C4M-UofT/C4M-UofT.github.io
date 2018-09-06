@@ -1,0 +1,6 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (DT the) (NNS stools))
+      (ADVP (IN about) (PP (TO to) (NP (NN tip) (NN ov)))))))

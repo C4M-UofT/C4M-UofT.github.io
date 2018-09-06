@@ -1,0 +1,6 @@
+(ROOT
+  (S
+    (NP (NN um) (NNS i))
+    (VP
+      (VP (VBD told) (S (NP (PRP you)) (NP (DT the) (NNS stools))))
+      (VP (IN about) (S (VP (TO to) (VP (VB go) (NP (NN ov)))))))))

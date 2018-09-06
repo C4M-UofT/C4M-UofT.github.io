@@ -1,0 +1,61 @@
+(ROOT
+  (S
+    (NP (PRP she))
+    (VP
+      (VBZ has)
+      (NP
+        (NP (DT some))
+        (PP (IN of) (NP (PRP them)))
+        (SBAR
+          (S
+            (NP (NNP uh))
+            (VP
+              (VBD dried)
+              (ADVP (RB already))
+              (PP (IN on) (NP (DT the) (NN side)))
+              (PP
+                (IN as)
+                (NP
+                  (NP (NNS shes))
+                  (VP
+                    (VBG looking)
+                    (PRT (RP out))
+                    (NP (DT the) (NN window)))))
+              (SBAR
+                (IN while)
+                (S
+                  (NP (DT the) (JJ little) (NN boy))
+                  (VP
+                    (VBZ is)
+                    (VP
+                      (VBG falling)
+                      (PRT (RP off))
+                      (NP
+                        (NP (DT the) (JJ stool) (NN cause) (NN hes))
+                        (VP
+                          (VBG getting)
+                          (PP
+                            (IN into)
+                            (NP (DT the) (NN cookie) (NN jar)))
+                          (S
+                            (VP
+                              (TO to)
+                              (VP
+                                (VB give)
+                                (PP
+                                  (TO to)
+                                  (NP
+                                    (PRP$ his)
+                                    (JJ little)
+                                    (NN sister)
+                                    (NNS whos)))))))
+                        (VP
+                          (VBG reaching)
+                          (PRT (RP up))
+                          (S
+                            (VP
+                              (TO to)
+                              (VP
+                                (VB get)
+                                (NP (DT the) (NN cookie))
+                                (ADVP (RB also))))))))))))))))))
