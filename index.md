@@ -2,11 +2,16 @@
 
 Welcome to the webpage for the 2018 Computing for Medicine workshops.
 
-# Course Staff
+### Course Staff
 
 - Marzyeh Ghassemi
 - John Giorgi
 - Daniyal Liaqat
+
+### Table of contents
+
+1. [Installation](#Installation)
+2. [Schedule](#Schedule)
 
 # Installation
 
@@ -16,7 +21,7 @@ Installation involves installing `Python 3`, setting up your local environment a
 
 ### MacOS / Linux
 
-First, open your `terminal`.
+First, open your `terminal`
 
 > On MacOS, you can do this by going to `Applications/Utilities/Terminal` or, using  Spotlight by pressing the `command + space` keys, and searching for "Terminal").
 
@@ -108,7 +113,11 @@ source activate C4M
 (C4M) jupyter lab
 ```
 
-This will open a page in your browser. Use it to find `hello_world.ipynb` from the `resources` folder. Follow the instructions in the notebook to make sure you installed everything correctly.
+This will open a page in your browser. Use it to find `hello_world.ipynb` from the `resources` folder.
+
+> You will have to download the `hello_world` notebook from the [course website](https://c4m-uoft.github.io).
+
+Follow the instructions in the notebook to make sure you installed everything correctly.
 
 # Schedule
 
