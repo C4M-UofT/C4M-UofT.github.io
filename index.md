@@ -68,13 +68,9 @@ First, create an environment called `C4M`
 conda create -n C4M python=3.6
 ```
 
-When conda asks you to proceed, type `y`
+> When conda asks you to proceed, type `y`
 
-```
-proceed ([y]/n)? y
-```
-
-Activate this environment that you just created with
+Activate the environment that you just created with
 
 ```bash
 source activate C4M
@@ -113,11 +109,13 @@ source activate C4M
 (C4M) jupyter lab
 ```
 
-This will open a page in your browser. Use it to find `hello_world.ipynb` from the `resources` folder.
+This will open a page in your browser. Use it to find `hello_world.ipynb` on your computer.
 
 > You will have to download the `hello_world` notebook from the [course website](https://c4m-uoft.github.io).
 
 Follow the instructions in the notebook to make sure you installed everything correctly.
+
+> Note: Once the notebook is open, you need to make sure you see `Python [conda env:C4M]` in the top right-hand corner. If not, click this area and select it from the dropdown.
 
 # Schedule
 
