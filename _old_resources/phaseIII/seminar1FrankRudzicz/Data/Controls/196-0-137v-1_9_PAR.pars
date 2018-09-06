@@ -1,0 +1,11 @@
+(ROOT
+  (S
+    (NP (FW i))
+    (VP
+      (ADVP (RB also))
+      (VBP believe)
+      (SBAR
+        (IN that)
+        (S
+          (NP (DT the) (NN mother))
+          (VP (VBZ is) (NP (NN daydream))))))))

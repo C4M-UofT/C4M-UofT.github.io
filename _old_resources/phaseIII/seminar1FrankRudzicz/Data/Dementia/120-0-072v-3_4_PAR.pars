@@ -1,0 +1,11 @@
+(ROOT
+  (S
+    (VP
+      (VB hes)
+      (S
+        (VP
+          (VBG snitching)
+          (NP
+            (NP (CD one))
+            (PP (IN for) (NP (PRP$ his) (NN sister))))
+          (ADVP (RB also)))))))

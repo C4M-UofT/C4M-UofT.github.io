@@ -1,0 +1,12 @@
+(ROOT
+  (S
+    (VP
+      (VB hes)
+      (ADVP (RB also))
+      (S
+        (VP
+          (VBG falling)
+          (PRT (RP off))
+          (NP
+            (NP (DT the) (NN stool))
+            (SBAR (S (NP (PRP he)) (VP (VBZ is) (PP (IN on)))))))))))

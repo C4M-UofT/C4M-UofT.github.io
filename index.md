@@ -31,12 +31,12 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
       <td>MS 3281</td>
       <td>
       	<ul>
-      	    <li><a href="res/operators_builtins.html">Arithmetic operators, built-in functions</a></li>
-      	    <li><a href="res/variables.html">Variables</a></li>
-      	    <li><a href="res/strings.html">Intro to Strings</a></li>
-      	    <li><a href="res/functions.html">Functions</a></li>
-      	    <li><a href="res/converting_between_types.html">Converting Between Types</a></li>
-      	    <li><a href="res/programs.html">Writing Programs</a></li>
+      	    <li>Arithmetic operators, built-in functions [<a href="examples/operators_builtins.html">html</a>, <a href="notebooks/operators_builtins.ipynb">notebook</a>]</li>
+      	    <li>Variables [<a href="examples/variables.html">html</a>, <a href="notebooks/variables.ipynb">notebook</a>]</li>
+      	    <li>Intro to Strings [<a href="examples/strings.html">html</a>, <a href="notebooks/strings.ipynb">notebook</a>]</li>
+      	    <li>Functions [<a href="examples/functions.html">html</a>, <a href="notebooks/functions.ipynb">notebook</a>]</li>
+      	    <li>Converting Between types [<a href="examples/converting_between_types.html">html</a>, <a href="notebooks/converting_between_types.ipynb">notebook</a>]</li>
+      	    <li>Writing Programs [<a href="examples/programs.html">html</a>, <a href="notebooks/programs.ipynb">notebook</a>]</li>
       	</ul>
       </td>
     </tr>
@@ -48,11 +48,11 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
     	<td>
     		<ul>
     			<li>Recap: writing programs</li>
-    			<li><a href="res/booleans.html">Booleans</a></li>
-    			<li><a href="res/if.html"><code>if</code> statements</a></li>
-    			<li><a href="res/nesting_reusing_functions.html">Nesting, reusing functions</a></li>
-    			<li><a href="res/more_str_ops_methods.html">More String Operations, Methods</a></li>
-    			<li><a href="res/docstrings_help_dir.html">Docstrings, <code>help</code>, <code>dir</code></a></li>
+    			<li>Booleans [<a href="examples/booleans.html">html</a>, <a href="notebooks/booleans.ipynb">notebook</a>]</li>
+    			<li><code>if</code> statements [<a href="examples/if.html">html</a>, <a href="notebooks/if.ipynb">notebook</a>]</li>
+    			<li>Nesting, reusing functions [<a href="examples/nesting_reusing_functions.html">html</a>, <a href="notebooks/nesting_reusing_functions.ipynb">notebook</a>]</li>
+    			<li>More String Operations, Methods [<a href="examples/more_str_ops_methods.html">html</a>, <a href="notebooks/more_str_ops_methods.ipynb">notebook</a>]</li>
+    			<li>Docstrings, <code>help</code>, <code>dir</code> [<a href="examples/docstrings_help_dir.html">html</a>, <a href="notebooks/docstrings_help_dir.ipynb">notebook</a>]</li>
     		</ul>
     	</td>
     </tr>
@@ -63,9 +63,9 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
-				<li><a href="res/for_over_str.html"><code>for</code> loops over <code>str</code></a></li>              
-				<li><a href="res/lists.html">Lists, loops, and <code>range</code></a></li>              
-				<li><a href="res/list_mutability.html">List methods and mutability</a></li>
+				<li><code>for</code> loops over <code>str</code> [<a href="examples/for_over_str.html">html</a>, <a href="notebooks/for_over_str.ipynb">notebook</a></li>
+				<li>Lists, loops, and <code>range</code> [<a href="examples/lists.html">html</a>, <a href="notebooks/lists.ipynb">notebook</a></li>
+				<li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>]</li>
 			</ul>
 		</td>
 	</tr>
@@ -76,9 +76,9 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>MS 3281</td>
 		<td>
 			<ul>
-				<li><a href="res/parallel.html">Parallel lists and strings</a></li>
-				<li><a href="res/nested_lists_loops.html">Nested lists and loops</a></li>
-				<li><a href="res/while.html"><code>while</code> loops</a></li>            
+				<li>Parallel lists and strings [<a href="examples/parallel.html">html</a>, <a href="notebooks/parallel.ipynb">notebook</a>]</li>
+				<li>Nested lists and loops [<a href="examples/nested_lists_loops.html">html</a>, <a href="notebooks/nested_lists_loops.ipynb">notebook</a>]</li>
+				<li><code>while</code> loops [<a href="examples/while.html">html</a>, <a href="notebooks/while.ipynb">notebook</a>]</li>
 			</ul>
 		</td>
     </tr>
@@ -104,17 +104,17 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
   		<td>SC Innovation Lab, Gerstein Library</td>
   		<td>
   		 	<ul>
-	  		    <li><a href="res/operators_builtins.html">Arithmetic operators, built-in functions</a></li>
-	  		    <li><a href="res/variables.html">Variables</a></li>
-	  		    <li><a href="res/strings.html">Intro to Strings</a></li>
-	  		    <li><a href="res/more_str_ops_methods.html">More String Operations, Methods</a></li>
-	  		    <li><a href="res/functions.html">Functions</a></li>
-	  		    <li><a href="res/docstrings_help_dir.html">Docstrings, <code>help</code>, <code>dir</code></a></li>
-	  		    <li><a href="res/converting_between_types.html">Converting Between Types</a></li>
-	  		    <li><a href="res/programs.html">Writing Programs</a></li>
-	  		    <li><a href="res/booleans.html">Booleans</a></li>
-	  		    <li><a href="res/if.html"><code>if</code> statements</a></li>
-	  		    <li><a href="res/for_over_str.html"><code>for</code> loops over <code>str</code></a></li>
+	  		    <li>Arithmetic operators, built-in functions [<a href="examples/operators_builtins.html">html</a>, <a href="notebooks/operators_builtins.ipynb">notebook</a>]</li>
+	  		    <li>Variables [<a href="examples/variables.html">html</a>, <a href="notebooks/variables.ipynb">notebook</a>]</li>
+	  		    <li>Intro to Strings [<a href="examples/strings.html">html</a>, <a href="notebooks/strings.ipynb">notebook</a>]</li>
+	  		    <li>More String Operations, Methods [<a href="examples/more_str_ops_methods.html">html</a>, <a href="notebooks/more_str_ops_methods.ipynb">notebook</a>]</li>
+	  		    <li>Functions [<a href="examples/functions.html">html</a>, <a href="notebooks/functions.ipynb">notebook</a>]</li>
+	  		    <li>Docstrings, <code>help</code>, <code>dir</code> [<a href="examples/docstrings_help_dir.html">html</a>, <a href="notebooks/docstrings_help_dir.ipynb">notebook</a>]</li>
+	  		    <li>Converting Between Types [<a href="examples/converting_between_types.html">html</a>, <a href="notebooks/converting_between_types.ipynb">notebook</a>]</li>
+	  		    <li>Writing Programs [<a href="examples/programs.html">html</a>, <a href="notebooks/programs.ipynb">notebook</a>]</li>
+	  		    <li>Booleans [<a href="examples/booleans.html">html</a>, <a href="notebooks/booleans.ipynb">notebook</a>]</li>
+	  		    <li><code>if</code> statements [<a href="examples/if.html">html</a>, <a href="notebooks/if.ipynb">notebook</a>]</li>
+	  		    <li><code>for</code> loops over <code>str</code> [<a href="examples/for_over_str.html">html</a>, <a href="notebooks/for_over_str.ipynb">notebook</a>]</li>
   		   </ul>
   		</td>
   	</tr>
@@ -125,9 +125,9 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>S 3281</td>
 		<td>
 		 	<ul>
-			    <li><a href="res/lists.html">Lists, loops, and <code>range</code></a></li>
-			    <li><a href="res/list_mutability.html">List methods and mutability</a></li>
-			    <li><a href="res/parallel.html">Parallel lists and strings</a></li>
+			    <li>Lists, loops, and <code>range</code> [<a href="examples/lists.html">html</a>, <a href="notebooks/lists.ipynb">notebook</a>]</li>
+			    <li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>]</li>
+			    <li>Parallel lists and strings [<a href="examples/parallel.html">html</a>, <a href="notebooks/parallel.ipynb">notebook</a>]</li>
 		    </ul>
 		</td>
 	</tr>
@@ -138,9 +138,9 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>MS 3281</td>
 		<td>
 			<ul>
-			 	<li><a href="res/nested_lists_loops.html">Nested lists and loops</a></li>
-			 	<li><a href="res/while.html"><code>while</code> loops</a></li>
-			 	<li><a href="res/memory_model.html">Python Memory Model</a></li>
+			 	<li>Nested lists and loops [<a href="examples/nested_lists_loops.html">html</a>, <a href="notebooks/nested_lists_loops.ipynb">notebook</a>]</li>
+			 	<li><code>while</code> loops [<a href="examples/while.html">html</a>, <a href="notebooks/while.ipynb">notebook</a>]</li>
+			 	<li>Python Memory Model [<a href="examples/memory_model.html">html</a>]</li>
 		 	</ul>
 		</td>
 	</tr>
@@ -166,12 +166,12 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>MS 3281</td> 
 		<td>
 			<ul>              
-			<li><a href="res/dictionaries.html">Dictionaries</a></li>              
-			<li><a href="res/files.html">Files</a> (<a href="http://c4m.cdf.toronto.edu/cohort3/phase2/session1/story.txt">story.txt</a>, <a href="http://c4m.cdf.toronto.edu/cohort3/phase2/session1/january06.txt">january06.txt</a>)</li>              
+			<li><a href="examples/dictionaries.html">Dictionaries</a></li>              
+			<li><a href="examples/files.html">Files</a> (<a href="examples/story.txt">story.txt</a>, <a href="examples/january06.txt">january06.txt</a>)</li>              
 			<li>Bonus material:</li>
 				<ul>
-					<li><a href="res/testing_debugging.html">Testing and Debugging</a></li>
-					<li><a href="res/broken_is_teenager.pdf">broken_is_teenager.pdf</a></li>
+					<li><a href="examples/testing_debugging.html">Testing and Debugging</a></li>
+					<li><a href="examples/broken_is_teenager.pdf">broken_is_teenager.pdf</a></li>
 				</ul>
 				<li>Project 1 preparation exercises</li>
 					<ul>                    
@@ -179,13 +179,13 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 						<li>Exercise Set 2:</li> 
 							<ul>                      
 								<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                      
-								<li>Part 2 <a href="res/project1/prep_exercises/project1_exercise2_partb.pdf">handout</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a>)</li>
+								<li>Part 2 <a href="projects/project1/project1_exercise2_partb.pdf">handout</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a>)</li>
 							</ul>                   
 					</ul>
 				<li>Exercise Set 3:</li>
 					<ul>                      
 						<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>
-						<li>Part 2 <a href="res/project1/prep_exercises/project1_exercise3_partb.pdf">handout</a>, <a href="res/project1/prep_exercises/tester.py">tester.py</a>, and <a href="http://c4m.cdf.toronto.edu/cohort3/phase2/project1/prep_exercises/sym_data1.txt">sym_data1.txt</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a>)</li>
+						<li>Part 2 <a href="projects/project1/project1_exercise3_partb.pdf">handout</a>, <a href="projects/project1/ex3_tester.py">tester.py</a>, and <a href="projects/project1/sym_data1.txt">sym_data1.txt</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a>)</li>
 					</ul>
 			</ul>
 		</td>
@@ -199,11 +199,11 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 			<ul>              
 				<li>Project 1: Medical Document Retrieval</li>
 					<ul>                
-						<li><a href="http://c4m.cdf.toronto.edu/cohort3/phase2/project1/project1_worksheet.pdf">Worksheet</a></li>                
-						<li><a href="http://c4m.cdf.toronto.edu/cohort3/phase2/project1/C4MPhaseIIProject1.pdf">Handout</a></li>                
-						<li><a href="http://c4m.cdf.toronto.edu/cohort3/phase2/project1/project1.py">project1.py</a> (starter code)</li>                
-						<li><a href="http://c4m.cdf.toronto.edu/cohort3/phase2/project1/wikipages.zip">wikipages.zip</a> (data)</li>                
-						<li><a href="http://c4m.cdf.toronto.edu/cohort3/phase2/project1/tester.py">tester.py</a> (basic tests)</li>
+						<li><a href="projects/project1/project1_worksheet.pdf">Worksheet</a></li>                
+						<li><a href="projects/project1/C4MPhaseIIProject1.pdf">Handout</a></li>                
+						<li><a href="projects/project1/project1.py">project1.py</a> (starter code)</li>                
+						<li><a href="projects/project1/wikipages.zip">wikipages.zip</a> (data)</li>                
+						<li><a href="projects/project1/tester.py">tester.py</a> (basic tests)</li>
 					</ul>
 			</ul>
 		</td>
@@ -224,11 +224,11 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 			<ul>              
 				<li>Project 2: Human Mobility and Epidemic Modelling</li>
 				<ul>                
-					<li><a href="http://c4m.cdf.toronto.edu/cohort3/phase2/project2/C4MPhaseIIProject2.pdf">Handout</a> (sample data <a href="http://c4m.cdf.toronto.edu/cohort3/phase2/project2/cities.txt">cities.txt</a>)</li>                
+					<li><a href="projects/project2/C4MPhaseIIProject2.pdf">Handout</a> (sample data <a href="projects/project2/cities.txt">cities.txt</a>)</li>                
 					<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a> </li>                
-					<li>Part 2 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a> (starter code: <a href="http://c4m.cdf.toronto.edu/cohort3/phase2/project2/dijkstra.py">dijkstra.py</a>, tester: <a href="http://c4m.cdf.toronto.edu/cohort3/phase2/project2/dijkstra_tester.py">dijkstra_tester.py</a>)</li>
+					<li>Part 2 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a> (starter code: <a href="projects/project2/dijkstra.py">dijkstra.py</a>, tester: <a href="projects/project2/dijkstra_tester.py">dijkstra_tester.py</a>)</li>
 					<li>Part 3 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                
-					<li>Part 4 on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a> (starter code: <a href="http://c4m.cdf.toronto.edu/cohort3/phase2/project2/simulation.py">simulation.py</a>) </li>
+					<li>Part 4 on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a> (starter code: <a href="projects/project2/simulation.py">simulation.py</a>) </li>
 				</ul>
 			<li>Video tutorials:</li>
 				<ul>                
@@ -278,10 +278,10 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar6/C4M_seminar6_part1.pdf">Part 1 slides</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar6/C4M_seminar6_part2.pdf">Part 2 slides</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar6/C4MPhase3Project6.pdf">Project Handout</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar6/foodfacts.json">foodfacts.json</a></li>
+				<li><a href="seminars/C4M_seminar6_part1.pdf">Part 1 slides</a></li>
+				<li><a href="seminars/C4M_seminar6_part2.pdf">Part 2 slides</a></li>
+				<li><a href="seminars/C4MPhase3Project6.pdf">Project Handout</a></li>
+				<li><a href="seminars/foodfacts.json">foodfacts.json</a></li>
 			</ul>
 		</td>
 	</tr>
@@ -293,11 +293,11 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td> 
 			<ul>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar4/C4M_seminar4_part1.pdf">Part 1 slides</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar4/C4M_seminar4_part2.pdf">Part 2 slides</a></li>
+				<li><a href="seminars/C4M_seminar4_part1.pdf">Part 1 slides</a></li>
+				<li><a href="seminars/C4M_seminar4_part2.pdf">Part 2 slides</a></li>
 				<li><a href="https://play.library.utoronto.ca/BNGVy0H2eeqd">Video</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar4/Seminar4Project.pdf">Project Handout</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar4/C4MProject4.zip">Project Starter code and data</a></li>
+				<li><a href="seminars/Seminar4Project.pdf">Project Handout</a></li>
+				<li><a href="seminars/C4MProject4.zip">Project Starter code and data</a></li>
 			</ul>
 		</td>
 	</tr>
@@ -309,10 +309,10 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar1/C4M_seminar1_part1.pdf">Part 1 slides</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar1/C4M_seminar1_part2.pdf">Part 2 slides</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar1/Seminar1Project.pdf"> Project Handout</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar1/Seminar1Project.zip">Project Starter code and data</a></li>
+				<li><a href="seminars/C4M_seminar1_part1.pdf">Part 1 slides</a></li>
+				<li><a href="seminars/C4M_seminar1_part2.pdf">Part 2 slides</a></li>
+				<li><a href="seminars/Seminar1Project.pdf"> Project Handout</a></li>
+				<li><a href="seminars/Seminar1Project.zip">Project Starter code and data</a></li>
 			</ul>
 		</td>
 	</tr>
@@ -324,10 +324,10 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar2/C4M_seminar2_part1.pdf">Part 1 slides</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar2/C4M_seminar2_part2.pdf">Part 2 slides</a></li>
+				<li><a href="seminars/C4M_seminar2_part1.pdf">Part 1 slides</a></li>
+				<li><a href="seminars/C4M_seminar2_part2.pdf">Part 2 slides</a></li>
 				<li><a href="https://play.library.utoronto.ca/9lVvPztBVHO_">Video For Part 2 Only</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar2/Seminar2Project.pdf">Project Handout</a></li>
+				<li><a href="seminars/Seminar2Project.pdf">Project Handout</a></li>
 				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar2/C4MProject2.zip">Project Starter code and data</a> </li>
 			</ul>
 		</td>
@@ -340,16 +340,16 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/C4M_seminar5_part1.pdf">Part 1 slides</a> </li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/C4M_seminar5_part2.pdf">Part 2 slides</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/SeminarProject5.pdf">Project Handout</a></li>
-				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/C4MProject5.zip">Project Starter code and data</a> </li>
+				<li><a href="seminars/C4M_seminar5_part1.pdf">Part 1 slides</a> </li>
+				<li><a href="seminars/C4M_seminar5_part2.pdf">Part 2 slides</a></li>
+				<li><a href="seminars/SeminarProject5.pdf">Project Handout</a></li>
+				<li><a href="seminars/C4MProject5.zip">Project Starter code and data</a> </li>
 				<li>Demo code:</li>
 					<ul>
-						<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/demo/default_parameters.py">default_parameters.py</a></li>
-						<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/demo/search_recursive.py">search_recursive.py</a></li>
-						<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/demo/reverse_recursive.py">reverse_recursive.py</a></li>
-						<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/demo/tree_recursive.py">tree_recursive.py</a></li>
+						<li><a href="seminars/default_parameters.py">default_parameters.py</a></li>
+						<li><a href="seminars/search_recursive.py">search_recursive.py</a></li>
+						<li><a href="seminars/reverse_recursive.py">reverse_recursive.py</a></li>
+						<li><a href="seminars/tree_recursive.py">tree_recursive.py</a></li>
 					</ul>
 				<li><a href="https://play.library.utoronto.ca/uYvlpi3QRPwZ">Video</a><br> </td></li>
 			</ul>
@@ -365,16 +365,4 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 	</tr>
   </tbody>
 </table>
-
-
-## Phase 3 (Fall 2018 - Winter 2019)
-
-Session | Speaker | Date | Time | Location | Resources
-------- | ------- | ---- | ---- | -------- | ---------
-Session 1 | Fanny Chevalier | Tuesday, October 9, 2018 | 4:00 – 6:00 pm | DSC Innovation Lab, Gerstein Library | <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar6/C4M_seminar6_part1.pdf">Part 1 slides</a> <br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar6/C4M_seminar6_part2.pdf">Part 2 slides</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar6/C4MPhase3Project6.pdf">Project Handout</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar6/foodfacts.json">foodfacts.json</a> 
-Session 2 | Jared Simpson | Tuesday, October 16, 2018 | 4:00 – 6:00 pm | DSC Innovation Lab, Gerstein Library |  <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar4/C4M_seminar4_part1.pdf">Part 1 slides</a><br>          <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar4/C4M_seminar4_part2.pdf">Part 2 slides</a><br>          <a href="https://play.library.utoronto.ca/BNGVy0H2eeqd">Video</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar4/Seminar4Project.pdf">Project Handout</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar4/C4MProject4.zip">Project Starter code and data</a> 
-Session 3 | Frank Rudzick | Tuesday, November 20, 2018 | 4:00 – 6:00 pm | DSC Innovation Lab, Gerstein Library | <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar1/C4M_seminar1_part1.pdf">Part 1 slides</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar1/C4M_seminar1_part2.pdf">Part 2 slides</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar1/Seminar1Project.pdf"> Project Handout</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar1/Seminar1Project.zip">Project Starter code and data</a> 
-Session 4 | Chris J. McIntosh | Tuesday, February 12, 2019 | 4:00 – 6:00 pm | DSC Innovation Lab, Gerstein Library | <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar2/C4M_seminar2_part1.pdf">Part 1 slides</a><br>          <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar2/C4M_seminar2_part2.pdf">Part 2 slides</a><br>          <a href="https://play.library.utoronto.ca/9lVvPztBVHO_">Video For Part 2 Only</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar2/Seminar2Project.pdf">Project Handout</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar2/C4MProject2.zip">Project Starter code and data</a> 
-Session 5 | Michael  Brudno | Tuesday, March 26, 2019 | 4:00 – 6:00 pm | DSC Innovation Lab, Gerstein Library | <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/C4M_seminar5_part1.pdf">Part 1 slides</a> <br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/C4M_seminar5_part2.pdf">Part 2 slides</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/SeminarProject5.pdf">Project Handout</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/C4MProject5.zip">Project Starter code and data</a>             Demo code:<br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/demo/default_parameters.py">default_parameters.py</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/demo/search_recursive.py">search_recursive.py</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/demo/reverse_recursive.py">reverse_recursive.py</a><br>            <a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar5/demo/tree_recursive.py">tree_recursive.py</a><br>            <a href="https://play.library.utoronto.ca/uYvlpi3QRPwZ">Video</a><br> 
-Session 6 | Marzyeh Ghassemi | Tuesday, April 9, 2019 | 4:00 – 6:00 pm | DSC Innovation Lab, Gerstein Library
 

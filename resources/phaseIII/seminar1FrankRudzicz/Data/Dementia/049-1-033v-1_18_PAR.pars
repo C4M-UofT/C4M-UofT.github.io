@@ -1,6 +1,0 @@
-(ROOT
-  (FRAG
-    (CC and)
-    (NP
-      (NP (CD three) (NNS cups))
-      (ADJP (NP (CD three) (NNS bowls)) (JJ ther)))))

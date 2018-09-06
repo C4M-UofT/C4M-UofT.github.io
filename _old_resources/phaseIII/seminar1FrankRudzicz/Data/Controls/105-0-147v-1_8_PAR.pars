@@ -1,0 +1,18 @@
+(ROOT
+  (S
+    (VP
+      (VB hes)
+      (VP
+        (VBG going)
+        (S
+          (VP
+            (TO to)
+            (VP
+              (VB fall)
+              (PP (IN on) (NP (DT the) (NN floor)))
+              (SBAR
+                (IN because)
+                (S
+                  (NP (DT the) (NNS stools))
+                  (RB not)
+                  (VP (VB uh) (NP (WP what))))))))))))

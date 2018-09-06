@@ -1,0 +1,12 @@
+(ROOT
+  (S
+    (NP (NP (NN ks)) (PP (IN like) (NP (NN somebody))))
+    (VP
+      (VP
+        (VBD took)
+        (NP (NP (DT some) (NNS pencils)) (CC or) (NP (NN somethin))))
+      (CC and)
+      (VP
+        (VBD went)
+        (PRT (RP up) (CC and) (RP down))
+        (NP (NP (DT those)) (SBAR (S (NP (PRP them)) (VP (VBP th)))))))))

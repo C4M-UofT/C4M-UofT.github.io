@@ -1,0 +1,9 @@
+(ROOT
+  (S
+    (NP (NN hes) (NNS girls))
+    (VP
+      (VBP reachin)
+      (NP
+        (NP (PRP$ his) (NN hand))
+        (PP (IN up) (NP (PRP$ her) (NN hand))))
+      (PRT (RP up)))))

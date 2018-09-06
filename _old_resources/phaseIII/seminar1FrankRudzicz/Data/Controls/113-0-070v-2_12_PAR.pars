@@ -1,0 +1,8 @@
+(ROOT
+  (UCP
+    (ADJP (NP (DT the) (NNS girls)) (JJ hungry))
+    (CC and)
+    (VP
+      (ADVP (RB shes))
+      (VBG pointing)
+      (PP (TO to) (NP (PRP$ her) (NN mouth))))))

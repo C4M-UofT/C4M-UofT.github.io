@@ -1,0 +1,12 @@
+(ROOT
+  (FRAG
+    (NP (DT the) (JJ little) (NNS girls))
+    (S
+      (VP
+        (VBG reaching)
+        (PRT (RP up))
+        (PP
+          (TO to)
+          (NP
+            (NP (DT the) (JJ little) (NN boy))
+            (PP (IN for) (NP (DT the) (NN cooki)))))))))

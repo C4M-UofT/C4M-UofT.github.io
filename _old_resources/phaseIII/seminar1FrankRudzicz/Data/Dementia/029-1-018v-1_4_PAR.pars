@@ -1,0 +1,23 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (DT the) (JJ little) (NNS girls))
+      (SBAR
+        (S
+          (INTJ (UH uh))
+          (NP (PRP he))
+          (VP
+            (VBD gave)
+            (NP
+              (NP (DT some))
+              (PP
+                (TO to)
+                (NP
+                  (DT the)
+                  (JJ little)
+                  (NN girl)
+                  (CC and)
+                  (NNS shes)
+                  (NN eatin))))
+            (NP (NP (DT some)) (PP (IN of) (NP (DT the) (NN cooki))))))))))

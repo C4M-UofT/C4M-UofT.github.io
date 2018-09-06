@@ -1,0 +1,10 @@
+(ROOT
+  (S
+    (NP (JJ i) (NN dont))
+    (VP
+      (VBP see)
+      (NP
+        (NP (DT any) (NNS birds))
+        (CC or)
+        (NP (DT any) (NNS animals)))
+      (PP (IN out) (NP (NN ther))))))

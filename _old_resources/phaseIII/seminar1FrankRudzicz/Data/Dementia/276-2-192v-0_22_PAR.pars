@@ -1,0 +1,4 @@
+(ROOT
+  (SBARQ
+    (WHNP (WP what) (RB else))
+    (SQ (VP (VBD dug) (PRT (RP over)) (NP (PRP her))))))

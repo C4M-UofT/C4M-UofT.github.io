@@ -1,0 +1,21 @@
+(ROOT
+  (S
+    (NP (DT the) (JJ little) (NN girl))
+    (VP
+      (VBZ is)
+      (VP
+        (VBG reaching)
+        (PP
+          (IN for)
+          (NP
+            (NP (DT a) (NN cookie))
+            (PP (IN from) (NP (DT the) (JJ little) (NN boy)))))
+        (SBAR
+          (IN as)
+          (S
+            (NP (DT the) (NN s))
+            (VP
+              (VBZ s)
+              (NP
+                (NP (JJ stool) (NN turn))
+                (SBAR (S (VP (VBZ falls) (NP (NN ov)))))))))))))

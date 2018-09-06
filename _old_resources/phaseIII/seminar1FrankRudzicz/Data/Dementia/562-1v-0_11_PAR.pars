@@ -1,0 +1,7 @@
+(ROOT
+  (SBARQ
+    (WHNP (WP what) (RB else))
+    (SQ
+      (VBP do)
+      (NP (FW i))
+      (VP (VB have) (S (VP (TO to) (VP (VB tell) (NP (PRP ya)))))))))

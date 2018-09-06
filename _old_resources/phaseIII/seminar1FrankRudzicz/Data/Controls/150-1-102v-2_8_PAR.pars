@@ -1,0 +1,12 @@
+(ROOT
+  (S
+    (VP
+      (VB uh)
+      (S (NP (NN anything)) (ADJP (RB else)))
+      (SBAR
+        (IN that)
+        (S
+          (NP (NN im))
+          (VP
+            (VBD supposed)
+            (S (VP (TO to) (VP (VB pick) (PRT (RP up)))))))))))

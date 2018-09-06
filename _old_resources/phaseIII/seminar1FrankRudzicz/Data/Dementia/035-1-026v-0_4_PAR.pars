@@ -1,0 +1,17 @@
+(ROOT
+  (UCP
+    (ADJP (JJ uh))
+    (CC and)
+    (VP
+      (VBN hes)
+      (ADVP (RB also))
+      (S
+        (VP
+          (VBG going)
+          (S
+            (VP
+              (TO to)
+              (VP
+                (VB fall)
+                (PRT (RP off))
+                (NP (PRP$ his) (NN stepstool))))))))))

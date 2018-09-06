@@ -1,0 +1,14 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (DT the) (NNS mothers))
+      (SBAR
+        (S
+          (VP
+            (VP (VBP w) (NP (NN dryin) (NNS dishes)))
+            (CC and)
+            (VP
+              (VBZ spills)
+              (NP (NN water))
+              (PP (IN on) (NP (DT the) (NN floor))))))))))

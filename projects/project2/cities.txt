@@ -1,0 +1,6 @@
+Toronto:New York 3
+New York:Washington 2
+Washington:San Francisco 5
+San Francisco:Mexico City 3
+Toronto:Mexico City 7
+Toronto:San Francisco 6

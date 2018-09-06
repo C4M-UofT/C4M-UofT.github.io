@@ -1,0 +1,7 @@
+(ROOT
+  (S
+    (NP (NNS shes))
+    (VP
+      (VP (ADVP (RB also)) (VBZ has) (NP (DT some) (NNS cups)))
+      (CC and)
+      (VP (VBD uh) (NP (DT a) (NN dish) (VBG sitting) (NN ther))))))

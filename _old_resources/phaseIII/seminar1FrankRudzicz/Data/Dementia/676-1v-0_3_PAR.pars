@@ -1,0 +1,9 @@
+(ROOT
+  (SBARQ
+    (WHNP (WP what) (RB else))
+    (SQ
+      (VBP do)
+      (NP (PRP you))
+      (VP
+        (VB want)
+        (S (NP (PRP me)) (VP (TO to) (VP (VB tell) (NP (NN y)))))))))

@@ -1,0 +1,11 @@
+(ROOT
+  (S
+    (VP
+      (VB hes)
+      (ADVP (RB also))
+      (S
+        (VP
+          (VBG handing)
+          (NP (DT a) (NN cookie))
+          (PP (IN with) (NP (PRP$ his) (JJ left) (NN hand)))
+          (PP (TO to) (NP (DT the) (NN girl))))))))

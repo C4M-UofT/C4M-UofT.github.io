@@ -1,0 +1,13 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (DT the) (NNS girls))
+      (SBAR
+        (S
+          (VP
+            (VBD got)
+            (NP (PRP$ her) (NN hand))
+            (ADVP
+              (RB up)
+              (S (VP (TO to) (VP (VB get) (NP (DT the) (NN cooki))))))))))))

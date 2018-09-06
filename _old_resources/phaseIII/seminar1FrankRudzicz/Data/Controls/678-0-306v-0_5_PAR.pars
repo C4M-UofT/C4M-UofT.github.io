@@ -1,0 +1,7 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (CD uh) (NN everything) (RB else))
+      (SBAR
+        (S (VP (VBZ looks) (PP (IN like) (NP (PRP$ its) (NN fix)))))))))

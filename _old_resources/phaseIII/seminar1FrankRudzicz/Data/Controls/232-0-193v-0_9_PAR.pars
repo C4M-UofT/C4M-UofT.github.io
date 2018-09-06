@@ -1,0 +1,21 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (JJ uh) (NNS thats))
+      (SBAR
+        (S
+          (VP
+            (VBP ab)
+            (SBAR
+              (SBARQ
+                (WHNP (WP what) (RB else))
+                (SQ
+                  (MD would)
+                  (NP (PRP you))
+                  (VP
+                    (VB want)
+                    (S
+                      (VP
+                        (TO to)
+                        (VP (VB know) (PP (IN on) (NP (DT that))))))))))))))))

@@ -1,0 +1,11 @@
+(ROOT
+  (S
+    (VP
+      (VB hm)
+      (NP (NN well) (FW i) (FW cant))
+      (VP
+        (VB see)
+        (NP (NN anything))
+        (ADVP
+          (ADVP (RB else) (RB as) (RB far))
+          (SBAR (IN as) (S (NP (NN action)) (VP (VBP go)))))))))

@@ -1,0 +1,9 @@
+(ROOT
+  (FRAG
+    (ADJP (JJ shes))
+    (S
+      (VP
+        (VBG wiping)
+        (NP (DT the) (NNS dishes))
+        (ADVP (RB also))
+        (PP (IN like) (NP (DT a) (NN jerk)))))))

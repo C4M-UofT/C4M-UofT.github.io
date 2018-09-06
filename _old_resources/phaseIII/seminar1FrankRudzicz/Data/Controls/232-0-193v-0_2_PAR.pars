@@ -1,0 +1,25 @@
+(ROOT
+  (S
+    (VP
+      (VB w)
+      (ADVP (RB well))
+      (SBAR
+        (IN like)
+        (S
+          (NP (PRP you))
+          (VP
+            (VBP want)
+            (S
+              (NP (PRP me))
+              (VP
+                (VB tell)
+                (NP (PRP you))
+                (SBAR
+                  (IN that)
+                  (S
+                    (VP
+                      (VBG reaching)
+                      (PRT (RP up))
+                      (NP
+                        (NP (DT the) (JJ g) (JJ little) (NNS girls))
+                        (VP (VBG reaching) (PRT (RP up)))))))))))))))

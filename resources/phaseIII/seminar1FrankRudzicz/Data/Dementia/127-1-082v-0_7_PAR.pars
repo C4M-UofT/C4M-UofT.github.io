@@ -1,9 +1,0 @@
-(ROOT
-  (S
-    (NP (PRP she))
-    (VP
-      (VBZ wants)
-      (NP
-        (NP (DT a) (NN cookie))
-        (, an)
-        (NP (DT the) (JJ stools) (NN fallin) (NN ov))))))

@@ -1,0 +1,12 @@
+(ROOT
+  (S
+    (NP (DT the) (JJ little) (NNS girls) (NN cryin))
+    (VP
+      (VBP cause)
+      (S
+        (NP (PRP he))
+        (ADJP (JJ aint))
+        (S
+          (VP
+            (VBN givin)
+            (S (NP (PRP her)) (NP (DT no) (NNS cooki)))))))))
