@@ -62,7 +62,7 @@ The instructions here are almost identical for MacOS / Linux and Windows.
 - MacOS / Linux, you run all these commands from your **terminal**.
 - On Windows, type **Anaconda** in the search box, choose **Anaconda Prompt** from the list. Run all these command from there.
 
-First, lets create an environment called `C4M`
+First, create an environment called `C4M`
 
 ```bash
 conda create -n C4M python=3.6
