@@ -108,7 +108,11 @@ source activate C4M
 (C4M) jupyter lab
 ```
 
-This will open a page in your browser. Use it to find `hello_world.ipynb` from the `resources` folder. Follow the instructions in the notebook to make sure you installed everything correctly.
+This will open a page in your browser. Use it to find `hello_world.ipynb` on your computer.
+
+> You can download the `hello_world.ipynb` notebook from [here](notebooks/hello_world.ipynb).
+
+Follow the instructions in the notebook to make sure you installed everything correctly.
 
 # Schedule
 
