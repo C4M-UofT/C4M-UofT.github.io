@@ -6,7 +6,109 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 
 - Marzyeh Ghassemi
 - John Giorgi
-- Daniyal Liaqat 
+- Daniyal Liaqat
+
+# Installation
+
+Installation involves installing `Python 3`, setting up your local environment and testing that it works. The following steps walk you through this.
+
+## Install Python
+
+### MacOS / Linux
+
+First, open your `terminal`.
+
+> On MacOS, you can do this by going to `Applications/Utilities/Terminal` or, using  Spotlight by pressing the `command + space` keys, and searching for "Terminal").
+
+Copy & paste the following into your terminal and press the `return` key:
+
+```bash
+wget https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh
+```
+
+Once this has finished, copy & paste the following and hit the `return` key:
+
+```
+bash ~/miniconda.sh
+```
+
+Agree to the terms of service.
+
+> Press `return`, `space`, and then `return` keys.
+
+Hit `return` when you are asked to accept the default install location.
+
+Enter "yes" when prompted by _"Do you wish the installer to prepend the Miniconda3 install location to PATH in your ~/.bashrc?"_
+
+### Windows
+
+Download the installer from [here](https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe).
+
+> If you are running a 32-bit version of Windows, download the installer from [here](https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86.exe). If you don't know, you can check which version you are running [here](https://support.microsoft.com/en-us/help/15056/windows-7-32-64-bit-faq).
+
+Double click the `.exe` file to start the installation. Accept the terms of service, and leave all the default values when installing.
+
+## Setup your environment
+
+We need to **create** a virtual environment and install `jupyter`. Note, you only have to do this ONCE!
+
+The instructions here are almost identical for MacOS / Linux and Windows.
+
+- MacOS / Linux, you run all these commands from your **terminal**.
+- On Windows, type **Anaconda** in the search box, choose **Anaconda Prompt** from the list. Run all these command from there.
+
+First, lets create an environment called `C4M`
+
+```bash
+conda create -n C4M python=3.6
+```
+
+When conda asks you to proceed, type `y`
+
+```
+proceed ([y]/n)? y
+```
+
+Activate this environment that you just created with
+
+```bash
+source activate C4M
+```
+
+Then copy & paste the following to install `jupyter`
+
+```bash
+conda install -c conda-forge jupyterlab
+```
+
+> Answer `y` if prompted. This might take a little bit.
+
+And finally, run
+
+```bash
+conda install nb_conda
+```
+
+> Again, answer `y` if prompted.
+
+## Using the jupyter notebooks
+
+Everything in this class will happen through the `jupyter` notebooks. Notebooks are somewhere we can mix code and english, and run the code right in our browsers. Every time you wish to open a notebook, you need to
+
+**First**, activate your environment
+
+```bash
+source activate C4M
+(C4M) # you should notice your command prompt change when the environment is active!
+```
+
+**Then**, run `jupyter`
+
+```bash
+(C4M) jupyter lab
+```
+
+This will open a page in your browser. Use it to find `hello_world.ipynb` from the `resources` folder. Follow the instructions in the notebook to make sure you installed everything correctly.
 
 # Schedule
 
@@ -25,7 +127,7 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 	</thead>
     <tbody>
     <tr>
-      <td>Session 1 </td> 
+      <td>Session 1 </td>
       <td>Wednesday September 19, 2018</td>
       <td>9:30 – 12:30 pm</td>
       <td>MS 3281</td>
@@ -163,7 +265,7 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>Session 1</td>
 		<td>Wednesday January 23, 2019</td>
 		<td>1:00 – 4:00 pm</td>
-		<td>MS 3281</td> 
+		<td>MS 3281</td>
 		<td>
 			<ul>              
 			<li><a href="examples/dictionaries.html">Dictionaries</a></li>              
@@ -176,7 +278,7 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 				<li>Project 1 preparation exercises</li>
 					<ul>                    
 						<li>Exercise Set 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                    
-						<li>Exercise Set 2:</li> 
+						<li>Exercise Set 2:</li>
 							<ul>                      
 								<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                      
 								<li>Part 2 <a href="projects/project1/project1_exercise2_partb.pdf">handout</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a>)</li>
@@ -194,7 +296,7 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>Session 2</td>
 		<td>Wednesday February 27, 2019</td>
 		<td>1:00 – 4:00 pm</td>
-		<td>MS 3281</td> 
+		<td>MS 3281</td>
 		<td>
 			<ul>              
 				<li>Project 1: Medical Document Retrieval</li>
@@ -219,7 +321,7 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>Session 4</td>
 		<td>Wednesday March 27, 2019</td>
 		<td>1:00 – 4:00 pm</td>
-		<td>MS 3281</td> 
+		<td>MS 3281</td>
 		<td>
 			<ul>              
 				<li>Project 2: Human Mobility and Epidemic Modelling</li>
@@ -291,7 +393,7 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 		<td>Tuesday, October 16, 2018</td>
 		<td>4:00 – 6:00 pm</td>
 		<td>DSC Innovation Lab, Gerstein Library</td>
-		<td> 
+		<td>
 			<ul>
 				<li><a href="seminars/C4M_seminar4_part1.pdf">Part 1 slides</a></li>
 				<li><a href="seminars/C4M_seminar4_part2.pdf">Part 2 slides</a></li>
@@ -365,4 +467,3 @@ Welcome to the webpage for the 2018 Computing for Medicine workshops.
 	</tr>
   </tbody>
 </table>
-
