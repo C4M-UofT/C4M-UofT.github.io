@@ -1,9 +1,0 @@
-(ROOT
-  (S
-    (NP (FW uh) (FW i) (NN dont))
-    (VP
-      (VBP see)
-      (SBAR
-        (S
-          (NP (NN anything) (RB else))
-          (VP (VBZ thats) (VP (VB happen))))))))

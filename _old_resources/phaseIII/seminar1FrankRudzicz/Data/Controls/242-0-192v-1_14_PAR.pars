@@ -1,0 +1,27 @@
+(ROOT
+  (PRN
+    (CC and)
+    (ADJP
+      (JJ thats)
+      (PP
+        (IN about)
+        (NP
+          (NP (NNP uh))
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (ADVP (RB else))
+              (VP
+                (VBZ is)
+                (ADVP (RB there))
+                (ADJP (JJ youre))
+                (S
+                  (VP
+                    (VBG gon)
+                    (S
+                      (VP
+                        (TO na)
+                        (VP
+                          (VB find)
+                          (PRT (RP out))
+                          (PP (IN in) (NP (DT that) (NN pictur))))))))))))))))

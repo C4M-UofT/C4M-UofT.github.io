@@ -1,0 +1,11 @@
+(ROOT
+  (S
+    (NP
+      (NP (QP (CC and) (CD one)))
+      (PP (IN of) (NP (DT the) (NNS girls))))
+    (VP
+      (VBZ is)
+      (VP
+        (VP (VBG washing) (NP (DT the) (NNS dishes)))
+        (CC and)
+        (VP (VBG drying) (NP (PRP them)))))))

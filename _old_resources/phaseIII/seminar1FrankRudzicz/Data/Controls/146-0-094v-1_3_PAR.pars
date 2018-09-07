@@ -1,0 +1,6 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (PRP$ his) (JJ stools) (NN bout))
+      (SBAR (S (VP (TO to) (VP (VB fal))))))))

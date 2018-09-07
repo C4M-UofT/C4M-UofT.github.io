@@ -1,0 +1,24 @@
+(ROOT
+  (S
+    (NP (JJ little) (NNS girls))
+    (VP
+      (VBP tellin)
+      (S
+        (NP (PRP him))
+        (RB not)
+        (VP
+          (TO to)
+          (VP
+            (VB talk)
+            (S
+              (VP
+                (TO to)
+                (VP
+                  (ADVP (RB much) (CC and) (RB i))
+                  (VB guess)
+                  (S
+                    (NP (NNS shes))
+                    (RB not)
+                    (VP
+                      (TO to)
+                      (VP (VB tell) (PP (IN on) (NP (PRP them)))))))))))))))

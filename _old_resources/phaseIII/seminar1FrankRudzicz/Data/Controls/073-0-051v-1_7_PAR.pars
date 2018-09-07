@@ -1,0 +1,17 @@
+(ROOT
+  (S
+    (NP
+      (RB well)
+      (VB naturally)
+      (SBAR
+        (S
+          (NP (DT the) (NN stool))
+          (VP (VBZ falls) (PP (IN over) (NP (DT the) (NN boy)))))))
+    (VP
+      (VBZ is)
+      (VP
+        (VBG going)
+        (S
+          (VP
+            (TO to)
+            (VP (VB fall) (PP (IN on) (NP (DT the) (NN floor))))))))))

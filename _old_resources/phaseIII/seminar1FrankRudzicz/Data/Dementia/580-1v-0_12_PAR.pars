@@ -1,0 +1,6 @@
+(ROOT
+  (FRAG
+    (ADVP (RB so) (RB now))
+    (SBAR
+      (WHNP (WP what))
+      (S (ADVP (RB else)) (VP (MD shall) (ADVP (RB i)) (VP (VB do)))))))

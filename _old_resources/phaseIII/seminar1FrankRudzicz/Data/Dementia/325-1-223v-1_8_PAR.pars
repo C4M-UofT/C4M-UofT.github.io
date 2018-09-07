@@ -1,0 +1,17 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (DT the) (NNS girls) (NN tryin))
+      (SBAR
+        (S
+          (VP
+            (TO to)
+            (VP
+              (VP (VB help))
+              (CC and)
+              (ADVP (RB shes))
+              (VP
+                (VB reachin)
+                (NP (PRP$ her) (NN hand))
+                (PRT (RP up))))))))))

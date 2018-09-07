@@ -1,0 +1,7 @@
+(ROOT
+  (S
+    (NP (JJ i) (NN dont))
+    (VP
+      (VBP think)
+      (SBAR
+        (S (NP (FW i)) (VP (VBP see) (NP (NN anything) (NN els))))))))

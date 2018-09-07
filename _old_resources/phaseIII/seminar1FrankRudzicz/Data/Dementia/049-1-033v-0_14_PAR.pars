@@ -1,0 +1,7 @@
+(ROOT
+  (S
+    (NP (FW i))
+    (VP
+      (ADVP (RB also))
+      (VBP see)
+      (NP (DT a) (NN cabinet) (NN drawer) (NN door) (NN ther)))))

@@ -1,0 +1,7 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (DT the) (JJ little) (NNS girls))
+      (SBAR
+        (S (VP (VBG reaching) (PP (IN for) (NP (DT a) (NN cooki)))))))))

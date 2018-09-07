@@ -1,0 +1,14 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (NNS stools))
+      (SBAR
+        (S
+          (VP
+            (VBG tipping)
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (DT the) (NNS boys) (NN tryin))
+                (VP (TO to) (VP (VB get) (NP (DT a) (NN cooki))))))))))))

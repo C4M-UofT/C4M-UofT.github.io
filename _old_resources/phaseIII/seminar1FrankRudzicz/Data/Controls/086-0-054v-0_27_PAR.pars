@@ -1,0 +1,25 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (RB then))
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP
+            (VBP doesnt)
+            (SBAR
+              (RB even)
+              (IN if)
+              (S
+                (NP (PRP he))
+                (VP
+                  (VBZ falls)
+                  (NP
+                    (NP (NN hes))
+                    (VP
+                      (VBG gon)
+                      (S
+                        (VP
+                          (TO na)
+                          (VP (VB have) (NP (PRP$ his) (NNS cooki))))))))))))))))

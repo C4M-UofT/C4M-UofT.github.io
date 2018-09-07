@@ -1,0 +1,15 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (ADVP
+      (ADVP (NP (DT the) (NN fact)) (IN that))
+      (SBAR
+        (ADVP (RB also))
+        (IN that)
+        (S
+          (NP (NN th) (NN hes))
+          (VP
+            (VBP hes)
+            (NP
+              (NP (NN bumpin))
+              (PP (IN over) (NP (DT the) (JJ uh) (NN chair))))))))))

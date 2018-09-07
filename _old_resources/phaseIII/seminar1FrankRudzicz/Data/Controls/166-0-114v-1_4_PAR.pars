@@ -1,0 +1,14 @@
+(ROOT
+  (S
+    (NP
+      (NP (NN hes))
+      (VP
+        (ADVP (RB also))
+        (VBG falling)
+        (PP
+          (IN off)
+          (NP
+            (NP (DT a) (NN stool))
+            (CC or)
+            (NP (DT the) (NN stool))))))
+    (VP (VBZ is) (VP (VBG tipping) (NP (NN ov))))))

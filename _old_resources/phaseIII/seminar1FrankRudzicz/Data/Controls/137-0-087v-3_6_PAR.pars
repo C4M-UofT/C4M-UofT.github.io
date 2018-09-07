@@ -1,0 +1,16 @@
+(ROOT
+  (PP
+    (IN in)
+    (NP
+      (NP (NN fact) (NNS shes))
+      (VP
+        (VBG thinking)
+        (PP (IN about) (NP (NN something) (RB else)))
+        (PP
+          (IN because)
+          (S
+            (NP (DT the) (NNS waters))
+            (VP
+              (VBG running)
+              (PRT (RP out))
+              (PP (IN onto) (NP (PRP$ her) (NNS feet))))))))))

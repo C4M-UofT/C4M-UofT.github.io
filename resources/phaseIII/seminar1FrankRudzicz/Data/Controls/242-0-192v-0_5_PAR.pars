@@ -1,9 +1,0 @@
-(ROOT
-  (SBARQ
-    (WHNP (WP what) (RB else))
-    (SQ
-      (VBP am)
-      (NP (FW i))
-      (VP
-        (VBN supposed)
-        (S (VP (TO to) (VP (VB find) (PRT (RP out)))))))))

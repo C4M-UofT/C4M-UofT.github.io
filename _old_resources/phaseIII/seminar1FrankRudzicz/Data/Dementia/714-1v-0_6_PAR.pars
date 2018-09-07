@@ -1,0 +1,17 @@
+(ROOT
+  (S
+    (NP (DT the) (JJ little))
+    (VP
+      (VBZ s)
+      (NP
+        (NP (NNS girls))
+        (VP
+          (VBG reaching)
+          (ADVP (RB up) (RB there))
+          (S
+            (VP
+              (TO to)
+              (VP
+                (VB get)
+                (NP (NN something))
+                (PP (IN from) (NP (DT the) (NN boy)))))))))))

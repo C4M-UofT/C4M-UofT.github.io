@@ -1,0 +1,9 @@
+(ROOT
+  (S
+    (VP
+      (VB wh)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (RB else) (RB am) (JJ i) (NN sup))
+          (VP (MD i) (VP (VB mean) (X (X (WP what)) (NP (WP what))))))))))

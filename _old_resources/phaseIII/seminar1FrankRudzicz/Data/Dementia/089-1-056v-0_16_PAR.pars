@@ -1,0 +1,14 @@
+(ROOT
+  (NP
+    (NP (NNS looks))
+    (PP
+      (IN like)
+      (NP
+        (NP (DT the) (JJ little) (NNS girls))
+        (VP
+          (VP (VBG eating) (NP (DT a) (NN cookie)))
+          (CC and)
+          (VP
+            (VBG reaching)
+            (PRT (RP up))
+            (PP (IN for) (NP (NN anoth)))))))))

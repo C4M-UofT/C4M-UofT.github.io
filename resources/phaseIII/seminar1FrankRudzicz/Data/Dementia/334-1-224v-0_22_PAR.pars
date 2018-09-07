@@ -1,6 +1,0 @@
-(ROOT
-  (FRAG
-    (CC and)
-    (NP
-      (NP (DT the) (NNS girls))
-      (SBAR (S (VP (VBG trying) (PP (TO to))))))))

@@ -1,0 +1,55 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN boy))
+      (VP
+        (VBG getting)
+        (NP (DT the) (NNS cookies))
+        (PP
+          (IN from)
+          (NP
+            (NP (DT the) (NN cookie) (NN jar))
+            (PP (IN in) (NP (PRP$ his) (NN haste)))))))
+    (VP
+      (VP
+        (VBZ has)
+        (VP
+          (VBN tipped)
+          (PP
+            (IN over)
+            (NP
+              (NP (DT the) (NN lid))
+              (PP (IN of) (NP (DT the) (NN cookie) (NN jar)))))))
+      (CC and)
+      (VP
+        (ADVP (RB also))
+        (VBZ has)
+        (VP
+          (VBN caused)
+          (NP
+            (DT the)
+            (NN stool)
+            (S
+              (VP
+                (TO to)
+                (VP
+                  (VB slip)
+                  (PRT (RP over))
+                  (ADVP
+                    (ADVP (RB backwards) (RB so))
+                    (SBAR
+                      (IN that)
+                      (S
+                        (NP (PRP he))
+                        (VP
+                          (MD will)
+                          (ADVP (RB very) (RB shortly))
+                          (VP
+                            (VB be)
+                            (PP
+                              (IN on)
+                              (NP
+                                (NP (DT the) (NN ground))
+                                (PP
+                                  (IN on)
+                                  (NP (DT the) (NN floor) (NN rath)))))))))))))))))))

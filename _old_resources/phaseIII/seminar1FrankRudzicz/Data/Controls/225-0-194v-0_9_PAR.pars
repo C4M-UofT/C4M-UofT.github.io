@@ -1,0 +1,15 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (DT the) (JJ little) (NNS girls))
+      (SBAR
+        (S
+          (VP
+            (VBG raising)
+            (NP (PRP$ her) (NNS hands))
+            (PP (IN for) (NP (DT the) (JJ little) (NN boy)))
+            (S
+              (VP
+                (TO to)
+                (VP (VB hand) (NP (PRP her)) (NP (DT a) (NN cooki)))))))))))

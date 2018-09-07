@@ -1,0 +1,9 @@
+(ROOT
+  (S
+    (NP (PRP he))
+    (VP
+      (VBZ is)
+      (ADVP (RB also))
+      (VP
+        (VBG reaching)
+        (PP (IN into) (NP (DT the) (NN cookie) (NN jar)))))))

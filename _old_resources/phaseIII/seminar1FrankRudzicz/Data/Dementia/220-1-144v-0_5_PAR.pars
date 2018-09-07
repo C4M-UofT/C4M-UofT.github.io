@@ -1,0 +1,19 @@
+(ROOT
+  (FRAG
+    (NP (CD one))
+    (PP
+      (ADVP (NP (DT the) (NN boys)) (RB up))
+      (IN on)
+      (NP
+        (NP (DT a) (NN stool))
+        (CC and)
+        (NP
+          (NP (DT the) (JJ little) (NNS girls))
+          (VP
+            (VBG standing)
+            (PRT (RP up))
+            (S
+              (VP
+                (VBG holding)
+                (NP (PRP$ her) (NN hand))
+                (PP (IN for) (NP (DT a) (NN cooki)))))))))))

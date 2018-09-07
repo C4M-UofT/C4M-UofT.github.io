@@ -1,0 +1,10 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (DT the) (NNS girls))
+      (SBAR
+        (S
+          (VP
+            (VBG reaching)
+            (S (VP (TO to) (VP (VB get) (NP (DT a) (NN cooki)))))))))))

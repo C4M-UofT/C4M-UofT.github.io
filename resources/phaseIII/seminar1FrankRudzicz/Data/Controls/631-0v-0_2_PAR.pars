@@ -1,8 +1,0 @@
-(ROOT
-  (FRAG
-    (NP (DT the) (NNS mothers))
-    (S
-      (VP
-        (VP (VBG spilling) (NP (DT the) (NN water)))
-        (CC and)
-        (VP (ADVP (RB also)) (VBG drying) (NP (DT the) (NN dish)))))))

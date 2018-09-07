@@ -1,6 +1,0 @@
-(ROOT
-  (S
-    (NP
-      (NP (JJ first))
-      (PP (IN of) (NP (PDT all) (DT the) (JJ little) (NNS girls))))
-    (VP (VBP say))))

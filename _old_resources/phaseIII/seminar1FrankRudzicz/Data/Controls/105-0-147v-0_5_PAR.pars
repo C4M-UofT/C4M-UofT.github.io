@@ -1,0 +1,26 @@
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP
+      (ADVP (RB almost))
+      (VBZ looks)
+      (PP
+        (IN like)
+        (NP
+          (NP (DT the) (NNS girls))
+          (VP
+            (VBG trying)
+            (S
+              (VP
+                (TO to)
+                (VP
+                  (VB reach)
+                  (PP
+                    (IN for)
+                    (NP
+                      (NP (DT the) (NN cookie))
+                      (PP
+                        (IN in)
+                        (NP
+                          (NP (DT the) (JJR lower) (NN hand))
+                          (NP (DT the) (JJ left) (NN hand)))))))))))))))

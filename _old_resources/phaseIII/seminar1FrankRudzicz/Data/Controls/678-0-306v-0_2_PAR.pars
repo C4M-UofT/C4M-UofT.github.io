@@ -1,0 +1,14 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (NNP uh))
+      (SBAR
+        (S
+          (NP (DT the) (NNS stools))
+          (VP
+            (VB tippin)
+            (PRT (RP over))
+            (PP
+              (IN with)
+              (NP (NP (DT the) (NN boy)) (PP (IN on) (NP (PRP it)))))))))))

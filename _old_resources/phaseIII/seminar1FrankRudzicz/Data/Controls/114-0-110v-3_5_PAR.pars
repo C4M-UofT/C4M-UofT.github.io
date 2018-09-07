@@ -1,0 +1,9 @@
+(ROOT
+  (SINV
+    (VBZ uh)
+    (NP (NNP hm) (FW i) (NNP dont))
+    (VP
+      (VB know)
+      (SBAR
+        (WHNP (WP what))
+        (S (NP (RB else) (PRP they)) (VP (MD would) (VP (VB w))))))))

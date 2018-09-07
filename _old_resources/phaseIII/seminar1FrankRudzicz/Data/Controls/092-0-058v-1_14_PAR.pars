@@ -1,0 +1,8 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (NP (FW uh) (FW i) (NN dont))
+      (SBAR
+        (S
+          (VP (VBP know) (SBAR (WHNP (WP what)) (S (VP (VBP els))))))))))

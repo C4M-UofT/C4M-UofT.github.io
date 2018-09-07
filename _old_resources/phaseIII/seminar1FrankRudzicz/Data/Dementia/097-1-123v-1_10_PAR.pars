@@ -1,0 +1,6 @@
+(ROOT
+  (NP
+    (NP (NN anything))
+    (NP
+      (NP (RB else) (JJ wrong))
+      (PP (IN with) (NP (DT the) (NN pictur))))))

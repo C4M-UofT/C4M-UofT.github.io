@@ -1,0 +1,69 @@
+--comparing dates in Postgres
+select los from LOS where los < '1 year';
+
+
+-- check if any icu visits start BEFORE the corresponding admission
+select i.hadm_id, i.intime, a.admittime
+from icustays i, admissions a
+where i.hadm_id = a.hadm_id
+and i.intime < a.admittime;
+
+-- yes 486 results
+-- here are two of them
+-- 119310	2118-05-23 10:56:34	2118-05-23 13:30:00
+-- 166707	2122-02-10 09:39:59	2122-02-10 11:15:00
+
+
+-- find out average LOS for entire admissions
+select max(los), min(los), avg(los) from
+(
+select a.dischtime - a.admittime AS los
+from admissions a) as foo ;
+-- 294 days, 15:51:00	-1 day, 1:19:00	10 days, 3:12:50.349294
+
+-- sure it isn't uniform -- can I read in actual length of stays 
+-- and select randomly from them? 
+-- YES  make_data.py generates admissions by picking randomly from 
+-- actual length of stay data 
+
+-- now need to make patients 1 to 1000
+-- randomly picked dates of birth between 1920 and 2000 so no one would
+-- be born after they arrived at the hospital
+--   could have been smarter -- this means we have NEWBORN visits
+--   where the patient is OLD
+--   This could make an interesting query in the assignment!
+
+-- ICUSTAYS
+--   if we pick a hadm_id then that gives us the subject already
+--     then icustay_id can be row_id
+--     intime must be within that hadm_id -- how many ICU stays on average
+--      within each hadm_id -- how many have 0, how many have 1, how 
+--     of subjects with 1 hadm with at least 1 ICU visit, 95% have only 1
+--    what percentage of hadm don't even have an icu visit?/
+1190 do not in the real data
+out of 58976   so 2% do not have an ICU stay, 95% have 1 stay
+
+select count(*) from (
+(select  hadm_id from admissions)
+except
+(select hadm_id from icustays)) as foo; 
+
+
+-- wanted to get an idea of the ratios of time in the hospital that was
+-- spent in ICU but this query does not work
+select hlos/ilos as ratio from
+(
+select outtime-intime as ilos , dischtime - admittime as hlos
+from admissions a, icustays i
+where a.hadm_id = i.hadm_id
+) as foo ;
+
+because we can't use / as an operator directly on two time-intervals in
+postgres. 
+
+-----
+select hadm_id  from
+(select count(icd9_code) as codeCount, hadm_id
+FROM diagnoses_icd
+group by hadm_id) as foo
+where codeCount = 0;

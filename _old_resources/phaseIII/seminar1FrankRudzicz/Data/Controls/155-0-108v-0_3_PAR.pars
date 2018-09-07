@@ -1,0 +1,16 @@
+(ROOT
+  (FRAG
+    (CC and)
+    (NP
+      (DT the)
+      (NN stools)
+      (S
+        (VP
+          (VP (VBG falling) (PRT (RP over)))
+          (CC but)
+          (VP
+            (ADVP (RB hes))
+            (VBG grabbing)
+            (NP (NNS cookies))
+            (PRT (RP out))
+            (PP (IN of) (NP (DT the) (NN cookie) (NN jar)))))))))

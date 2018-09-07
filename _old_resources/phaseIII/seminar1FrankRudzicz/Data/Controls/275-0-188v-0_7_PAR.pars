@@ -1,0 +1,13 @@
+(ROOT
+  (S
+    (NP (JJ uh) (NN mother))
+    (VP
+      (VBZ is)
+      (VP
+        (VBG drying)
+        (NP (DT the) (NNS dishes))
+        (SBAR
+          (IN while)
+          (S
+            (NP (DT the) (NN water))
+            (VP (VBZ spills) (PP (IN over) (NP (DT the) (NN sink))))))))))

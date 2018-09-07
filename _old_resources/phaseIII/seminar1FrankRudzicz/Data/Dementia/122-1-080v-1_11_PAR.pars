@@ -1,0 +1,10 @@
+(ROOT
+  (S
+    (NP (DT no) (JJ i) (NN dont))
+    (VP
+      (VBP see)
+      (S
+        (NP (NN anything))
+        (ADJP (RB else))
+        (S
+          (VP (VBN goin) (PRT (RP on)) (PP (IN over) (NP (PRP her)))))))))

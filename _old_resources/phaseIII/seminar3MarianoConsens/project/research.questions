@@ -1,0 +1,105 @@
+Getting my head around the schema
+
+patients: gender, expire_flag, subject_id
+
+-- how many men/women died/still-living
+
+select count(subject_id), gender, expire_flag
+from patients
+group by gender, expire_flag;
+
+
+-- find out about ethnicity
+-- all from admissions table
+select count(distinct admissions.subject_id),  ethnicity
+from admissions
+group by ethnicity;
+
+-- if we want to join by living or not or by gender, or by dob
+
+select count(distinct admissions.subject_id),  ethnicity
+from admissions, patients
+where admissions.subject_id = patients.subject_id
+and extract (year from dob) < 2009 
+group by ethnicity;
+
+-- lots of the data is free-form text so there are many similar variations
+For example drug names
+ 0.45% Sodium Chloride and 0.45 % Sodium Chloride are different!
+
+We can teach the use of Like and % to help with this
+
+------------
+prescriptions might be interesting to use
+  drug_type in {'ADDITIVE', 'BASE', 'MAIN'}
+
+  drug: name
+  startdate  and enddate
+
+--------------
+caregiver 
+  -- lots of individual labels
+
+select  label, count(*)
+from caregivers
+group by label
+having count(*) > 10
+order by label;
+--------------------
+
+procedures_icd  : has subject_id for patient, hadm_id for admissions, icd9_code for
+the dictionary with long and short names of icd procedures
+multiple procedures for same patient and sequence number has the order but doesn't
+have times
+
+can find a certain procedure by name and find people who also had another procedure
+by using union
+--(select distinct (subject_id)
+--from procedures_icd, d_icd_procedures
+--where procedures_icd.icd9_code = D_icd_procedures.icd9_code
+--and short_title = 'Colonoscopy')
+--intersect
+(select distinct (subject_id)
+from procedures_icd, d_icd_procedures
+where procedures_icd.icd9_code = D_icd_procedures.icd9_code
+and short_title = 'Carpal tunnel release');
+
+
+-- 
+what are the 10 most popular procedures?
+
+--------------------
+elect short_title, count(*)
+from procedures_icd, d_icd_procedures
+where procedures_icd.icd9_code = D_icd_procedures.icd9_code
+group by short_title
+order by count(*) desc;
+
+Venous cath NEC	14731
+Insert endotracheal tube	10333
+Entral infus nutrit sub	9300
+Cont inv mec ven <96 hrs	9100
+Packed cell transfusion	7244
+Extracorporeal circulat	6838
+Cont inv mec ven 96+ hrs	6048
+Vaccination NEC	5842
+Coronar arteriogr-2 cath	5337
+Arterial catheterization	4737
+1 int mam-cor art bypass	4401
+
+---------------------
+What about most common diagnoses?
+
+select short_title, count(*)
+from diagnoses_icd join d_icd_diagnoses on diagnoses_icd.icd9_code = d_icd_diagnoses.icd9_code
+group by short_title
+order by count(*) desc;
+
+Hypertension NOS -- what does NOS stand for? are there other codes with hypertension?
+no, in ICD9- there is only the one code for hypertension.
+
+-------------------------
+
+
+
+--

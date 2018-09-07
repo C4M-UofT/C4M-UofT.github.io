@@ -1,0 +1,11 @@
+(ROOT
+  (SBAR
+    (IN unless)
+    (S
+      (VP
+        (VBZ thats)
+        (S
+          (NP (DT the) (NN way))
+          (NP
+            (NP (DT all) (JJ silly) (NNS girls) (NN act))
+            (PP (IN at) (NP (DT that) (NN ag)))))))))
