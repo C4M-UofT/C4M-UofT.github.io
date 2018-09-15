@@ -165,7 +165,7 @@ Follow the instructions in the notebook to make sure you installed everything co
     <tr>
 		<td>Session 3</td>
 		<td>Wednesday October 17, 2018</td>
-		<td>9:30 – 12:30 pm</td>
+		<td>1:00 – 4:00pm</td>
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
@@ -178,7 +178,7 @@ Follow the instructions in the notebook to make sure you installed everything co
 	<tr>
 		<td>Session 4</td>
 		<td>Wednesday November 21, 2018</td>
-		<td>9:30 – 12:30 pm</td>
+		<td>1:00 – 4:00pm</td>
 		<td>MS 3281</td>
 		<td>
 			<ul>
@@ -207,7 +207,7 @@ Follow the instructions in the notebook to make sure you installed everything co
   		<td>Session 1</td>
   		<td>Wednesday October 17, 2018</td>
   		<td>1:00 – 4:00pm |</td>
-  		<td>SC Innovation Lab, Gerstein Library</td>
+  		<td>DSC Innovation Lab, Gerstein Library</td>
   		<td>
   		 	<ul>
 	  		    <li>Arithmetic operators, built-in functions [<a href="examples/operators_builtins.html">html</a>, <a href="notebooks/operators_builtins.ipynb">notebook</a>]</li>
@@ -228,7 +228,7 @@ Follow the instructions in the notebook to make sure you installed everything co
 		<td>Session 2</td>
 		<td>Wednesday November 21, 2018</td>
 		<td>1:00 – 4:00pm |</td>
-		<td>S 3281</td>
+		<td>MS 3281</td>
 		<td>
 		 	<ul>
 			    <li>Lists, loops, and <code>range</code> [<a href="examples/lists.html">html</a>, <a href="notebooks/lists.ipynb">notebook</a>]</li>
