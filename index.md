@@ -221,6 +221,8 @@ Follow the instructions in the notebook to make sure you installed everything co
 	  		    <li>Booleans [<a href="examples/booleans.html">html</a>, <a href="notebooks/booleans.ipynb">notebook</a>]</li>
 	  		    <li><code>if</code> statements [<a href="examples/if.html">html</a>, <a href="notebooks/if.ipynb">notebook</a>]</li>
 	  		    <li><code>for</code> loops over <code>str</code> [<a href="examples/for_over_str.html">html</a>, <a href="notebooks/for_over_str.ipynb">notebook</a>]</li>
+			    <li>Lists, loops, and <code>range</code> [<a href="examples/lists.html">html</a>, <a href="notebooks/lists.ipynb">notebook</a>]</li>
+			    <li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>]</li>				
   		   </ul>
   		</td>
   	</tr>
@@ -231,9 +233,9 @@ Follow the instructions in the notebook to make sure you installed everything co
 		<td>MS 3281</td>
 		<td>
 		 	<ul>
-			    <li>Lists, loops, and <code>range</code> [<a href="examples/lists.html">html</a>, <a href="notebooks/lists.ipynb">notebook</a>]</li>
-			    <li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>]</li>
 			    <li>Parallel lists and strings [<a href="examples/parallel.html">html</a>, <a href="notebooks/parallel.ipynb">notebook</a>]</li>
+			 	<li>Nested lists and loops [<a href="examples/nested_lists_loops.html">html</a>, <a href="notebooks/nested_lists_loops.ipynb">notebook</a>]</li>
+			 	<li><code>while</code> loops [<a href="examples/while.html">html</a>, <a href="notebooks/while.ipynb">notebook</a>]</li>
 		    </ul>
 		</td>
 	</tr>
@@ -244,8 +246,6 @@ Follow the instructions in the notebook to make sure you installed everything co
 		<td>MS 3281</td>
 		<td>
 			<ul>
-			 	<li>Nested lists and loops [<a href="examples/nested_lists_loops.html">html</a>, <a href="notebooks/nested_lists_loops.ipynb">notebook</a>]</li>
-			 	<li><code>while</code> loops [<a href="examples/while.html">html</a>, <a href="notebooks/while.ipynb">notebook</a>]</li>
 			 	<li>Python Memory Model [<a href="examples/memory_model.html">html</a>]</li>
 		 	</ul>
 		</td>
