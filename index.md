@@ -323,7 +323,7 @@ Follow the instructions in the notebook to make sure you installed everything co
 		<td>Wednesday March 20, 2019</td>
 		<td>1:00 – 4:00 pm</td>
 		<td>MS 3281</td>
-		<td></td>
+		<td> Work on projects. </td>
 	</tr>
 	<tr>
 		<td>Session 4</td>
@@ -354,14 +354,14 @@ Follow the instructions in the notebook to make sure you installed everything co
 		<td>Wednesday April 3, 2019</td>
 		<td>1:00 – 4:00 pm</td>
 		<td>MS 3281</td>
-		<td></td>
+		<td> Work on projects. </td>
 	</tr>
 	<tr>
 		<td>Session 6</td>
 		<td>Wednesday April 17, 2019</td>
 		<td>1:00 – 4:00 pm</td>
 		<td>DSC Innovation Lab, Gerstein Library</td>
-		<td></td>
+		<td> Work on projects. </td>
 	</tr>
   </tbody>
 </table>
