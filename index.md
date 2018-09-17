@@ -209,21 +209,25 @@ Follow the instructions in the notebook to make sure you installed everything co
   		<td>1:00 – 4:00pm |</td>
   		<td>DSC Innovation Lab, Gerstein Library</td>
   		<td>
+			PRE-WORK FOR LEVEL 2 STUDENTS:
   		 	<ul>
-	  		    <li>Arithmetic operators, built-in functions [<a href="examples/operators_builtins.html">html</a>, <a href="notebooks/operators_builtins.ipynb">notebook</a>]</li>
-	  		    <li>Variables [<a href="examples/variables.html">html</a>, <a href="notebooks/variables.ipynb">notebook</a>]</li>
-	  		    <li>Intro to Strings [<a href="examples/strings.html">html</a>, <a href="notebooks/strings.ipynb">notebook</a>]</li>
-	  		    <li>More String Operations, Methods [<a href="examples/more_str_ops_methods.html">html</a>, <a href="notebooks/more_str_ops_methods.ipynb">notebook</a>]</li>
-	  		    <li>Functions [<a href="examples/functions.html">html</a>, <a href="notebooks/functions.ipynb">notebook</a>]</li>
-	  		    <li>Docstrings, <code>help</code>, <code>dir</code> [<a href="examples/docstrings_help_dir.html">html</a>, <a href="notebooks/docstrings_help_dir.ipynb">notebook</a>]</li>
-	  		    <li>Converting Between Types [<a href="examples/converting_between_types.html">html</a>, <a href="notebooks/converting_between_types.ipynb">notebook</a>]</li>
-	  		    <li>Writing Programs [<a href="examples/programs.html">html</a>, <a href="notebooks/programs.ipynb">notebook</a>]</li>
-	  		    <li>Booleans [<a href="examples/booleans.html">html</a>, <a href="notebooks/booleans.ipynb">notebook</a>]</li>
-	  		    <li><code>if</code> statements [<a href="examples/if.html">html</a>, <a href="notebooks/if.ipynb">notebook</a>]</li>
+			    <li>Arithmetic operators, built-in functions [<a href="examples/operators_builtins.html">html</a>, <a href="notebooks/operators_builtins.ipynb">notebook</a>]</li>
+			    <li>Variables [<a href="examples/variables.html">html</a>, <a href="notebooks/variables.ipynb">notebook</a>]</li>
+			    <li>Intro to Strings [<a href="examples/strings.html">html</a>, <a href="notebooks/strings.ipynb">notebook</a>]</li>
+			    <li>More String Operations, Methods [<a href="examples/more_str_ops_methods.html">html</a>, <a href="notebooks/more_str_ops_methods.ipynb">notebook</a>]</li>
+			    <li>Functions [<a href="examples/functions.html">html</a>, <a href="notebooks/functions.ipynb">notebook</a>]</li>
+			    <li>Docstrings, <code>help</code>, <code>dir</code> [<a href="examples/docstrings_help_dir.html">html</a>, <a href="notebooks/docstrings_help_dir.ipynb">notebook</a>]</li>
+			    <li>Converting Between Types [<a href="examples/converting_between_types.html">html</a>, <a href="notebooks/converting_between_types.ipynb">notebook</a>]</li>
+			    <li>Writing Programs [<a href="examples/programs.html">html</a>, <a href="notebooks/programs.ipynb">notebook</a>]</li>
+			    <li>Booleans [<a href="examples/booleans.html">html</a>, <a href="notebooks/booleans.ipynb">notebook</a>]</li>
+			    <li><code>if</code> statements [<a href="examples/if.html">html</a>, <a href="notebooks/if.ipynb">notebook</a>]</li>
+			</ul>
+					MATERIAL COVERED:
+			<ul>
 	  		    <li><code>for</code> loops over <code>str</code> [<a href="examples/for_over_str.html">html</a>, <a href="notebooks/for_over_str.ipynb">notebook</a>]</li>
 			    <li>Lists, loops, and <code>range</code> [<a href="examples/lists.html">html</a>, <a href="notebooks/lists.ipynb">notebook</a>]</li>
 			    <li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>]</li>				
-  		   </ul>
+  		   	</ul>
   		</td>
   	</tr>
 	<tr>
