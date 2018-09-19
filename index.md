@@ -22,8 +22,16 @@ First, open your `terminal`.
 
 Copy & paste the following into your terminal and press the `return` key:
 
+__MacOS__
+
 ```bash
-curl https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh --output ~/miniconda.sh
+curl https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh --output ~/miniconda.sh
+```
+
+__Linux__
+
+```bash
+curl https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh --output ~/miniconda.sh
 ```
 
 Once this has finished, copy & paste the following and hit the `return` key:
