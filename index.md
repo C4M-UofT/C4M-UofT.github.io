@@ -103,14 +103,23 @@ conda install nb_conda
 
 Everything in this class will happen through the `jupyter` notebooks. Notebooks are somewhere we can mix code and english, and run the code right in our browsers. Every time you wish to open a notebook, you need to
 
-**First**, activate your environment
+First, activate your environment
+
+__MacOS / Linux__
 
 ```bash
 source activate C4M
 (C4M) # you should notice your command prompt change when the environment is active!
 ```
 
-**Then**, run `jupyter`
+__Windows__
+
+```bash
+conda activate C4M
+(C4M)
+```
+
+Then, run `jupyter`
 
 ```bash
 (C4M) jupyter lab
