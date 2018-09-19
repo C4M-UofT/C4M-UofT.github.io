@@ -23,7 +23,7 @@ First, open your `terminal`.
 Copy & paste the following into your terminal and press the `return` key:
 
 ```bash
-wget https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh
+curl https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh --output ~/miniconda.sh
 ```
 
 Once this has finished, copy & paste the following and hit the `return` key:
@@ -110,7 +110,7 @@ source activate C4M
 
 This will open a page in your browser. Use it to find `hello_world.ipynb` on your computer.
 
-> You can download the `hello_world.ipynb` notebook from [here](notebooks/hello_world.ipynb).
+> You can download the `hello_world.ipynb` notebook from <a href="notebooks/hello_world.ipynb">here</a>.
 
 Follow the instructions in the notebook to make sure you installed everything correctly.
 
