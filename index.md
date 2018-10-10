@@ -144,6 +144,7 @@ Follow the instructions in the notebook to make sure you installed everything co
       <th>Time</th>
       <th>Location</th>
       <th>Resources</th>
+      <th>Homework</th>
     </tr>
 	</thead>
     <tbody>
@@ -162,6 +163,7 @@ Follow the instructions in the notebook to make sure you installed everything co
       	    <li>Writing Programs [<a href="examples/programs.html">html</a>, <a href="notebooks/programs.ipynb">notebook</a>]</li>
       	</ul>
       </td>
+      <td></td>
     </tr>
     <tr>
     	<td>Session 2</td>
@@ -178,6 +180,10 @@ Follow the instructions in the notebook to make sure you installed everything co
     			<li>Docstrings, <code>help</code>, <code>dir</code> [<a href="examples/docstrings_help_dir.html">html</a>, <a href="notebooks/docstrings_help_dir.ipynb">notebook</a>]</li>
     		</ul>
     	</td>
+    	<td>
+    		Phase I: Level 1 Session 2 Homework on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>
+    		<br>Due date: <b>Oct. 18, 2018, 11:59 p.m</b>
+    	</td>
     </tr>
     <tr>
 		<td>Session 3</td>
@@ -191,6 +197,10 @@ Follow the instructions in the notebook to make sure you installed everything co
 				<li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>]</li>
 			</ul>
 		</td>
+		<td>
+    		Phase I: Level 1 Session 3 Homework on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>
+    		<br>Due date: <b>Nov. 22, 2018, 11:59 p.m</b>
+    	</td>
 	</tr>
 	<tr>
 		<td>Session 4</td>
@@ -204,6 +214,10 @@ Follow the instructions in the notebook to make sure you installed everything co
 				<li><code>while</code> loops [<a href="examples/while.html">html</a>, <a href="notebooks/while.ipynb">notebook</a>]</li>
 			</ul>
 		</td>
+		<td>
+    		Phase I: Level 1 Session 4 In Class Assignment on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>
+    		<br>Due date: <b>Nov. 22, 2018, 11:59 p.m</b>
+    	</td>
     </tr>
   </tbody>
 </table>
@@ -217,6 +231,7 @@ Follow the instructions in the notebook to make sure you installed everything co
       <th>Time</th>
       <th>Location</th>
       <th>Resources</th>
+      <th>Homework</th>
     </tr>
   </thead>
   <tbody>
@@ -246,6 +261,10 @@ Follow the instructions in the notebook to make sure you installed everything co
 			    <li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>]</li>				
   		   	</ul>
   		</td>
+  		<td>
+    		Phase I: Level 2 Session 1 Homework on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>
+    		<br>Due date: <b>Nov. 22, 2018, 11:59 p.m</b>
+    	</td>
   	</tr>
 	<tr>
 		<td>Session 2</td>
@@ -259,6 +278,10 @@ Follow the instructions in the notebook to make sure you installed everything co
 			 	<li><code>while</code> loops [<a href="examples/while.html">html</a>, <a href="notebooks/while.ipynb">notebook</a>]</li>
 		    </ul>
 		</td>
+		<td>
+    		Phase I: Level 2 Session 2 Homework on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>
+    		<br>Due date: <b>Dec. 20, 2018, 11:59 p.m</b>
+    	</td>
 	</tr>
 	<tr>
 		<td>Session 3</td>
@@ -270,6 +293,10 @@ Follow the instructions in the notebook to make sure you installed everything co
 			 	<li>Python Memory Model [<a href="examples/memory_model.html">html</a>]</li>
 		 	</ul>
 		</td>
+		<td>
+    		Phase I: Level 2 Session 3 Homework on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>
+    		<br>Due date: <b>Dec. 27, 2018, 11:59 p.m</b>
+    	</td>
 	</tr>
   </tbody>
 </table>
