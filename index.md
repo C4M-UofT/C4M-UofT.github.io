@@ -394,6 +394,7 @@ Follow the instructions in the notebook to make sure you installed everything co
       <th>Time</th>
       <th>Location</th>
       <th>Resources</th>
+	    
     </tr>
   </thead>
   <tbody>
@@ -409,6 +410,7 @@ Follow the instructions in the notebook to make sure you installed everything co
 				<li><a href="seminars/C4M_seminar6_part2.pdf">Part 2 slides</a></li>
 				<li><a href="seminars/C4MPhase3Project6.pdf">Project Handout</a></li>
 				<li><a href="seminars/foodfacts.json">foodfacts.json</a></li>
+				<li><a href="https://play.library.utoronto.ca/3T4NF5W7KDKw"> Video </a></li>			
 			</ul>
 		</td>
 	</tr>
