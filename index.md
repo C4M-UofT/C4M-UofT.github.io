@@ -452,7 +452,7 @@ Follow the instructions in the notebook to make sure you installed everything co
 				<li><a href="seminars/C4M_seminar4_part1.pdf">Part 1 slides</a></li>
 				<li><a href="seminars/C4M_seminar4_part2.pdf">Part 2 slides</a></li>
 				<li><a href="https://play.library.utoronto.ca/BNGVy0H2eeqd">Video</a></li>
-				<li><a href="seminars/Seminar4Project.pdf">Project Handout</a></li>
+				<li><a href="seminars/Seminar2Project.pdf">Project Handout</a></li>
 				<li><a href="seminars/C4MProject4.zip">Project Starter code and data</a></li>
 			</ul>
 		</td>
@@ -483,7 +483,7 @@ Follow the instructions in the notebook to make sure you installed everything co
 				<li><a href="seminars/C4M_seminar2_part1.pdf">Part 1 slides</a></li>
 				<li><a href="seminars/C4M_seminar2_part2.pdf">Part 2 slides</a></li>
 				<li><a href="https://play.library.utoronto.ca/9lVvPztBVHO_">Video For Part 2 Only</a></li>
-				<li><a href="seminars/Seminar2Project.pdf">Project Handout</a></li>
+				<li><a href="seminars/Seminar4Project.pdf">Project Handout</a></li>
 				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar2/C4MProject2.zip">Project Starter code and data</a> </li>
 			</ul>
 		</td>
