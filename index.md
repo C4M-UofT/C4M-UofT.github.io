@@ -125,11 +125,11 @@ Then, run `jupyter`
 (C4M) jupyter lab
 ```
 
-This will open a page in your browser. Use it to find `hello_world.ipynb` on your computer.
+This will open a page in your browser. Click `Python [default]` in the top right corner and select `Python [conda env:C4M]`.
+
+To make sure everything is working, use this window to find `hello_world.ipynb` on your computer and follow the instructions in the notebook to make sure you installed everything correctly.
 
 > You can download the `hello_world.ipynb` notebook from <a href="notebooks/hello_world.ipynb">here</a>.
-
-Follow the instructions in the notebook to make sure you installed everything correctly.
 
 # Schedule
 
@@ -421,7 +421,7 @@ Follow the instructions in the notebook to make sure you installed everything co
       <th>Time</th>
       <th>Location</th>
       <th>Resources</th>
-	    
+
     </tr>
   </thead>
   <tbody>
