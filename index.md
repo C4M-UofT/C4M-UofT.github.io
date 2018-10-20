@@ -471,6 +471,7 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 				<li><a href="seminars/Frank_Rudzick/Seminar3Project.zip">Project Starter code and data</a></li>
 			</ul>
 		</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Session 4</td>
@@ -517,6 +518,7 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>Tuesday, April 9, 2019</td>
 		<td>4:00 – 6:00 pm</td>
 		<td>DSC Innovation Lab, Gerstein Library</td>
+		<td></td>
 		<td></td>
 	</tr>
   </tbody>
