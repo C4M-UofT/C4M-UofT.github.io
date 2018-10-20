@@ -421,7 +421,7 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
       <th>Time</th>
       <th>Location</th>
       <th>Resources</th>
-
+	  <th>Lecture Recording</th>
     </tr>
   </thead>
   <tbody>
@@ -433,13 +433,13 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
-				<li><a href="seminars/C4M_seminar6_part1.pdf">Part 1 slides</a></li>
-				<li><a href="seminars/C4M_seminar6_part2.pdf">Part 2 slides</a></li>
-				<li><a href="seminars/C4MPhase3Project6.pdf">Project Handout</a></li>
-				<li><a href="seminars/foodfacts.json">foodfacts.json</a></li>
-				<li><a href="https://play.library.utoronto.ca/3T4NF5W7KDKw"> Video </a></li>			
+				<li><a href="seminars/Fanny_Chevalier/C4M_seminar1_part1.pdf">Part 1 slides</a></li>
+				<li><a href="seminars/Fanny_Chevalier/C4M_seminar1_part2.pdf">Part 2 slides</a></li>
+				<li><a href="seminars/Fanny_Chevalier/C4MPhase3Project1.pdf">Project Handout</a></li>
+				<li><a href="seminars/Fanny_Chevalier/foodfacts.json">foodfacts.json</a></li>			
 			</ul>
 		</td>
+		<td><a href="https://play.library.utoronto.ca/3T4NF5W7KDKw">Video</a></td>
 	</tr>
 	<tr>
 		<td>Session 2</td>
@@ -449,13 +449,13 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
-				<li><a href="seminars/C4M_seminar4_part1.pdf">Part 1 slides</a></li>
-				<li><a href="seminars/C4M_seminar4_part2.pdf">Part 2 slides</a></li>
-				<li><a href="https://play.library.utoronto.ca/BNGVy0H2eeqd">Video</a></li>
-				<li><a href="seminars/Seminar2Project.pdf">Project Handout</a></li>
-				<li><a href="seminars/C4MProject4.zip">Project Starter code and data</a></li>
+				<li><a href="seminars/Jared_Simpson/C4M_seminar2_part1.pdf">Part 1 slides</a></li>
+				<li><a href="seminars/Jared_Simpson/C4M_seminar2_part2.pdf">Part 2 slides</a></li>
+				<li><a href="seminars/Jared_Simpson/Seminar2Project.pdf">Project Handout</a></li>
+				<li><a href="seminars/Jared_Simpson/C4MProject2.zip">Project Starter code and data</a></li>
 			</ul>
 		</td>
+		<td><a href="seminars/Jared_Simpson/zoom_1.mp4">Video</a></td>
 	</tr>
 	<tr>
 	<td>Session 3</td>
@@ -465,12 +465,13 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
-				<li><a href="seminars/C4M_seminar1_part1.pdf">Part 1 slides</a></li>
-				<li><a href="seminars/C4M_seminar1_part2.pdf">Part 2 slides</a></li>
-				<li><a href="seminars/Seminar1Project.pdf"> Project Handout</a></li>
-				<li><a href="seminars/Seminar1Project.zip">Project Starter code and data</a></li>
+				<li><a href="seminars/Frank_Rudzick/C4M_seminar3_part1.pdf">Part 1 slides</a></li>
+				<li><a href="seminars/Frank_Rudzick/C4M_seminar3_part2.pdf">Part 2 slides</a></li>
+				<li><a href="seminars/Frank_Rudzick/Seminar3Project.pdf"> Project Handout</a></li>
+				<li><a href="seminars/Frank_Rudzick/Seminar3Project.zip">Project Starter code and data</a></li>
 			</ul>
 		</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Session 4</td>
@@ -480,13 +481,13 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
-				<li><a href="seminars/C4M_seminar2_part1.pdf">Part 1 slides</a></li>
-				<li><a href="seminars/C4M_seminar2_part2.pdf">Part 2 slides</a></li>
-				<li><a href="https://play.library.utoronto.ca/9lVvPztBVHO_">Video For Part 2 Only</a></li>
-				<li><a href="seminars/Seminar4Project.pdf">Project Handout</a></li>
+				<li><a href="seminars/Chris_McIntosh/C4M_seminar4_part1.pdf">Part 1 slides</a></li>
+				<li><a href="seminars/Chris_McIntosh/C4M_seminar4_part2.pdf">Part 2 slides</a></li>
+				<li><a href="seminars/Chris_McIntosh/Seminar4Project.pdf">Project Handout</a></li>
 				<li><a href="http://c4m.cdf.toronto.edu/cohort2/phase3/seminar2/C4MProject2.zip">Project Starter code and data</a> </li>
 			</ul>
 		</td>
+		<td><a href="https://play.library.utoronto.ca/9lVvPztBVHO_">Video For Part 2 Only</a></td>
 	</tr>
 	<tr>
 		<td>Session 5</td>
@@ -496,20 +497,20 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
-				<li><a href="seminars/C4M_seminar5_part1.pdf">Part 1 slides</a> </li>
-				<li><a href="seminars/C4M_seminar5_part2.pdf">Part 2 slides</a></li>
-				<li><a href="seminars/SeminarProject5.pdf">Project Handout</a></li>
-				<li><a href="seminars/C4MProject5.zip">Project Starter code and data</a> </li>
+				<li><a href="seminars/Michael_Brudno/C4M_seminar5_part1.pdf">Part 1 slides</a> </li>
+				<li><a href="seminars/Michael_Brudno/C4M_seminar5_part2.pdf">Part 2 slides</a></li>
+				<li><a href="seminars/Michael_Brudno/SeminarProject5.pdf">Project Handout</a></li>
+				<li><a href="seminars/Michael_Brudno/C4MProject5.zip">Project Starter code and data</a> </li>
 				<li>Demo code:</li>
 					<ul>
-						<li><a href="seminars/default_parameters.py">default_parameters.py</a></li>
-						<li><a href="seminars/search_recursive.py">search_recursive.py</a></li>
-						<li><a href="seminars/reverse_recursive.py">reverse_recursive.py</a></li>
-						<li><a href="seminars/tree_recursive.py">tree_recursive.py</a></li>
+						<li><a href="seminars/Michael_Brudno/default_parameters.py">default_parameters.py</a></li>
+						<li><a href="seminars/Michael_Brudno/search_recursive.py">search_recursive.py</a></li>
+						<li><a href="seminars/Michael_Brudno/reverse_recursive.py">reverse_recursive.py</a></li>
+						<li><a href="seminars/Michael_Brudno/tree_recursive.py">tree_recursive.py</a></li>
 					</ul>
-				<li><a href="https://play.library.utoronto.ca/uYvlpi3QRPwZ">Video</a><br> </td></li>
 			</ul>
 		</td>
+		<td><a href="https://play.library.utoronto.ca/uYvlpi3QRPwZ">Video</a></td>
 	</tr>
 	<tr>
 		<td>Session 6</td>
@@ -517,6 +518,7 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>Tuesday, April 9, 2019</td>
 		<td>4:00 – 6:00 pm</td>
 		<td>DSC Innovation Lab, Gerstein Library</td>
+		<td></td>
 		<td></td>
 	</tr>
   </tbody>
