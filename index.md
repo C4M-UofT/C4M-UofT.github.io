@@ -452,7 +452,7 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 				<li><a href="seminars/Jared_Simpson/C4M_seminar2_part2.pdf">Part 2 slides</a></li>
 				<li><a href="seminars/Jared_Simpson/Seminar2Project.pdf">Project Handout</a></li>
 				<li><a href="seminars/Jared_Simpson/C4MProject2.zip">Project Starter code and data</a></li>
-				<li><a href="https://play.library.utoronto.ca/BNGVy0H2eeqd">Lecture Recording (last year)</a></li>
+				<li><a href="https://play.library.utoronto.ca/gqJZmHJ4UCHQ">Lecture Recording</a></li>
 			</ul>
 		</td>
 	</tr>
