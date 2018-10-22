@@ -436,7 +436,7 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 				<li><a href="seminars/Fanny_Chevalier/C4M_seminar1_part2.pdf">Part 2 slides</a></li>
 				<li><a href="seminars/Fanny_Chevalier/C4MPhase3Project1.pdf">Project Handout</a></li>
 				<li><a href="seminars/Fanny_Chevalier/foodfacts.json">foodfacts.json</a></li>
-				<li><a href="https://play.library.utoronto.ca/3T4NF5W7KDKw">Lecture Recording</a></</li>				
+				<li><a href="https://play.library.utoronto.ca/3T4NF5W7KDKw">Lecture Recording</a></li>				
 			</ul>
 		</td>
 	</tr>
