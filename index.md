@@ -458,16 +458,16 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 	</tr>
 	<tr>
 	<td>Session 3</td>
-		<td>Frank Rudzick</td>
+		<td>Frank Rudzicz</td>
 		<td>Tuesday, November 20, 2018</td>
 		<td>4:00 – 6:00 pm</td>
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
-				<li><a href="seminars/Frank_Rudzick/C4M_seminar3_part1.pdf">Part 1 slides</a></li>
-				<li><a href="seminars/Frank_Rudzick/C4M_seminar3_part2.pdf">Part 2 slides</a></li>
-				<li><a href="seminars/Frank_Rudzick/Seminar3Project.pdf"> Project Handout</a></li>
-				<li><a href="seminars/Frank_Rudzick/Seminar3Project.zip">Project Starter code and data</a></li>
+				<li><a href="seminars/Frank_Rudzicz/C4M_seminar3_part1.pdf">Part 1 slides</a></li>
+				<li><a href="seminars/Frank_Rudzicz/C4M_seminar3_part2.pdf">Part 2 slides</a></li>
+				<li><a href="seminars/Frank_Rudzicz/Seminar3Project.pdf"> Project Handout</a></li>
+				<li><a href="seminars/Frank_Rudzicz/Seminar3Project.zip">Project Starter code and data</a></li>
 			</ul>
 		</td>
 	</tr>
