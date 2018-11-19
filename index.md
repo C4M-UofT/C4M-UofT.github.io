@@ -216,7 +216,7 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		</td>
 		<td>
     		Phase I: Level 1 Session 4 In Class Assignment on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>
-    		<br>Due date: <b>Nov. 22, 2018, 11:59 p.m</b>
+    		<br>Due date: <b>Dec. 7, 2018, 11:59 p.m</b>
     	</td>
     </tr>
   </tbody>
