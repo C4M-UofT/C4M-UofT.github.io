@@ -468,6 +468,7 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 				<li><a href="seminars/Frank_Rudzicz/C4M_seminar3_part2.pdf">Part 2 slides</a></li>
 				<li><a href="seminars/Frank_Rudzicz/Seminar3Project.pdf"> Project Handout</a></li>
 				<li><a href="seminars/Frank_Rudzicz/Seminar3Project.zip">Project Starter code and data</a></li>
+				<li><a href="https://play.library.utoronto.ca/TRN7jKpEw6hx">Lecture Recording</a></li>
 			</ul>
 		</td>
 	</tr>
