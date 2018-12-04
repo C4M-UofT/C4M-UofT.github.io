@@ -217,7 +217,27 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>
     		Phase I: Level 1 Session 4 In Class Assignment on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>
     		<br>Due date: <b>Dec. 7, 2018, 11:59 p.m</b>
-    	</td>
+	    	</td>
+	    </tr>
+	    <tr>
+		<td>Homework Help Session</td>
+		<td>Tuesday December 18, 2018</td>
+		<td>4:00 – 6:00pm</td>
+		<td>MS 3281</td>
+		<td>
+		</td>
+		<td>
+	    	</td>
+    </tr>
+	    	    <tr>
+		<td>Homework Help Session</td>
+		<td>Wednesday December 19, 2018</td>
+		<td>9:30 – 12:30pm</td>
+		<td>MS 3281</td>
+		<td>
+		</td>
+		<td>
+	    	</td>
     </tr>
   </tbody>
 </table>
@@ -298,6 +318,26 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
     		<br>Due date: <b>Dec. 27, 2018, 11:59 p.m</b>
     	</td>
 	</tr>
+	  	    <tr>
+		<td>Homework Help Session</td>
+		<td>Tuesday December 18, 2018</td>
+		<td>4:00 – 6:00pm</td>
+		<td>MS 3281</td>
+		<td>
+		</td>
+		<td>
+	    	</td>
+    </tr>
+	    	    <tr>
+		<td>Homework Help Session</td>
+		<td>Wednesday December 19, 2018</td>
+		<td>9:30 – 12:30pm</td>
+		<td>MS 3281</td>
+		<td>
+		</td>
+		<td>
+	    	</td>
+    </tr>
   </tbody>
 </table>
 
@@ -472,6 +512,28 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 			</ul>
 		</td>
 	</tr>
+	  	    <tr>
+		<td>Homework Help Session</td>
+		<td></td>
+		<td>Tuesday December 18, 2018</td>
+		<td>4:00 – 6:00pm</td>
+		<td>MS 3281</td>
+		<td>
+		</td>
+		<td>
+	    	</td>
+    </tr>
+	    	    <tr>
+		<td>Homework Help Session</td>
+		<td></td>
+		<td>Wednesday December 19, 2018</td>
+		<td>9:30 – 12:30pm</td>
+		<td>MS 3281</td>
+		<td>
+		</td>
+		<td>
+	    	</td>
+    </tr>
 	<tr>
 		<td>Session 4</td>
 		<td>Chris J. McIntosh</td>
