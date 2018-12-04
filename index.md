@@ -520,8 +520,6 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>MS 3281</td>
 		<td>
 		</td>
-		<td>
-	    	</td>
     </tr>
 	    	    <tr>
 		<td>Homework Help Session</td>
@@ -531,8 +529,6 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>MS 3281</td>
 		<td>
 		</td>
-		<td>
-	    	</td>
     </tr>
 	<tr>
 		<td>Session 4</td>
