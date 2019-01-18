@@ -2,6 +2,23 @@
 
 Welcome to the webpage for the 2018 Computing for Medicine workshops.
 
+# Contents
+- [Overview](#Overview)
+- [Course Staff](#course-staff)
+- [Installation](#installation)
+  - [Install Python](#install-python)
+  	- [MacOS/Linux](#macos--linux)
+  	- [Windows](#windows)
+  - [Setup your environment](#setup-your-environment)
+  - [Using the jupyter notebooks](#Using-the-jupyter-notebooks)
+- [Schedule](#schedule)
+  - [Phase 1 (Fall 2018)](#phase-1-fall-2018)
+    - [Level 1](#level-1)
+    - [Level 2](#level-2)
+  - [Phase 2 (Winter 2019)](#phase-2-winter-2019)
+  - [Phase 3 (Fall 2018 - Winter 2019)](#phase-3-fall-2018---winter-2019)
+  
+
 # Course Staff
 
 - Marzyeh Ghassemi
@@ -310,6 +327,7 @@ Follow the instructions in the notebook to make sure you installed everything co
       <th>Time</th>
       <th>Location</th>
       <th>Resources</th>
+      <th>Homework</th>
     </tr>
   </thead>
   <tbody>
@@ -320,22 +338,24 @@ Follow the instructions in the notebook to make sure you installed everything co
 		<td>MS 3281</td>
 		<td>
 			<ul>              
-			<li><a href="examples/dictionaries.html">Dictionaries</a></li>              
-			<li><a href="examples/files.html">Files</a> (<a href="examples/story.txt">story.txt</a>, <a href="examples/january06.txt">january06.txt</a>)</li>              
-			<li>Bonus material:</li>
-				<ul>
-					<li><a href="examples/testing_debugging.html">Testing and Debugging</a></li>
-					<li><a href="examples/broken_is_teenager.pdf">broken_is_teenager.pdf</a></li>
-				</ul>
-				<li>Project 1 preparation exercises</li>
-					<ul>                    
-						<li>Exercise Set 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                    
-						<li>Exercise Set 2:</li>
-							<ul>                      
-								<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                      
-								<li>Part 2 <a href="projects/project1/project1_exercise2_partb.pdf">handout</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a>)</li>
-							</ul>                   
+				<li>Dictionaries [<a href="examples/dictionaries.html">html</a>, <a href="notebooks/dictionaries.ipynb">notebook</a>]</li>
+				<li>Files [<a href="examples/files.html">html</a>, <a href="notebooks/files.ipynb">notebook</a>] <ul><li><a href="examples/story.txt">story.txt</a></li> <li><a href="examples/january06.txt">january06.txt</a></li></ul></li>
+				<li>Bonus material:</li>
+					<ul>
+						<li>Testing and Debugging [<a href="examples/testing_debugging.html">html</a>, <a href="notebooks/testing_debugging.ipynb">notebook</a>]</li>
+						<li><a href="examples/broken_is_teenager.pdf">broken_is_teenager.pdf</a></li>
 					</ul>
+			</ul>
+		</td>
+		<td>
+			<li>Project 1 preparation exercises</li>
+			<ul>                    
+				<li>Exercise Set 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                    
+				<li>Exercise Set 2:</li>
+					<ul>                      
+						<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                      
+						<li>Part 2 <a href="projects/project1/project1_exercise2_partb.pdf">handout</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a>)</li>
+					</ul>                   
 				<li>Exercise Set 3:</li>
 					<ul>                      
 						<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>
@@ -361,6 +381,7 @@ Follow the instructions in the notebook to make sure you installed everything co
 					</ul>
 			</ul>
 		</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Session 3</td>
@@ -368,6 +389,7 @@ Follow the instructions in the notebook to make sure you installed everything co
 		<td>1:00 – 4:00 pm</td>
 		<td>MS 3281</td>
 		<td> Work on projects. </td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Session 4</td>
@@ -378,19 +400,28 @@ Follow the instructions in the notebook to make sure you installed everything co
 			<ul>              
 				<li>Project 2: Human Mobility and Epidemic Modelling</li>
 				<ul>                
-					<li><a href="projects/project2/C4MPhaseIIProject2.pdf">Handout</a> (sample data <a href="projects/project2/cities.txt">cities.txt</a>)</li>                
-					<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a> </li>                
-					<li>Part 2 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a> (starter code: <a href="projects/project2/dijkstra.py">dijkstra.py</a>, tester: <a href="projects/project2/dijkstra_tester.py">dijkstra_tester.py</a>)</li>
-					<li>Part 3 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                
-					<li>Part 4 on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a> (starter code: <a href="projects/project2/simulation.py">simulation.py</a>) </li>
+					<li><a href="projects/project2/C4MPhaseIIProject2.pdf">Handout</a></li> 
+					<li><a href="projects/project2/cities.txt">cities.txt</a></li>                
+					<li><a href="projects/project2/dijkstra.py">dijkstra.py</a></li>
+					<li><a href="projects/project2/dijkstra_tester.py">dijkstra_tester.py</a></li>
+					<li><a href="projects/project2/simulation.py">simulation.py</a></li>
 				</ul>
-			<li>Video tutorials:</li>
+			<li>Video tutorials (Useful for project):</li>
 				<ul>                
-					<li><a href = "https://www.youtube.com/watch?v=NvzktOyLhdM">Representing Travel Distances in Graphs</a> &mdash; useful for Part 1</li>                
-					<li><a href = "https://www.youtube.com/watch?v=O2EKA8yIw0E">Dijkstra's Algorithm</a> &mdash; explains algorithm in Part 2</li>                
-					<li><a href = "https://www.youtube.com/watch?v=qugrJ8t3Wzg">Simulation Intro</a>; <a href = "https://www.youtube.com/watch?v=z8pO3wexTP0">Implementing a Simulation with Python</a> (<a href = "http://c4m.cdf.toronto.edu/summerphase/hw/simulation.py">code</a>) &mdash; useful for 4</li>
+					<li>Part 1: <ul><li><a href = "https://www.youtube.com/watch?v=NvzktOyLhdM">Representing Travel Distances in Graphs</a></li></ul></li>                
+					<li>Part 2: <ul><li><a href = "https://www.youtube.com/watch?v=O2EKA8yIw0E">Dijkstra's Algorithm</a></li></ul></li>                
+					<li>Part 4: <ul><li><a href = "https://www.youtube.com/watch?v=qugrJ8t3Wzg">Simulation Intro</a></li><li><a href = "https://www.youtube.com/watch?v=z8pO3wexTP0">Implementing a Simulation with Python</a> (<a href = "http://c4m.cdf.toronto.edu/summerphase/hw/simulation.py">code</a>)</li></ul></li>
 				</ul>
 			</ul>
+		</td>
+		<td>
+				Project 2
+				<ul>
+					<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a> </li>                
+					<li>Part 2 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a> </li>
+					<li>Part 3 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                
+					<li>Part 4 on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a></li>
+				</ul>
 		</td>
 	</tr>
 	<tr>
@@ -399,6 +430,7 @@ Follow the instructions in the notebook to make sure you installed everything co
 		<td>1:00 – 4:00 pm</td>
 		<td>MS 3281</td>
 		<td> Work on projects. </td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Session 6</td>
@@ -406,6 +438,7 @@ Follow the instructions in the notebook to make sure you installed everything co
 		<td>1:00 – 4:00 pm</td>
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td> Work on projects. </td>
+		<td></td>
 	</tr>
   </tbody>
 </table>
