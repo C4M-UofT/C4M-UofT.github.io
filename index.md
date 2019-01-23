@@ -390,16 +390,16 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>
 			<li>Project 1 preparation exercises</li>
 			<ul>                    
-				<li>Exercise Set 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                    
+				<li>Exercise Set 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>                    
 				<li>Exercise Set 2:</li>
 					<ul>                      
-						<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                      
-						<li>Part 2 <a href="projects/project1/project1_exercise2_partb.pdf">handout</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a>)</li>
+						<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>                      
+						<li>Part 2 <a href="projects/project1/project1_exercise2_partb.pdf">handout</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a>)</li>
 					</ul>                   
 				<li>Exercise Set 3:</li>
 					<ul>                      
-						<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>
-						<li>Part 2 <a href="projects/project1/project1_exercise3_partb.pdf">handout</a>, <a href="projects/project1/ex3_tester.py">tester.py</a>, and <a href="projects/project1/sym_data1.txt">sym_data1.txt</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a>)</li>
+						<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>
+						<li>Part 2 <a href="projects/project1/project1_exercise3_partb.pdf">handout</a>, <a href="projects/project1/ex3_tester.py">tester.py</a>, and <a href="projects/project1/sym_data1.txt">sym_data1.txt</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a>)</li>
 					</ul>
 			</ul>
 		</td>
@@ -457,10 +457,10 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>
 				Project 2
 				<ul>
-					<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a> </li>                
-					<li>Part 2 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a> </li>
-					<li>Part 3 on <a href="https://pcrs.teach.cs.toronto.edu/C4M17">PCRS</a></li>                
-					<li>Part 4 on <a href="https://markus.teach.cs.toronto.edu/c4m-2017-09">MarkUs</a></li>
+					<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a> </li>                
+					<li>Part 2 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a> </li>
+					<li>Part 3 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>                
+					<li>Part 4 on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a></li>
 				</ul>
 		</td>
 	</tr>
