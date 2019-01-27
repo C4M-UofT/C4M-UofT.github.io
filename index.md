@@ -172,12 +172,12 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
       <td>MS 3281</td>
       <td>
       	<ul>
-      	    <li>Arithmetic operators, built-in functions [<a href="examples/operators_builtins.html">html</a>, <a href="notebooks/operators_builtins.ipynb">notebook</a>]</li>
-      	    <li>Variables [<a href="examples/variables.html">html</a>, <a href="notebooks/variables.ipynb">notebook</a>]</li>
-      	    <li>Intro to Strings [<a href="examples/strings.html">html</a>, <a href="notebooks/strings.ipynb">notebook</a>]</li>
-      	    <li>Functions [<a href="examples/functions.html">html</a>, <a href="notebooks/functions.ipynb">notebook</a>]</li>
-      	    <li>Converting Between types [<a href="examples/converting_between_types.html">html</a>, <a href="notebooks/converting_between_types.ipynb">notebook</a>]</li>
-      	    <li>Writing Programs [<a href="examples/programs.html">html</a>, <a href="notebooks/programs.ipynb">notebook</a>]</li>
+      	    <li>Arithmetic operators, built-in functions [<a href="examples/operators_builtins.html">html</a>, <a href="notebooks/operators_builtins.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Foperators_builtins.ipynb">binder</a>]</li>
+      	    <li>Variables [<a href="examples/variables.html">html</a>, <a href="notebooks/variables.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fvariables.ipynb">binder</a>]</li>
+      	    <li>Intro to Strings [<a href="examples/strings.html">html</a>, <a href="notebooks/strings.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fstrings.ipynb">binder</a>]</li>
+      	    <li>Functions [<a href="examples/functions.html">html</a>, <a href="notebooks/functions.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Ffunctions.ipynb">binder</a>]</li>
+      	    <li>Converting Between types [<a href="examples/converting_between_types.html">html</a>, <a href="notebooks/converting_between_types.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fconverting_between_types.ipynb">binder</a>]</li>
+      	    <li>Writing Programs [<a href="examples/programs.html">html</a>, <a href="notebooks/programs.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fprograms.ipynb">binder</a>]</li>
       	</ul>
       </td>
       <td></td>
@@ -190,11 +190,11 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
     	<td>
     		<ul>
     			<li>Recap: writing programs</li>
-    			<li>Booleans [<a href="examples/booleans.html">html</a>, <a href="notebooks/booleans.ipynb">notebook</a>]</li>
-    			<li><code>if</code> statements [<a href="examples/if.html">html</a>, <a href="notebooks/if.ipynb">notebook</a>]</li>
-    			<li>Nesting, reusing functions [<a href="examples/nesting_reusing_functions.html">html</a>, <a href="notebooks/nesting_reusing_functions.ipynb">notebook</a>]</li>
-    			<li>More String Operations, Methods [<a href="examples/more_str_ops_methods.html">html</a>, <a href="notebooks/more_str_ops_methods.ipynb">notebook</a>]</li>
-    			<li>Docstrings, <code>help</code>, <code>dir</code> [<a href="examples/docstrings_help_dir.html">html</a>, <a href="notebooks/docstrings_help_dir.ipynb">notebook</a>]</li>
+    			<li>Booleans [<a href="examples/booleans.html">html</a>, <a href="notebooks/booleans.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fbooleans.ipynb">binder</a>]</li>
+    			<li><code>if</code> statements [<a href="examples/if.html">html</a>, <a href="notebooks/if.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fif.ipynb">binder</a>]</li>
+    			<li>Nesting, reusing functions [<a href="examples/nesting_reusing_functions.html">html</a>, <a href="notebooks/nesting_reusing_functions.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fnesting_reusing_functions.ipynb">binder</a>]</li>
+    			<li>More String Operations, Methods [<a href="examples/more_str_ops_methods.html">html</a>, <a href="notebooks/more_str_ops_methods.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fmore_str_ops_methods.ipynb">binder</a>]</li>
+    			<li>Docstrings, <code>help</code>, <code>dir</code> [<a href="examples/docstrings_help_dir.html">html</a>, <a href="notebooks/docstrings_help_dir.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fdocstrings_help_dir.ipynb">binder</a>]</li>
     		</ul>
     	</td>
     	<td>
@@ -209,9 +209,9 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>DSC Innovation Lab, Gerstein Library</td>
 		<td>
 			<ul>
-				<li><code>for</code> loops over <code>str</code> [<a href="examples/for_over_str.html">html</a>, <a href="notebooks/for_over_str.ipynb">notebook</a></li>
-				<li>Lists, loops, and <code>range</code> [<a href="examples/lists.html">html</a>, <a href="notebooks/lists.ipynb">notebook</a></li>
-				<li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>]</li>
+				<li><code>for</code> loops over <code>str</code> [<a href="examples/for_over_str.html">html</a>, <a href="notebooks/for_over_str.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Ffor_over_str.ipynb">binder</a></li>
+				<li>Lists, loops, and <code>range</code> [<a href="examples/lists.html">html</a>, <a href="notebooks/lists.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Flists.ipynb">binder</a></li>
+				<li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Flist_mutability.ipynb">binder</a>]</li>
 			</ul>
 		</td>
 		<td>
@@ -226,9 +226,9 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>MS 3281</td>
 		<td>
 			<ul>
-				<li>Parallel lists and strings [<a href="examples/parallel.html">html</a>, <a href="notebooks/parallel.ipynb">notebook</a>]</li>
-				<li>Nested lists and loops [<a href="examples/nested_lists_loops.html">html</a>, <a href="notebooks/nested_lists_loops.ipynb">notebook</a>]</li>
-				<li><code>while</code> loops [<a href="examples/while.html">html</a>, <a href="notebooks/while.ipynb">notebook</a>]</li>
+				<li>Parallel lists and strings [<a href="examples/parallel.html">html</a>, <a href="notebooks/parallel.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fparallel.ipynb">binder</a>]</li>
+				<li>Nested lists and loops [<a href="examples/nested_lists_loops.html">html</a>, <a href="notebooks/nested_lists_loops.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fnested_lists_loops.ipynb">binder</a>]</li>
+				<li><code>while</code> loops [<a href="examples/while.html">html</a>, <a href="notebooks/while.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fwhile.ipynb">binder</a>]</li>
 			</ul>
 		</td>
 		<td>
@@ -280,22 +280,22 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
   		<td>
 			PRE-WORK FOR LEVEL 2 STUDENTS:
   		 	<ul>
-			    <li>Arithmetic operators, built-in functions [<a href="examples/operators_builtins.html">html</a>, <a href="notebooks/operators_builtins.ipynb">notebook</a>]</li>
-			    <li>Variables [<a href="examples/variables.html">html</a>, <a href="notebooks/variables.ipynb">notebook</a>]</li>
-			    <li>Intro to Strings [<a href="examples/strings.html">html</a>, <a href="notebooks/strings.ipynb">notebook</a>]</li>
-			    <li>More String Operations, Methods [<a href="examples/more_str_ops_methods.html">html</a>, <a href="notebooks/more_str_ops_methods.ipynb">notebook</a>]</li>
-			    <li>Functions [<a href="examples/functions.html">html</a>, <a href="notebooks/functions.ipynb">notebook</a>]</li>
-			    <li>Docstrings, <code>help</code>, <code>dir</code> [<a href="examples/docstrings_help_dir.html">html</a>, <a href="notebooks/docstrings_help_dir.ipynb">notebook</a>]</li>
-			    <li>Converting Between Types [<a href="examples/converting_between_types.html">html</a>, <a href="notebooks/converting_between_types.ipynb">notebook</a>]</li>
-			    <li>Writing Programs [<a href="examples/programs.html">html</a>, <a href="notebooks/programs.ipynb">notebook</a>]</li>
-			    <li>Booleans [<a href="examples/booleans.html">html</a>, <a href="notebooks/booleans.ipynb">notebook</a>]</li>
-			    <li><code>if</code> statements [<a href="examples/if.html">html</a>, <a href="notebooks/if.ipynb">notebook</a>]</li>
+			    <li>Arithmetic operators, built-in functions [<a href="examples/operators_builtins.html">html</a>, <a href="notebooks/operators_builtins.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Foperators_builtins.ipynb">binder</a>]</li>
+			    <li>Variables [<a href="examples/variables.html">html</a>, <a href="notebooks/variables.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fvariables.ipynb">binder</a>]</li>
+			    <li>Intro to Strings [<a href="examples/strings.html">html</a>, <a href="notebooks/strings.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fstrings.ipynb">binder</a>]</li>
+			    <li>More String Operations, Methods [<a href="examples/more_str_ops_methods.html">html</a>, <a href="notebooks/more_str_ops_methods.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fmore_str_ops_methods.ipynb">binder</a>]</li>
+			    <li>Functions [<a href="examples/functions.html">html</a>, <a href="notebooks/functions.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Ffunctions.ipynb">binder</a>]</li>
+			    <li>Docstrings, <code>help</code>, <code>dir</code> [<a href="examples/docstrings_help_dir.html">html</a>, <a href="notebooks/docstrings_help_dir.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fdocstrings_help_dir.ipynb">binder</a>]</li>
+			    <li>Converting Between Types [<a href="examples/converting_between_types.html">html</a>, <a href="notebooks/converting_between_types.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fconverting_between_types.ipynb">binder</a>]</li>
+			    <li>Writing Programs [<a href="examples/programs.html">html</a>, <a href="notebooks/programs.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fprograms.ipynb">binder</a>]</li>
+			    <li>Booleans [<a href="examples/booleans.html">html</a>, <a href="notebooks/booleans.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fbooleans.ipynb">binder</a>]</li>
+			    <li><code>if</code> statements [<a href="examples/if.html">html</a>, <a href="notebooks/if.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fif.ipynb">binder</a>]</li>
 			</ul>
 					MATERIAL COVERED:
 			<ul>
-	  		    <li><code>for</code> loops over <code>str</code> [<a href="examples/for_over_str.html">html</a>, <a href="notebooks/for_over_str.ipynb">notebook</a>]</li>
-			    <li>Lists, loops, and <code>range</code> [<a href="examples/lists.html">html</a>, <a href="notebooks/lists.ipynb">notebook</a>]</li>
-			    <li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>]</li>				
+	  		    <li><code>for</code> loops over <code>str</code> [<a href="examples/for_over_str.html">html</a>, <a href="notebooks/for_over_str.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Ffor_over_str.ipynb">binder</a>]</li>
+			    <li>Lists, loops, and <code>range</code> [<a href="examples/lists.html">html</a>, <a href="notebooks/lists.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Flists.ipynb">binder</a>]</li>
+			    <li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Flist_mutability.ipynb">binder</a>]</li>				
   		   	</ul>
   		</td>
   		<td>
@@ -310,9 +310,9 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>MS 3281</td>
 		<td>
 		 	<ul>
-			    <li>Parallel lists and strings [<a href="examples/parallel.html">html</a>, <a href="notebooks/parallel.ipynb">notebook</a>]</li>
-			 	<li>Nested lists and loops [<a href="examples/nested_lists_loops.html">html</a>, <a href="notebooks/nested_lists_loops.ipynb">notebook</a>]</li>
-			 	<li><code>while</code> loops [<a href="examples/while.html">html</a>, <a href="notebooks/while.ipynb">notebook</a>]</li>
+			    <li>Parallel lists and strings [<a href="examples/parallel.html">html</a>, <a href="notebooks/parallel.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fparallel.ipynb">binder</a>]</li>
+			 	<li>Nested lists and loops [<a href="examples/nested_lists_loops.html">html</a>, <a href="notebooks/nested_lists_loops.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fnested_lists_loops.ipynb">binder</a>]</li>
+			 	<li><code>while</code> loops [<a href="examples/while.html">html</a>, <a href="notebooks/while.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fwhile.ipynb">binder</a>]</li>
 		    </ul>
 		</td>
 		<td>
@@ -378,11 +378,11 @@ To make sure everything is working, use this window to find `hello_world.ipynb` 
 		<td>MS 3281</td>
 		<td>
 			<ul>              
-				<li>Dictionaries [<a href="examples/dictionaries.html">html</a>, <a href="notebooks/dictionaries.ipynb">notebook</a>]</li>
-				<li>Files [<a href="examples/files.html">html</a>, <a href="notebooks/files.ipynb">notebook</a>] <ul><li><a href="examples/story.txt">story.txt</a></li> <li><a href="examples/january06.txt">january06.txt</a></li></ul></li>
+				<li>Dictionaries [<a href="examples/dictionaries.html">html</a>, <a href="notebooks/dictionaries.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Fdictionaries.ipynb">binder</a>]</li>
+				<li>Files [<a href="examples/files.html">html</a>, <a href="notebooks/files.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Ffiles.ipynb">binder</a>] <ul><li><a href="examples/story.txt">story.txt</a></li> <li><a href="examples/january06.txt">january06.txt</a></li></ul></li>
 				<li>Bonus material:</li>
 					<ul>
-						<li>Testing and Debugging [<a href="examples/testing_debugging.html">html</a>, <a href="notebooks/testing_debugging.ipynb">notebook</a>]</li>
+						<li>Testing and Debugging [<a href="examples/testing_debugging.html">html</a>, <a href="notebooks/testing_debugging.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?filepath=notebooks%2Ftesting_debugging.ipynb">binder</a>]</li>
 						<li><a href="examples/broken_is_teenager.pdf">broken_is_teenager.pdf</a></li>
 					</ul>
 			</ul>
