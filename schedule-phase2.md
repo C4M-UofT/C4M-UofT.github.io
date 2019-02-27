@@ -19,114 +19,114 @@ weight: 2
     </tr>
   </thead>
   <tbody>
-	<tr>
-		<td>Session 1</td>
-		<td>Wednesday January 23, 2019</td>
-		<td>1:00 – 4:00 pm</td>
-		<td>MS 3281</td>
-		<td>
-			<ul>              
-				<li>Dictionaries [<a href="examples/dictionaries.html">html</a>, <a href="notebooks/dictionaries.ipynb">notebook</a>]</li>
-				<li>Files [<a href="examples/files.html">html</a>, <a href="notebooks/files.ipynb">notebook</a>] <ul><li><a href="examples/story.txt">story.txt</a></li> <li><a href="examples/january06.txt">january06.txt</a></li></ul></li>
-				<li>Bonus material:</li>
-					<ul>
-						<li>Testing and Debugging [<a href="examples/testing_debugging.html">html</a>, <a href="notebooks/testing_debugging.ipynb">notebook</a>]</li>
-						<li><a href="examples/broken_is_teenager.pdf">broken_is_teenager.pdf</a></li>
-					</ul>
-			</ul>
-		</td>
-		<td>
-			<li>Project 1 preparation exercises</li>
-			<ul>                    
-				<li>Exercise Set 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>                    
-				<li>Exercise Set 2:</li>
-					<ul>                      
-						<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>                      
-						<li>Part 2 <a href="projects/project1/project1_exercise2_partb.pdf">handout</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a>)</li>
-					</ul>                   
-				<li>Exercise Set 3:</li>
-					<ul>                      
-						<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>
-						<li>Part 2 <a href="projects/project1/project1_exercise3_partb.pdf">handout</a>, <a href="projects/project1/ex3_tester.py">tester.py</a>, and <a href="projects/project1/sym_data1.txt">sym_data1.txt</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a>)</li>
-					</ul>
-			</ul>
-		</td>
-	</tr>
-	<tr>
-		<td>Session 2</td>
-		<td>Wednesday February 27, 2019</td>
-		<td>1:00 – 4:00 pm</td>
-		<td>MS 3281</td>
-		<td>
-			<ul>              
-				<li>Project 1: Medical Document Retrieval</li>
-					<ul>                
-						<li><a href="projects/project1/project1_worksheet.pdf">Worksheet</a></li>                
-						<li><a href="projects/project1/C4MPhaseIIProject1.pdf">Handout</a></li>                
-						<li><a href="projects/project1/project1.py">project1.py</a> (starter code)</li>                
-						<li><a href="projects/project1/wikipages.zip">wikipages.zip</a> (data)</li>                
-						<li><a href="projects/project1/tester.py">tester.py</a> (basic tests)</li>
-					</ul>
-			</ul>
-		</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Session 3</td>
-		<td>Wednesday March 20, 2019</td>
-		<td>1:00 – 4:00 pm</td>
-		<td>MS 3281</td>
-		<td> Work on projects. </td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Session 4</td>
-		<td>Wednesday March 27, 2019</td>
-		<td>1:00 – 4:00 pm</td>
-		<td>MS 3281</td>
-		<td>
-			<ul>              
-				<li>Project 2: Human Mobility and Epidemic Modelling</li>
-				<ul>                
-					<li><a href="projects/project2/C4MPhaseIIProject2.pdf">Handout</a></li> 
-					<li><a href="projects/project2/cities.txt">cities.txt</a></li>                
-					<li><a href="projects/project2/dijkstra.py">dijkstra.py</a></li>
-					<li><a href="projects/project2/dijkstra_tester.py">dijkstra_tester.py</a></li>
-					<li><a href="projects/project2/simulation.py">simulation.py</a></li>
-				</ul>
-			<li>Video tutorials (Useful for project):</li>
-				<ul>                
-					<li>Part 1: <ul><li><a href = "https://www.youtube.com/watch?v=NvzktOyLhdM">Representing Travel Distances in Graphs</a></li></ul></li>                
-					<li>Part 2: <ul><li><a href = "https://www.youtube.com/watch?v=O2EKA8yIw0E">Dijkstra's Algorithm</a></li></ul></li>                
-					<li>Part 4: <ul><li><a href = "https://www.youtube.com/watch?v=qugrJ8t3Wzg">Simulation Intro</a></li><li><a href = "https://www.youtube.com/watch?v=z8pO3wexTP0">Implementing a Simulation with Python</a> (<a href = "http://c4m.cdf.toronto.edu/summerphase/hw/simulation.py">code</a>)</li></ul></li>
-				</ul>
-			</ul>
-		</td>
-		<td>
-				Project 2
-				<ul>
-					<li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a> </li>                
-					<li>Part 2 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a> </li>
-					<li>Part 3 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>                
-					<li>Part 4 on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a></li>
-				</ul>
-		</td>
-	</tr>
-	<tr>
-		<td>Session 5</td>
-		<td>Wednesday April 3, 2019</td>
-		<td>1:00 – 4:00 pm</td>
-		<td>MS 3281</td>
-		<td> Work on projects. </td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Session 6</td>
-		<td>Wednesday April 17, 2019</td>
-		<td>1:00 – 4:00 pm</td>
-		<td>DSC Innovation Lab, Gerstein Library</td>
-		<td> Work on projects. </td>
-		<td></td>
-	</tr>
+  <tr>
+    <td>Session 1</td>
+    <td>Wednesday January 23, 2019</td>
+    <td>1:00 – 4:00 pm</td>
+    <td>MS 3281</td>
+    <td>
+      <ul>              
+        <li>Dictionaries [<a href="examples/dictionaries.html">html</a>, <a href="notebooks/dictionaries.ipynb">notebook</a>]</li>
+        <li>Files [<a href="examples/files.html">html</a>, <a href="notebooks/files.ipynb">notebook</a>] <ul><li><a href="examples/story.txt">story.txt</a></li> <li><a href="examples/january06.txt">january06.txt</a></li></ul></li>
+        <li>Bonus material:</li>
+          <ul>
+            <li>Testing and Debugging [<a href="examples/testing_debugging.html">html</a>, <a href="notebooks/testing_debugging.ipynb">notebook</a>]</li>
+            <li><a href="examples/broken_is_teenager.pdf">broken_is_teenager.pdf</a></li>
+          </ul>
+      </ul>
+    </td>
+    <td>
+      <li>Project 1 preparation exercises</li>
+      <ul>                    
+        <li>Exercise Set 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>                    
+        <li>Exercise Set 2:</li>
+          <ul>                      
+            <li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>                      
+            <li>Part 2 <a href="projects/project1/project1_exercise2_partb.pdf">handout</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a>)</li>
+          </ul>                   
+        <li>Exercise Set 3:</li>
+          <ul>                      
+            <li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>
+            <li>Part 2 <a href="projects/project1/project1_exercise3_partb.pdf">handout</a>, <a href="projects/project1/ex3_tester.py">tester.py</a>, and <a href="projects/project1/sym_data1.txt">sym_data1.txt</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a>)</li>
+          </ul>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Session 2</td>
+    <td>Wednesday February 27, 2019</td>
+    <td>1:00 – 4:00 pm</td>
+    <td>MS 3281</td>
+    <td>
+      <ul>              
+        <li>Project 1: Medical Document Retrieval</li>
+          <ul>                
+            <li><a href="projects/project1/project1_worksheet.pdf">Worksheet</a></li>                
+            <li><a href="projects/project1/C4MPhaseIIProject1.pdf">Handout</a></li>                
+            <li><a href="projects/project1/project1.py">project1.py</a> (starter code)</li>                
+            <li><a href="projects/project1/wikipages.zip">wikipages.zip</a> (data)</li>                
+            <li><a href="projects/project1/tester.py">tester.py</a> (basic tests)</li>
+          </ul>
+      </ul>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Session 3</td>
+    <td>Wednesday March 20, 2019</td>
+    <td>1:00 – 4:00 pm</td>
+    <td>MS 3281</td>
+    <td> Work on projects. </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Session 4</td>
+    <td>Wednesday March 27, 2019</td>
+    <td>1:00 – 4:00 pm</td>
+    <td>MS 3281</td>
+    <td>
+      <ul>              
+        <li>Project 2: Human Mobility and Epidemic Modelling</li>
+        <ul>                
+          <li><a href="projects/project2/C4MPhaseIIProject2.pdf">Handout</a></li> 
+          <li><a href="projects/project2/cities.txt">cities.txt</a></li>                
+          <li><a href="projects/project2/dijkstra.py">dijkstra.py</a></li>
+          <li><a href="projects/project2/dijkstra_tester.py">dijkstra_tester.py</a></li>
+          <li><a href="projects/project2/simulation.py">simulation.py</a></li>
+        </ul>
+      <li>Video tutorials (Useful for project):</li>
+        <ul>                
+          <li>Part 1: <ul><li><a href = "https://www.youtube.com/watch?v=NvzktOyLhdM">Representing Travel Distances in Graphs</a></li></ul></li>                
+          <li>Part 2: <ul><li><a href = "https://www.youtube.com/watch?v=O2EKA8yIw0E">Dijkstra's Algorithm</a></li></ul></li>                
+          <li>Part 4: <ul><li><a href = "https://www.youtube.com/watch?v=qugrJ8t3Wzg">Simulation Intro</a></li><li><a href = "https://www.youtube.com/watch?v=z8pO3wexTP0">Implementing a Simulation with Python</a> (<a href = "http://c4m.cdf.toronto.edu/summerphase/hw/simulation.py">code</a>)</li></ul></li>
+        </ul>
+      </ul>
+    </td>
+    <td>
+        Project 2
+        <ul>
+          <li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a> </li>                
+          <li>Part 2 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a> </li>
+          <li>Part 3 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>                
+          <li>Part 4 on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a></li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Session 5</td>
+    <td>Wednesday April 3, 2019</td>
+    <td>1:00 – 4:00 pm</td>
+    <td>MS 3281</td>
+    <td> Work on projects. </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Session 6</td>
+    <td>Wednesday April 17, 2019</td>
+    <td>1:00 – 4:00 pm</td>
+    <td>DSC Innovation Lab, Gerstein Library</td>
+    <td> Work on projects. </td>
+    <td></td>
+  </tr>
   </tbody>
 </table>
