@@ -2,4 +2,4 @@
 seminars/C4MProject2.zip
 Gemfile.lock
 _site/
-
+.mypy_cache
