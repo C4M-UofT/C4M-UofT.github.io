@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
+plugins:
+  - jekyll-remote-theme
+remote_theme: chromatical/jekyll-materialdocs
+search: false
