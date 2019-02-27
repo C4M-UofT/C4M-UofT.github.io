@@ -26,11 +26,11 @@ weight: 2
     <td>MS 3281</td>
     <td>
       <ul>              
-        <li>Dictionaries [<a href="examples/dictionaries.html">html</a>, <a href="notebooks/dictionaries.ipynb">notebook</a>]</li>
-        <li>Files [<a href="examples/files.html">html</a>, <a href="notebooks/files.ipynb">notebook</a>] <ul><li><a href="examples/story.txt">story.txt</a></li> <li><a href="examples/january06.txt">january06.txt</a></li></ul></li>
+        <li>Dictionaries [<a href="examples/dictionaries.html">html</a>, <a href="notebooks/dictionaries.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?urlpath=lab/tree/notebooks/dictionaries.ipynb">mybinder</a>]</li>
+        <li>Files [<a href="examples/files.html">html</a>, <a href="notebooks/files.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?urlpath=lab/tree/notebooks/files.ipynb">mybinder</a>] <ul><li><a href="examples/story.txt">story.txt</a></li> <li><a href="examples/january06.txt">january06.txt</a></li></ul></li>
         <li>Bonus material:</li>
           <ul>
-            <li>Testing and Debugging [<a href="examples/testing_debugging.html">html</a>, <a href="notebooks/testing_debugging.ipynb">notebook</a>]</li>
+            <li>Testing and Debugging [<a href="examples/testing_debugging.html">html</a>, <a href="notebooks/testing_debugging.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?urlpath=lab/tree/notebooks/testing_debugging.ipynb">mybinder</a>]</li>
             <li><a href="examples/broken_is_teenager.pdf">broken_is_teenager.pdf</a></li>
           </ul>
       </ul>
