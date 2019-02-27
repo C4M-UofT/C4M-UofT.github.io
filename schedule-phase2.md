@@ -69,7 +69,13 @@ weight: 2
           </ul>
       </ul>
     </td>
-    <td></td>
+    <td>
+        Project 1 (Due: <b>March 24, 2019; 11:59 pm</b>)
+        <ul>
+          <li>Preparation Exercises on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>
+          <li>Submit your code to <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a></li>
+        </ul>
+  </td>
   </tr>
   <tr>
     <td>Session 3</td>
@@ -103,7 +109,7 @@ weight: 2
       </ul>
     </td>
     <td>
-        Project 2
+        Project 2 (Due: <b>April 21, 2019; 11:59 pm</b>)
         <ul>
           <li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a> </li>                
           <li>Part 2 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a> </li>
