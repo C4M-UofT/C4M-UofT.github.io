@@ -131,7 +131,7 @@ weight: 1
       <ul>
             <li><code>for</code> loops over <code>str</code> [<a href="examples/for_over_str.html">html</a>, <a href="notebooks/for_over_str.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?urlpath=lab/tree/notebooks/for_over_str.ipynb">mybinder</a>]</li>
           <li>Lists, loops, and <code>range</code> [<a href="examples/lists.html">html</a>, <a href="notebooks/lists.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?urlpath=lab/tree/notebooks/lists.ipynb">mybinder</a>]</li>
-          <li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?urlpath=lab/tree/notebooks/list_mutability.ipynb">mybinder</a>]</li>        
+          <li>List methods and mutability [<a href="examples/list_mutability.html">html</a>, <a href="notebooks/list_mutability.ipynb">notebook</a>, <a href="https://mybinder.org/v2/gh/C4M-UofT/C4M-UofT.github.io/master?urlpath=lab/tree/notebooks/list_mutability.ipynb">mybinder</a>]</li>
            </ul>
       </td>
       <td>
