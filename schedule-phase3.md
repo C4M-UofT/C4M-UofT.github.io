@@ -110,7 +110,7 @@ weight: 3
 		<td>
 			<ul>
 				<li><a href="seminars/Michael_Brudno/C4M_seminar5_part1.pdf">Part 1 slides</a> </li>
-				<!---<li><a href="seminars/Michael_Brudno/C4M_seminar5_part2.pdf">Part 2 slides</a></li>
+				<li><a href="seminars/Michael_Brudno/C4M_seminar5_part2.pdf">Part 2 slides</a></li>
 				<li><a href="seminars/Michael_Brudno/SeminarProject5.pdf">Project Handout</a></li>
 				<li><a href="seminars/Michael_Brudno/C4MProject5.zip">Project Starter code and data</a> </li>
 				<li>Demo code:</li>
@@ -120,7 +120,7 @@ weight: 3
 						<li><a href="seminars/Michael_Brudno/reverse_recursive.py">reverse_recursive.py</a></li>
 						<li><a href="seminars/Michael_Brudno/tree_recursive.py">tree_recursive.py</a></li>
 					</ul>
-				<li><a href="https://play.library.utoronto.ca/uYvlpi3QRPwZ">Lecture Recording (last year)</a></li>
+				<!---<li><a href="https://play.library.utoronto.ca/uYvlpi3QRPwZ">Lecture Recording (last year)</a></li>
 			</ul>--->
 		</td>
 	</tr>
