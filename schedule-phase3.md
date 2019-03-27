@@ -120,7 +120,7 @@ weight: 3
 						<li><a href="seminars/Michael_Brudno/reverse_recursive.py">reverse_recursive.py</a></li>
 						<li><a href="seminars/Michael_Brudno/tree_recursive.py">tree_recursive.py</a></li>
 					</ul>
-				<!---<li><a href="https://play.library.utoronto.ca/uYvlpi3QRPwZ">Lecture Recording (last year)---></a></li>
+				<!---<li><a href="https://play.library.utoronto.ca/uYvlpi3QRPwZ">Lecture Recording (last year)</a></li>--->
 			</ul>
 		</td>
 	</tr>
