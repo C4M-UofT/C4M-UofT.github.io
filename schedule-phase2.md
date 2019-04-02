@@ -7,7 +7,16 @@ weight: 2
 ---
 
 ## Phase 2 (Winter 2019)
+
 <table>
+  <colgroup>
+  <col width="10%">
+  <col width="10%">
+  <col width="10%">
+  <col width="10%">
+  <col width="30%">
+  <col width="30$">
+  </colgroup>
   <thead>
     <tr>
       <th>Sessions</th>
