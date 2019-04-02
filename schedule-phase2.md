@@ -123,15 +123,33 @@ weight: 2
     <td>Wednesday April 3, 2019</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
-    <td> Work on projects. </td>
-    <td></td>
+    <td>
+      <ul>
+        <li>Project 3: PhysioNet 2019 Challenge - Sepsis Prediction</li>
+        <ul>
+          <li><a href="https://physionet.org/challenge/2019/">PhysioNet Challenge Website</a></li>
+          <li><a href="projects/physionet/physionet2019_handout.pdf">Handout</a></li>
+          <li><a href="projects/physionet/physionet.ipynb">Starter code [ipynb]</a></li>
+          <li><a href="https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/projects/physionet/physionet.ipynb">Starter code [colab]</a></li>
+          <li><a href="https://physionet.org/users/shared/challenge-2019/training_setA.zip"><code>training_setA.zip</code></a></li>
+        </ul>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Project 3 (Due: <b>May 24, 2019; 11:59 pm</b>)</li>
+        <ul>
+          <li>Submit code and writeup to <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a>.</li>
+        </ul>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Session 6</td>
     <td>Wednesday April 17, 2019</td>
     <td>1:00 – 4:00 pm</td>
     <td>DSC Innovation Lab, Gerstein Library</td>
-    <td> Work on projects. </td>
+    <td>Work on Project 3.</td>
     <td></td>
   </tr>
   </tbody>
