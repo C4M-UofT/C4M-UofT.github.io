@@ -146,7 +146,7 @@ weight: 2
     </td>
     <td>
       <ul>
-        <li>Project 3 (Due: <b>May 24, 2019; 11:59 pm</b>)</li>
+        <li>Project 3 (Due: <b>May 27, 2019; 12:00 am</b>)</li>
         <ul>
           <li>Submit code and writeup to <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a>.</li>
         </ul>
