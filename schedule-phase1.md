@@ -23,7 +23,7 @@ weight: 1
     <tbody>
     <tr>
       <td>Session 1 </td>
-      <td>Wednesday September 19, 2018</td>
+      <td>Wednesday September 25, 2019 </td>
       <td>9:30 – 12:30 pm</td>
       <td>MS 3281</td>
       <td>
@@ -40,7 +40,7 @@ weight: 1
     </tr>
     <tr>
       <td>Session 2</td>
-      <td>Wednesday October 3, 2018</td>
+      <td>Wednesday October 16, 2019 </td>
       <td>9:30 – 12:30 pm</td>
       <td>MS 3287</td>
       <td>
@@ -60,9 +60,9 @@ weight: 1
     </tr>
     <tr>
     <td>Session 3</td>
-    <td>Wednesday October 17, 2018</td>
+    <td>Wednesday November 20, 2019</td>
     <td>1:00 – 4:00pm</td>
-    <td>DSC Innovation Lab, Gerstein Library</td>
+    <td>MS 3281</td>
     <td>
       <ul>
         <li><code>for</code> loops over <code>str</code> [<a href="examples/for_over_str.html">html</a>, <a href="notebooks/for_over_str.ipynb">notebook</a>, <a href="https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/for_over_str.ipynb">colab</a></li>
@@ -77,8 +77,8 @@ weight: 1
   </tr>
   <tr>
     <td>Session 4</td>
-    <td>Wednesday November 21, 2018</td>
-    <td>1:00 – 4:00pm</td>
+    <td>Wednesday December 18, 2019</td>
+    <td>9:30 - 12:30pm</td>
     <td>MS 3281</td>
     <td>
       <ul>
