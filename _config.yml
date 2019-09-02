@@ -5,5 +5,5 @@ remote_theme: chromatical/jekyll-materialdocs
 search: false
 include:
   - index.md
-  - schedule-phase1.md
-  - software.md
+  - schedule.md
+  - software_requirements.md
