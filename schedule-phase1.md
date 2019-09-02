@@ -110,9 +110,9 @@ weight: 1
   <tbody>
     <tr>
       <td>Session 1</td>
-      <td>Wednesday October 17, 2018</td>
+      <td>Wednesday January 22, 2020</td>
       <td>1:00 – 4:00pm |</td>
-      <td>DSC Innovation Lab, Gerstein Library</td>
+      <td>MS 3218</td>
       <td>
       PRE-WORK FOR LEVEL 2 STUDENTS:
          <ul>
@@ -141,7 +141,7 @@ weight: 1
     </tr>
   <tr>
     <td>Session 2</td>
-    <td>Wednesday November 21, 2018</td>
+    <td>Wednesday February 12, 2020</td>
     <td>1:00 – 4:00pm |</td>
     <td>MS 3281</td>
     <td>
@@ -158,8 +158,8 @@ weight: 1
   </tr>
   <tr>
     <td>Session 3</td>
-    <td>Wednesday December 19, 2018</td>
-    <td>9:30 – 12:30 pm</td>
+    <td>Wednesday February 19, 2020</td>
+    <td>1:00 - 4:00 pm</td>
     <td>MS 3281</td>
     <td>
       <ul>
@@ -170,6 +170,55 @@ weight: 1
         Phase I: Level 2 Session 3 Homework on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>
         <br>Due date: <b>Dec. 27, 2018, 11:59 p.m</b>
       </td>
+  </tr>
+  <tr>
+    <td>Session 4</td>
+    <td>Wednesday February 26, 2020</td>
+    <td>1:00 - 4:00 pm</td>
+    <td>MS 3281</td>
+    <td>
+      <ul>
+       </ul>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>Session 5</td>
+    <td>Wednesday March 11, 2020</td>
+    <td>1:00 - 4:00 pm</td>
+    <td>MS 3281</td>
+    <td>
+      <ul>
+       </ul>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>Session 6</td>
+    <td>Wednesday March 25, 2020</td>
+    <td>1:00 - 4:00 pm</td>
+    <td>MS 3281</td>
+    <td>
+      <ul>
+       </ul>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>Session 7</td>
+    <td>TBD</td>
+    <td>TBD</td>
+    <td>TBD</td>
+    <td>
+      <ul>
+       </ul>
+    </td>
+    <td>
+      Optional project help session
+    </td>
   </tr>
   </tbody>
 </table>
