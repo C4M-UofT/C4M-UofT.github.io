@@ -6,9 +6,9 @@ parent: schedule
 weight: 1
 ---
 
-## Phase 1 (Fall 2018)
+## Phase 1 (Fall 2019)
 
-### Level 1
+### Phase 1
 <table>
   <thead>
     <tr>
@@ -95,7 +95,7 @@ weight: 1
   </tbody>
 </table>
 
-### Level 2
+### Phase 2
 <table>
   <thead>
     <tr>
@@ -242,6 +242,23 @@ weight: 1
     <td>Work on Project 3.</td>
     <td></td>
   </tr>
+  </tbody>
+</table>
+
+## Phase 3
+<table>
+  <thead>
+    <tr>
+      <th>Sessions</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Location</th>
+      <th>Resources</th>
+      <th>Homework</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
     <td>Session 7</td>
     <td>Mid April</td>
     <td>TBD</td>
