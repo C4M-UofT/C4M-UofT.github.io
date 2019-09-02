@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Phase 1
-menu: Phase 1
-parent: schedule
+title: Course Schedule
+menu: schedule
 weight: 1
 ---
 
-## Phase 1 (Fall 2019)
+## Schedule (Fall 2019)
 
 ### Phase 1
+Introductory pragramming with Python
 <table>
   <thead>
     <tr>
@@ -96,6 +96,7 @@ weight: 1
 </table>
 
 ### Phase 2
+Advanced pragramming
 <table>
   <thead>
     <tr>
@@ -246,6 +247,7 @@ weight: 1
 </table>
 
 ## Phase 3
+Course project
 <table>
   <thead>
     <tr>
