@@ -2,10 +2,10 @@
 layout: page
 title: Course Schedule
 menu: Course Schedule
-weight: 1
+weight: 10
+id: schedule
 ---
 
-## Schedule (Fall 2019)
 
 ### Phase 1: Pragramming Boot Camp
 

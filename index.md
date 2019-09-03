@@ -3,6 +3,8 @@
 Welcome to the webpage for the 2019 Computing for Medicine workshops.
 This three-phased program offers medical students hands-on experience to learn basic computing skills. You will be assigned either Beginner or Advanced level based on a skills-testing exercise during Session 1. Phase 1 will be optional for students in the advanced cohort.
 
+**Note**: Please make sure to go through all the required software installations prior to the first session!
+
 
 ## Course Objectives
 
