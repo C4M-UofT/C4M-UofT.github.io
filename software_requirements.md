@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Software
-menu: Software
+title: Software Requirements
+menu: Software Requirements
 weight: 10
 id: software
 ---
