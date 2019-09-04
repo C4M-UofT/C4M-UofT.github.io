@@ -3,7 +3,7 @@ layout: page
 title: Course Schedule
 menu: Course Schedule
 weight: 10
-id: schedule
+id: course schedule
 ---
 
 
