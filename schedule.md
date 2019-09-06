@@ -7,8 +7,8 @@ id: course schedule
 ---
 
 
-### Phase 1: Pragramming Boot Camp
-
+Phase 1: Pragramming Boot Camp
+<div style="overflow-x:auto;">
 <table>
 <colgroup>
 <col width="5%">
@@ -112,7 +112,7 @@ id: course schedule
 </table>
 
 
-### Phase 2: Advanced Pragramming
+Phase 2: Advanced Pragramming
 <div style="overflow-x:auto;">
 <table>
 <colgroup>
