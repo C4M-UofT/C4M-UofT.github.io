@@ -113,29 +113,29 @@ id: course schedule
 
 
 ### Phase 2: Advanced Pragramming
-<div style="overflow-x:hidden;">
-<table >
+<div style="overflow-x:auto;">
+<table>
 <colgroup>
-<col width="5%">
-<col width="5%">
-<col width="5%">
-<col width="5%">
-<col width="30%">
-<col width="50%">
+<col style="width: 5%;">
+<col style="width: 5%;">
+<col style="width: 5%;">
+<col style="width: 5%;">
+<col style="width: 50%;">
+<col style="width: 30%;">
 </colgroup>
 <thead>
 <tr>
 <th>Sessions</th>
 <th>Date</th>
-<th>Time</th>
-<th>Locatasdfasion</th>
-<th>Resources</th>
-<th>Homework</th>
+<th> Time</th>
+<th> Location</th>
+<th> Resources</th>
+<th> Homework</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-    <td>Session 1</td>
+<td> Session 1</td>
     <td>Wednesday January 22, 2020</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
@@ -271,9 +271,7 @@ Project 2 (Due: <b>Mar. 12, 2020; 11:59 pm</b>)
 </table>
 
 
-
-### Phase 3: Final Project
-
+Phase 3: Final Project
 <table>
 <colgroup>
 <col width="5%">
