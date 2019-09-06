@@ -10,6 +10,14 @@ id: course schedule
 ### Phase 1: Pragramming Boot Camp
 
 <table>
+<colgroup>
+<col width="5%">
+<col width="5%">
+<col width="5%">
+<col width="5%">
+<col width="50%">
+<col width="30%">
+</colgroup>
   <thead>
     <tr>
       <th>Sessions</th>
@@ -21,6 +29,14 @@ id: course schedule
     </tr>
   </thead>
     <tbody>
+    <tr>
+    <td>Session 0 </td>
+    <td>Before the first class</td>
+    <td></td>
+    <td></td>
+    <td>instructions under "Software Requirements" section</td>
+    <td> Install required softwares </td>
+    </tr>
     <tr>
       <td>Session 1 </td>
       <td>Wednesday September 25, 2019 </td>
@@ -55,7 +71,7 @@ id: course schedule
       </td>
       <td>
         Phase I: Level 1 Session 2 Homework on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>
-        <br>Due date: <b>Oct. 18, 2018, 11:59 p.m</b>
+        <br>Due date: <b>Nov. 21, 2019, 11:59 p.m</b>
       </td>
     </tr>
     <tr>
@@ -72,7 +88,7 @@ id: course schedule
     </td>
     <td>
         Phase I: Level 1 Session 3 Homework on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>
-        <br>Due date: <b>Nov. 22, 2018, 11:59 p.m</b>
+        <br>Due date: <b>Dec. 19, 2019, 11:59 p.m</b>
       </td>
   </tr>
   <tr>
@@ -89,7 +105,7 @@ id: course schedule
     </td>
     <td>
         Phase I: Level 1 Session 4 In Class Assignment on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>
-        <br>Due date: <b>Nov. 22, 2018, 11:59 p.m</b>
+        <br>Due date: <b>Jan. 23, 2020, 11:59 p.m</b>
       </td>
     </tr>
   </tbody>
@@ -97,28 +113,28 @@ id: course schedule
 
 
 ### Phase 2: Advanced Pragramming
-
-<table>
-    <colgroup>
-    <col width="10%">
-    <col width="10%">
-    <col width="10%">
-    <col width="10%">
-    <col width="30%">
-    <col width="30$">
-    </colgroup>
+<div style="overflow-x:hidden;">
+<table >
+<colgroup>
+<col width="5%">
+<col width="5%">
+<col width="5%">
+<col width="5%">
+<col width="30%">
+<col width="50%">
+</colgroup>
 <thead>
-    <tr>
-        <th>Sessions</th>
-        <th>Date</th>
-        <th>Time</th>
-        <th>Location</th>
-        <th>Resources</th>
-        <th>Homework</th>
-    </tr>
+<tr>
+<th>Sessions</th>
+<th>Date</th>
+<th>Time</th>
+<th>Locatasdfasion</th>
+<th>Resources</th>
+<th>Homework</th>
+</tr>
 </thead>
 <tbody>
-    <tr>
+<tr>
     <td>Session 1</td>
     <td>Wednesday January 22, 2020</td>
     <td>1:00 – 4:00 pm</td>
@@ -169,7 +185,7 @@ id: course schedule
 </ul>
 </td>
 <td>
-Project 1 (Due: <b>March 24, 2019; 11:59 pm</b>)
+Project 1 (Due: <b>Feb. 20, 2020; 11:59 pm</b>)
 <ul>
 <li>Preparation Exercises on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a></li>
 <li>Submit your code to <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a></li>
@@ -208,7 +224,7 @@ Project 1 (Due: <b>March 24, 2019; 11:59 pm</b>)
 </ul>
 </td>
 <td>
-Project 2 (Due: <b>April 21, 2019; 11:59 pm</b>)
+Project 2 (Due: <b>Mar. 12, 2020; 11:59 pm</b>)
 <ul>
 <li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a> </li>
 <li>Part 2 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2018-09">PCRS</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a> </li>
@@ -236,7 +252,7 @@ Project 2 (Due: <b>April 21, 2019; 11:59 pm</b>)
 </td>
 <td>
 <ul>
-<li>Project 3 (Due: <b>May 27, 2019; 12:00 am</b>)</li>
+<li>Project 3 (Due: <b>May 26, 2020; 12:00 am</b>)</li>
 <ul>
 <li>Submit code and writeup to <a href="https://markus.teach.cs.toronto.edu/c4m-2018-09">MarkUs</a>.</li>
 </ul>
@@ -249,7 +265,7 @@ Project 2 (Due: <b>April 21, 2019; 11:59 pm</b>)
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
 <td>Work on Project 3.</td>
-<td></td>
+<td> </td>
 </tr>
 </tbody>
 </table>
@@ -260,12 +276,12 @@ Project 2 (Due: <b>April 21, 2019; 11:59 pm</b>)
 
 <table>
 <colgroup>
-<col width="10%">
-<col width="10%">
-<col width="10%">
-<col width="10%">
+<col width="5%">
+<col width="5%">
+<col width="5%">
+<col width="5%">
+<col width="50%">
 <col width="30%">
-<col width="30$">
 </colgroup>
 <thead>
 <tr>
