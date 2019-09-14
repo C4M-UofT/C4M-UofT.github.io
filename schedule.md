@@ -6,31 +6,29 @@ weight: 10
 id: course schedule
 ---
 
+This will be your schedule throughout the semester. Please make sure you go over the required installations prior to the first session. 
 
 Phase 1: Pragramming Boot Camp
 <div style="overflow-x:auto;">
 <table>
 <colgroup>
-<col width="5%">
-<col width="5%">
-<col width="5%">
-<col width="5%">
-<col width="50%">
-<col width="30%">
+<col style="width: 5%;">
+<col style="width: 5%;">
+<col style="width: 5%;">
+<col style="width: 50%;">
+<col style="width: 35%;">
 </colgroup>
-  <thead>
+<thead>
+<tr>
+<th>Date</th>
+<th> Time</th>
+<th> Location</th>
+<th> Resources</th>
+<th> Homework</th>
+</tr>
+</thead>
+<tbody>
     <tr>
-      <th>Sessions</th>
-      <th>Date</th>
-      <th>Time</th>
-      <th>Location</th>
-      <th>Resources</th>
-      <th>Homework</th>
-    </tr>
-  </thead>
-    <tbody>
-    <tr>
-    <td>Session 0 </td>
     <td>Before the first class</td>
     <td></td>
     <td></td>
@@ -38,7 +36,6 @@ Phase 1: Pragramming Boot Camp
     <td> Install required softwares </td>
     </tr>
     <tr>
-      <td>Session 1 </td>
       <td>Wednesday September 25, 2019 </td>
       <td>9:30 – 12:30 pm</td>
       <td>MS 3281</td>
@@ -55,7 +52,6 @@ Phase 1: Pragramming Boot Camp
       <td></td>
     </tr>
     <tr>
-      <td>Session 2</td>
       <td>Wednesday October 16, 2019 </td>
       <td>9:30 – 12:30 pm</td>
       <td>MS 3287</td>
@@ -75,7 +71,6 @@ Phase 1: Pragramming Boot Camp
       </td>
     </tr>
     <tr>
-    <td>Session 3</td>
     <td>Wednesday November 20, 2019</td>
     <td>1:00 – 4:00pm</td>
     <td>MS 3281</td>
@@ -92,7 +87,6 @@ Phase 1: Pragramming Boot Camp
       </td>
   </tr>
   <tr>
-    <td>Session 4</td>
     <td>Wednesday December 18, 2019</td>
     <td>9:30 - 12:30pm</td>
     <td>MS 3281</td>
@@ -119,13 +113,11 @@ Phase 2: Advanced Pragramming
 <col style="width: 5%;">
 <col style="width: 5%;">
 <col style="width: 5%;">
-<col style="width: 5%;">
 <col style="width: 50%;">
-<col style="width: 30%;">
+<col style="width: 35%;">
 </colgroup>
 <thead>
 <tr>
-<th>Sessions</th>
 <th>Date</th>
 <th> Time</th>
 <th> Location</th>
@@ -135,7 +127,6 @@ Phase 2: Advanced Pragramming
 </thead>
 <tbody>
 <tr>
-<td> Session 1</td>
     <td>Wednesday January 22, 2020</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
@@ -168,7 +159,6 @@ Phase 2: Advanced Pragramming
 </td>
 </tr>
 <tr>
-    <td>Session 2</td>
     <td>Wednesday February 12, 2020</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
@@ -193,7 +183,6 @@ Project 1 (Due: <b>Feb. 20, 2020; 11:59 pm</b>)
 </td>
 </tr>
 <tr>
-    <td>Session 3</td>
     <td>Wednesday February 19, 2020</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
@@ -201,7 +190,6 @@ Project 1 (Due: <b>Feb. 20, 2020; 11:59 pm</b>)
 <td></td>
 </tr>
 <tr>
-    <td>Session 4</td>
     <td>Wednesday February 26, 2020</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
@@ -234,7 +222,6 @@ Project 2 (Due: <b>Mar. 12, 2020; 11:59 pm</b>)
 </td>
 </tr>
 <tr>
-    <td>Session 5</td>
     <td>Wednesday March 11, 2020</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
@@ -260,7 +247,6 @@ Project 2 (Due: <b>Mar. 12, 2020; 11:59 pm</b>)
 </td>
 </tr>
 <tr>
-    <td>Session 6</td>
     <td>Wednesday March 25, 2020</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
@@ -272,27 +258,25 @@ Project 2 (Due: <b>Mar. 12, 2020; 11:59 pm</b>)
 
 
 Phase 3: Final Project
+<div style="overflow-x:auto;">
 <table>
 <colgroup>
-<col width="5%">
-<col width="5%">
-<col width="5%">
-<col width="5%">
-<col width="50%">
-<col width="30%">
+<col style="width: 5%;">
+<col style="width: 5%;">
+<col style="width: 5%;">
+<col style="width: 50%;">
+<col style="width: 35%;">
 </colgroup>
 <thead>
 <tr>
-<th>Sessions</th>
 <th>Date</th>
-<th>Time</th>
-<th>Location</th>
-<th>Resources</th>
-<th>Homework</th>
+<th> Time</th>
+<th> Location</th>
+<th> Resources</th>
+<th> Homework</th>
 </tr>
 </thead>
 <tbody>
-    <td>Session 1</td>
     <td>Mid April</td>
     <td>TBD</td>
     <td>TBD</td>
