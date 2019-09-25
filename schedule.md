@@ -41,6 +41,7 @@ Phase 1: Pragramming Boot Camp
       <td>MS 3281</td>
       <td>
         <ul>
+	    <li>Quiz link [<a href="https://colab.research.google.com/drive/1ZXEx2mUiVEzdrzff8JUjYSD0qqrLR3oH">colab</a>]</li>
             <li>Arithmetic operators, built-in functions [<a href="examples/operators_builtins.html">html</a>, <a href="notebooks/operators_builtins.ipynb">notebook</a>, <a href="https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/operators_builtins.ipynb">colab</a>]</li>
             <li>Variables [<a href="examples/variables.html">html</a>, <a href="notebooks/variables.ipynb">notebook</a>, <a href="https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/variables.ipynb">colab</a>]</li>
             <li>Intro to Strings [<a href="examples/strings.html">html</a>, <a href="notebooks/strings.ipynb">notebook</a>, <a href="https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/strings.ipynb">colab</a>]</li>
