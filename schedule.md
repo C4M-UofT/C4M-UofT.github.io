@@ -187,7 +187,7 @@ Project 1 (Due: <b>Feb. 20, 2020; 11:59 pm</b>)
     <td>Wednesday February 19, 2020</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
-<td> Work on projects. </td>
+<td> Work on Project 1 + Demo Day. </td>
 <td></td>
 </tr>
 <tr>
@@ -213,7 +213,7 @@ Project 1 (Due: <b>Feb. 20, 2020; 11:59 pm</b>)
 </ul>
 </td>
 <td>
-Project 2 (Due: <b>Mar. 12, 2020; 11:59 pm</b>)
+Project 2 (Due: <b>Mar. 26, 2020; 11:59 pm</b>)
 <ul>
 <li>Part 1 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2019-09">PCRS</a> </li>
 <li>Part 2 on <a href="https://pcrs.teach.cs.toronto.edu/C4M-2019-09">PCRS</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a> </li>
@@ -221,9 +221,17 @@ Project 2 (Due: <b>Mar. 12, 2020; 11:59 pm</b>)
 <li>Part 4 on <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a></li>
 </ul>
 </td>
+	<td> </td>
 </tr>
 <tr>
     <td>Wednesday March 11, 2020</td>
+    <td>1:00 – 4:00 pm</td>
+    <td>MS 3281</td>
+<td>Work on Project 2 + Demo Day.</td>
+
+</tr>
+<tr>
+    <td>Wednesday March 25, 2020</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
 <td>
@@ -246,13 +254,7 @@ Project 2 (Due: <b>Mar. 12, 2020; 11:59 pm</b>)
 </ul>
 </ul>
 </td>
-</tr>
-<tr>
-    <td>Wednesday March 25, 2020</td>
-    <td>1:00 – 4:00 pm</td>
-    <td>MS 3281</td>
-<td>Work on Project 3.</td>
-<td> </td>
+
 </tr>
 </tbody>
 </table>
@@ -278,10 +280,10 @@ Phase 3: Final Project
 </tr>
 </thead>
 <tbody>
-    <td>Mid April</td>
-    <td>TBD</td>
-    <td>TBD</td>
-    <td>Optional project help session</td>
+    <td>Wednesday, April 22, 2020 </td>
+    <td>1pm – 4pm</td>
+    <td>MSB 3287</td>
+    <td>Project 3 help session + demo day.</td>
 <td></td>
 </tbody>
 </table>
