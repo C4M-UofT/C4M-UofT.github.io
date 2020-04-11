@@ -11,6 +11,7 @@
 # Only the first two tests specify the output. For the next five, you'll need
 # to read the input and work out the output that you should be expecting.
 #
+from project1 import *
 ################################################################################
 #Testing keyword_found
 #
