@@ -36,7 +36,7 @@ Phase 1: Programming Boot Camp
     <td> Install required softwares </td>
     </tr>
     <tr>
-      <td>Wednesday September 25, 2019 </td>
+      <td>Wednesday October 21, 2020</td>
       <td>9:30 – 12:30 pm</td>
       <td>MS 3281</td>
       <td>
@@ -53,7 +53,7 @@ Phase 1: Programming Boot Camp
       <td></td>
     </tr>
     <tr>
-      <td>Wednesday October 16, 2019 </td>
+      <td>Wednesday November 4, 2020 </td>
       <td>9:30 – 12:30 pm</td>
       <td>MS 3287</td>
       <td>
@@ -68,11 +68,11 @@ Phase 1: Programming Boot Camp
       </td>
       <td>
         Phase I: Level 1 Session 2 Homework on <a href="">PCRS Link TBD</a>
-        <br>Due date: <b>Nov. 21, 2019, 11:59 p.m</b>
+        <br>Due date: <b>Nov. 26, 2020, 11:59 p.m</b>
       </td>
     </tr>
     <tr>
-    <td>Wednesday November 20, 2019</td>
+    <td>Wednesday November 25, 2020</td>
     <td>1:00 – 4:00pm</td>
     <td>MS 3281</td>
     <td>
@@ -84,11 +84,11 @@ Phase 1: Programming Boot Camp
     </td>
     <td>
         Phase I: Level 1 Session 3 Homework on <a href="">PCRS Link TBD</a>
-        <br>Due date: <b>Dec. 19, 2019, 11:59 p.m</b>
+        <br>Due date: <b>Dec. 3, 2020, 11:59 p.m</b>
       </td>
   </tr>
   <tr>
-    <td>Wednesday December 18, 2019</td>
+    <td>Wednesday December 2, 2020</td>
     <td>9:30 - 12:30pm</td>
     <td>MS 3281</td>
     <td>
@@ -100,7 +100,7 @@ Phase 1: Programming Boot Camp
     </td>
     <td>
         Phase I: Level 1 Session 4 In Class Assignment on <a href="">PCRS Link TBD</a>
-        <br>Due date: <b>Jan. 23, 2020, 11:59 p.m</b>
+        <br>Due date: <b>Feb. 4, 2021, 11:59 p.m</b>
       </td>
     </tr>
   </tbody>
@@ -128,7 +128,7 @@ Phase 2: Advanced Programming
 </thead>
 <tbody>
 <tr>
-    <td>Wednesday January 22, 2020</td>
+    <td>Wednesday February 3, 2021</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
         <td>
@@ -160,7 +160,7 @@ Phase 2: Advanced Programming
 </td>
 </tr>
 <tr>
-    <td>Wednesday February 12, 2020</td>
+    <td>Wednesday February 17, 2021</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
 <td>
@@ -176,7 +176,7 @@ Phase 2: Advanced Programming
 </ul>
 </td>
 <td>
-Project 1 (Due: <b>Feb. 20, 2020; 11:59 pm</b>)
+Project 1 (Due: <b>Feb. 25, 2021; 11:59 pm</b>)
 <ul>
 <li>Preparation Exercises on <a href="">PCRS Link TBD</a></li>
 <li>Submit your code to <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a></li>
@@ -184,14 +184,14 @@ Project 1 (Due: <b>Feb. 20, 2020; 11:59 pm</b>)
 </td>
 </tr>
 <tr>
-    <td>Wednesday February 19, 2020</td>
+    <td>Wednesday February 24, 2021</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
 <td> Work on Project 1 + Demo Day. </td>
 <td></td>
 </tr>
 <tr>
-    <td>Wednesday February 26, 2020</td>
+    <td>Wednesday March 10, 2021</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
 <td>
@@ -213,7 +213,7 @@ Project 1 (Due: <b>Feb. 20, 2020; 11:59 pm</b>)
 </ul>
 </td>
 <td>
-Project 2 (Due: <b>Mar. 26, 2020; 11:59 pm</b>)
+Project 2 (Due: <b>Mar. 25, 2021; 11:59 pm</b>)
 <ul>
 <li>Part 1 on <a href="">PCRS Link TBD</a> </li>
 <li>Part 2 on <a href="">PCRS Link TBD</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a> </li>
@@ -224,14 +224,14 @@ Project 2 (Due: <b>Mar. 26, 2020; 11:59 pm</b>)
 	<td> </td>
 </tr>
 <tr>
-    <td>Wednesday March 11, 2020</td>
+    <td>Wednesday March 24, 2021</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
 <td>Work on Project 2 + Demo Day.</td>
 
 </tr>
 <tr>
-    <td>Wednesday March 25, 2020</td>
+    <td>Wednesday March 31, 2021</td>
     <td>1:00 – 4:00 pm</td>
     <td>MS 3281</td>
 <td>
