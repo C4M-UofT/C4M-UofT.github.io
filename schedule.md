@@ -8,7 +8,7 @@ id: course schedule
 
 This will be your schedule throughout the semester. Please make sure you go over the required installations prior to the first session. 
 
-Phase 1: Pragramming Boot Camp
+Phase 1: Programming Boot Camp
 <div style="overflow-x:auto;">
 <table>
 <colgroup>
@@ -107,7 +107,7 @@ Phase 1: Pragramming Boot Camp
 </table>
 
 
-Phase 2: Advanced Pragramming
+Phase 2: Advanced Programming
 <div style="overflow-x:auto;">
 <table>
 <colgroup>
