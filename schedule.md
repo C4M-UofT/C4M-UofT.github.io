@@ -37,7 +37,7 @@ Phase 1: Programming Boot Camp
     </tr>
     <tr>
       <td>Wednesday October 21, 2020</td>
-      <td>9:30 – 12:30 pm</td>
+      <td>1:00 – 4:00pm</td>
       <td>MS 3281</td>
       <td>
         <ul>
@@ -54,7 +54,7 @@ Phase 1: Programming Boot Camp
     </tr>
     <tr>
       <td>Wednesday November 4, 2020 </td>
-      <td>9:30 – 12:30 pm</td>
+      <td>1:00 – 4:00pm</td>
       <td>MS 3287</td>
       <td>
         <ul>
@@ -89,7 +89,7 @@ Phase 1: Programming Boot Camp
   </tr>
   <tr>
     <td>Wednesday December 2, 2020</td>
-    <td>9:30 - 12:30pm</td>
+    <td>1:00 – 4:00pm</td>
     <td>MS 3281</td>
     <td>
       <ul>
@@ -280,7 +280,7 @@ Phase 3: Final Project
 </tr>
 </thead>
 <tbody>
-    <td>Wednesday, April 22, 2020 </td>
+    <td>Wednesday, April 21, 2021 </td>
     <td>1pm – 4pm</td>
     <td>MSB 3287</td>
     <td>Project 3 help session + demo day.</td>
