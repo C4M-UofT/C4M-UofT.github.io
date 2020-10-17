@@ -38,7 +38,7 @@ Phase 1: Programming Boot Camp
     <tr>
       <td>Wednesday October 21, 2020</td>
       <td>1:00 – 4:00pm</td>
-      <td>MS 3281</td>
+      <td>ZOOM</td>
       <td>
         <ul>
 	    <li>Quiz link [<a href="https://colab.research.google.com/drive/1ZXEx2mUiVEzdrzff8JUjYSD0qqrLR3oH">colab</a>]</li>
@@ -55,7 +55,7 @@ Phase 1: Programming Boot Camp
     <tr>
       <td>Wednesday November 4, 2020 </td>
       <td>1:00 – 4:00pm</td>
-      <td>MS 3287</td>
+      <td>ZOOM</td>
       <td>
         <ul>
           <li>Recap: writing programs</li>
@@ -74,7 +74,7 @@ Phase 1: Programming Boot Camp
     <tr>
     <td>Wednesday November 25, 2020</td>
     <td>1:00 – 4:00pm</td>
-    <td>MS 3281</td>
+    <td>ZOOM</td>
     <td>
       <ul>
         <li><code>for</code> loops over <code>str</code> [<a href="examples/for_over_str.html">html</a>, <a href="notebooks/for_over_str.ipynb">notebook</a>, <a href="https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/for_over_str.ipynb">colab</a></li>
@@ -90,7 +90,7 @@ Phase 1: Programming Boot Camp
   <tr>
     <td>Wednesday December 2, 2020</td>
     <td>1:00 – 4:00pm</td>
-    <td>MS 3281</td>
+    <td>ZOOM</td>
     <td>
       <ul>
         <li>Parallel lists and strings [<a href="examples/parallel.html">html</a>, <a href="notebooks/parallel.ipynb">notebook</a>, <a href="https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/parallel.ipynb">colab</a>]</li>
@@ -130,7 +130,7 @@ Phase 2: Advanced Programming
 <tr>
     <td>Wednesday February 3, 2021</td>
     <td>1:00 – 4:00 pm</td>
-    <td>MS 3281</td>
+    <td>ZOOM</td>
         <td>
             <ul>
             <li>Dictionaries [<a href="examples/dictionaries.html">html</a>, <a href="notebooks/dictionaries.ipynb">notebook</a>, <a href="https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/dictionaries.ipynb">colab</a>]</li>
@@ -162,7 +162,7 @@ Phase 2: Advanced Programming
 <tr>
     <td>Wednesday February 17, 2021</td>
     <td>1:00 – 4:00 pm</td>
-    <td>MS 3281</td>
+    <td>ZOOM</td>
 <td>
 <ul>
 <li>Project 1: Medical Document Retrieval</li>
@@ -186,14 +186,14 @@ Project 1 (Due: <b>Feb. 25, 2021; 11:59 pm</b>)
 <tr>
     <td>Wednesday February 24, 2021</td>
     <td>1:00 – 4:00 pm</td>
-    <td>MS 3281</td>
+    <td>ZOOM</td>
 <td> Work on Project 1 + Demo Day. </td>
 <td></td>
 </tr>
 <tr>
     <td>Wednesday March 10, 2021</td>
     <td>1:00 – 4:00 pm</td>
-    <td>MS 3281</td>
+    <td>ZOOM</td>
 <td>
 <ul>
 <li>Project 2: Human Mobility and Epidemic Modelling</li>
@@ -226,14 +226,14 @@ Project 2 (Due: <b>Mar. 25, 2021; 11:59 pm</b>)
 <tr>
     <td>Wednesday March 24, 2021</td>
     <td>1:00 – 4:00 pm</td>
-    <td>MS 3281</td>
+    <td>ZOOM</td>
 <td>Work on Project 2 + Demo Day.</td>
 
 </tr>
 <tr>
     <td>Wednesday March 31, 2021</td>
     <td>1:00 – 4:00 pm</td>
-    <td>MS 3281</td>
+    <td>ZOOM</td>
 <td>
 <ul>
 <li>Project 3: PhysioNet 2019 Challenge - Sepsis Prediction</li>
@@ -282,7 +282,7 @@ Phase 3: Final Project
 <tbody>
     <td>Wednesday, April 21, 2021 </td>
     <td>1pm – 4pm</td>
-    <td>MSB 3287</td>
+    <td>ZOOM</td>
     <td>Project 3 help session + demo day.</td>
 <td></td>
 </tbody>
