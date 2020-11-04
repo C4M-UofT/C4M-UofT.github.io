@@ -67,7 +67,7 @@ Phase 1: Programming Boot Camp
         </ul>
       </td>
       <td>
-        Phase I: Level 1 Session 2 Homework on <a href="">PCRS Link TBD</a>
+        Phase I: Level 1 Session 2 Homework on <a href="notebooks/2020-2021/Phase1_Level1Session2Homework.ipynb">Colab Link</a>
         <br>Due date: <b>Nov. 26, 2020, 11:59 p.m</b>
       </td>
     </tr>
