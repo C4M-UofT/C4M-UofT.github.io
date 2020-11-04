@@ -83,7 +83,7 @@ Phase 1: Programming Boot Camp
       </ul>
     </td>
     <td>
-        Phase I: Level 1 Session 3 Homework on <a href="">PCRS Link TBD</a>
+        Phase I: Level 1 Session 3 Homework on <a href="notebooks/2020-2021/Phase1_Level1Session3Homework.ipynb">Colab Link</a>
         <br>Due date: <b>Dec. 3, 2020, 11:59 p.m</b>
       </td>
   </tr>
@@ -99,7 +99,7 @@ Phase 1: Programming Boot Camp
       </ul>
     </td>
     <td>
-        Phase I: Level 1 Session 4 In Class Assignment on <a href="">PCRS Link TBD</a>
+        Phase I: Level 1 Session 4 In Class Assignment on <a href="notebooks/2020-2021/Phase1_Level1Session4InClassExercises.ipynb">Colab Link</a>
         <br>Due date: <b>Feb. 4, 2021, 11:59 p.m</b>
       </td>
     </tr>
