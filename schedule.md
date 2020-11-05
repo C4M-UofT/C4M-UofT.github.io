@@ -8,6 +8,9 @@ id: course schedule
 
 This will be your schedule throughout the semester. Please make sure you go over the required installations prior to the first session. 
 
+
+MarkUs Link: https://markus.teach.cs.toronto.edu/c4m-2020-09
+
 Phase 1: Programming Boot Camp
 <div style="overflow-x:auto;">
 <table>
@@ -69,6 +72,9 @@ Phase 1: Programming Boot Camp
       <td>
         Phase I: Level 1 Session 2 Homework on <a href="notebooks/2020-2021/Phase1_Level1Session2Homework.ipynb">Colab Link</a>
         <br>Due date: <b>Nov. 26, 2020, 11:59 p.m</b>
+        <br>
+        Phase I: Level 2 Session 2 Homework on <a href="notebooks/2020-2021/Phase1_Level2Session2Homework.ipynb">Colab Link</a>
+                <br>Due date: <b>Nov. 26, 2020, 11:59 p.m</b>
       </td>
     </tr>
     <tr>
