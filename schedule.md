@@ -72,9 +72,6 @@ Phase 1: Programming Boot Camp
       <td>
         Phase I: Level 1 Session 2 Homework on <a href="notebooks/2020-2021/Phase1_Level1Session2Homework.ipynb">Colab Link</a>
         <br>Due date: <b>Nov. 26, 2020, 11:59 p.m</b>
-        <br>
-        Phase I: Level 2 Session 2 Homework on <a href="notebooks/2020-2021/Phase1_Level2Session2Homework.ipynb">Colab Link</a>
-                <br>Due date: <b>Nov. 26, 2020, 11:59 p.m</b>
       </td>
     </tr>
     <tr>
@@ -91,8 +88,6 @@ Phase 1: Programming Boot Camp
     <td>
         Phase I: Level 1 Session 3 Homework on <a href="notebooks/2020-2021/Phase1_Level1Session3Homework.ipynb">Colab Link</a>
         <br>Due date: <b>Dec. 3, 2020, 11:59 p.m</b>
-        <br> Phase I: Level 2 Session 3 Homework on <a href="notebooks/2020-2021/Phase1_Level2Session3Homework.ipynb">Colab Link</a>
-                     <br>Due date: <b>Dec. 3, 2020, 11:59 p.m</b>
       </td>
   </tr>
   <tr>
