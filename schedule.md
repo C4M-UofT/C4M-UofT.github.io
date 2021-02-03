@@ -148,15 +148,15 @@ Phase 2: Advanced Programming
         <td>
 <li>Project 1 preparation exercises</li>
 <ul>
-<li>Exercise Set 1 on <a href="">PCRS Link TBD</a></li>
+<li>Exercise Sets on <a href="notebooks/2020-2021/Phase2_Project1PreparationExercises.ipynb">PCRS Link</a></li>
 <li>Exercise Set 2:</li>
 <ul>
-<li>Part 1 on <a href="">PCRS Link TBD</a></li>
+<li>Part 1 on <a href="notebooks/2020-2021/Phase2_Project1PreparationExercises.ipynb">PCRS Link</a></li>
 <li>Part 2 <a href="projects/project1/project1_exercise2_partb.pdf">handout</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a>)</li>
 </ul>
 <li>Exercise Set 3:</li>
 <ul>
-<li>Part 1 on <a href="">PCRS Link TBD</a></li>
+<li>Part 1 on <a href="notebooks/2020-2021/Phase2_Project1PreparationExercises.ipynb">PCRS Link</a></li>
 <li>Part 2 <a href="projects/project1/project1_exercise3_partb.pdf">handout</a>, <a href="projects/project1/ex3_tester.py">tester.py</a>, and <a href="projects/project1/sym_data1.txt">sym_data1.txt</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a>)</li>
 </ul>
 </ul>
@@ -181,7 +181,7 @@ Phase 2: Advanced Programming
 <td>
 Project 1 (Due: <b>Feb. 25, 2021; 11:59 pm</b>)
 <ul>
-<li>Preparation Exercises on <a href="">PCRS Link TBD</a></li>
+<li>Preparation Exercises on <a href="notebooks/2020-2021/Phase2_Project1PreparationExercises.ipynb">PCRS Link TBD</a></li>
 <li>Submit your code to <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a></li>
 </ul>
 </td>
@@ -218,9 +218,9 @@ Project 1 (Due: <b>Feb. 25, 2021; 11:59 pm</b>)
 <td>
 Project 2 (Due: <b>Mar. 25, 2021; 11:59 pm</b>)
 <ul>
-<li>Part 1 on <a href="">PCRS Link TBD</a> </li>
-<li>Part 2 on <a href="">PCRS Link TBD</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a> </li>
-<li>Part 3 on <a href="">PCRS Link TBD</a></li>
+<li>Part 1 on <a href="Phase2_Project2Part1.ipynb">PCRS Link TBD</a> </li>
+<li>Part 2 on <a href="Phase2_Project2Part1.ipynb">PCRS Link TBD</a>; on <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a> </li>
+<li>Part 3 on <a href="Phase2_Project2Part1.ipynb">PCRS Link TBD</a></li>
 <li>Part 4 on <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a></li>
 </ul>
 </td>
