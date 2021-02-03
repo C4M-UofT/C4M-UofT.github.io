@@ -146,12 +146,11 @@ Phase 2: Advanced Programming
             </ul>
         </td>
         <td>
-<li>Project 1 preparation exercises</li>
+<li>Project 1 preparation exercises Due date: <b>Feb. 18, 2021, 11:59 p.m</b></li>
 <ul>
 <li>Exercise Sets 1, 2 Part 1 & 3 Part 1 on <a href="notebooks/2020-2021/Phase2_Project1PreparationExercises.ipynb">Colab Link</a></li>
 <li>Exercise Set 2: Part 2 <a href="projects/project1/project1_exercise2_partb.pdf">handout</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a>)
 <li>Exercise Set 3: Part 2 <a href="projects/project1/project1_exercise3_partb.pdf">handout</a>, <a href="projects/project1/ex3_tester.py">tester.py</a>, and <a href="projects/project1/sym_data1.txt">sym_data1.txt</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a>)</li>
-</ul>
 <tr>
     <td>Wednesday February 17, 2021</td>
     <td>1:00 – 4:00 pm</td>
@@ -171,7 +170,6 @@ Phase 2: Advanced Programming
 <td>
 Project 1 (Due: <b>Feb. 25, 2021; 11:59 pm</b>)
 <ul>
-<li>Preparation Exercises on <a href="notebooks/2020-2021/Phase2_Project1PreparationExercises.ipynb">PCRS Link</a></li>
 <li>Submit your code to <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a></li>
 </ul>
 </td>
