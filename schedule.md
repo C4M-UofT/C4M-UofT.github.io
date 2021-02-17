@@ -165,6 +165,7 @@ Phase 2: Advanced Programming
 <li><a href="projects/project1/wikipages.zip">wikipages.zip</a> (data)</li>
 <li><a href="projects/project1/tester.py">tester.py</a> (basic tests)</li>
 </ul>
+<li>Office Hours 4-5PM after Class for help with Project Preparation Exercises</li>
 </ul>
 </td>
 <td>
