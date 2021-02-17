@@ -146,7 +146,7 @@ Phase 2: Advanced Programming
             </ul>
         </td>
         <td>
-<li>Project 1 preparation exercises Due date: <b>Feb. 18, 2021, 11:59 p.m</b></li>
+<li>Project 1 preparation exercises UPDATED Due date: <b>Feb. 19, 2021, 11:59 p.m</b></li>
 <ul>
 <li>Exercise Sets 1, 2 Part 1 & 3 Part 1 on <a href="notebooks/2020-2021/Phase2_Project1PreparationExercises.ipynb">Colab Link</a></li>
 <li>Exercise Set 2: Part 2 <a href="projects/project1/project1_exercise2_partb.pdf">handout</a> (submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a>)
