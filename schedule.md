@@ -166,6 +166,7 @@ Phase 2: Advanced Programming
 <li><a href="projects/project1/tester.py">tester.py</a> (basic tests)</li>
 </ul>
 <li>Office Hours 4-5PM after Class for help with Project Preparation Exercises</li>
+	<li>Office Hours 1-2PM on <b>February 19</b> for help with Project 1 (Regular lecture Zoom link)</li>
 </ul>
 </td>
 <td>
