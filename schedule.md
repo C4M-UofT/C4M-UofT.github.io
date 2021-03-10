@@ -208,7 +208,9 @@ Project 1 (Due: <b>Feb. 25, 2021; 11:59 pm</b>)
 <td>
 Project 2 (Due: <b>Mar. 25, 2021; 11:59 pm</b>)
 <ul>
-<li>Handout : <a href="notebooks/2020-2021/Phase2_Project2Part1.ipynb">Colab Link</a> </li>
+<li>Part 1 Notebook : <a href="notebooks/2020-2021/Phase2_Project2Part1.ipynb">Colab Link</a> </li>
+<li>Part 2 Notebook : <a href="notebooks/2020-2021/Phase2_Project2Part2.ipynb">Colab Link</a> </li>
+<li>Part 3 Notebook : <a href="notebooks/2020-2021/Phase2_Project2Part3.ipynb">Colab Link</a> </li>
 <li>Submit on <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a></li>
 </ul>
 </td>
