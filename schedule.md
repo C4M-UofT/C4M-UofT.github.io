@@ -241,7 +241,7 @@ Project 2 (Due: <b>Mar. 25, 2021; 11:59 pm</b>)
 </td>
 <td>
 <ul>
-<li>Project 3 (Due: <b>May 26, 2020; 12:00 am</b>)</li>
+<li>Project 3 (Due: <b>May 26, 2021; 12:00 am</b>)</li>
 <ul>
 <li>Submit code and writeup to <a href="https://markus.teach.cs.toronto.edu/c4m-2019-09">MarkUs</a>.</li>
 </ul>
