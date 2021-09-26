@@ -10,7 +10,7 @@ materials:
   - type: "notebook"
     url: notebooks/phase1/session1/arithmetic.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/arithmetic.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/arithmetic.ipynb
 - topic: "Variables"
   files:
   - type: "html"
@@ -18,7 +18,7 @@ materials:
   - type: "notebook"
     url: notebooks/phase1/session1/variables.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/variables.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/variables.ipynb
 - topic: "Strings"
   files:
   - type: "html"
@@ -26,7 +26,7 @@ materials:
   - type: "notebook"
     url: notebooks/phase1/session1/strings.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/strings.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/strings.ipynb
 - topic: "Functions"
   files:
   - type: "html"
@@ -34,7 +34,7 @@ materials:
   - type: "notebook"
     url: notebooks/phase1/session1/functions.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/functions.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/functions.ipynb
 - topic: "Type conversion"
   files:
   - type: "html"
@@ -42,7 +42,7 @@ materials:
   - type: "notebook"
     url: notebooks/phase1/session1/type_conversion.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/type_conversion.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/type_conversion.ipynb
 - topic: "Writing programs"
   files:
   - type: "html"
@@ -50,5 +50,5 @@ materials:
   - type: "notebook"
     url: notebooks/phase1/session1/programs.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/programs.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/programs.ipynb
 ---
