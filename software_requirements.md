@@ -1,13 +1,34 @@
 ---
 layout: page
-title: Software Requirements
-menu: Software Requirements
+title: Software
+menu: Software
 weight: 10
 id: software
 ---
+If you would like to skip to the installation instructions, please click on the link that corresponds to your computer's operating system: [MacOS](#installation-macos--linux), [Linux](#installation-macos--linux), [Windows](#installation-windows).
 
-This course will be using teach you the basics of programming in `Python 3`. You can run `Python` code in many different ways, but we will be specifically using `Jupyter` notebooks. `Jupyter` notebooks can be run directly in your browser, allow you to mix written text with code, and have other benefits that we will discuss throughout the year.
-The installation instructions vary slightly depending on your computer's operating system. Please click on the relevant link to jump the the correct instructions: [MacOS](#installation-macos--linux), [Linux](#installation-macos--linux), [Windows](#installation-windows).
+## Python
+Software can be written using a variety of programming languages, each with their own advantages and disadvantages. 
+This course will teach you the basics of programming in [Python](https://www.python.org/){:target="_blank"}. 
+Python is a popoular programming language for a variety of reasons; here are just a few:
+* Beginner-friendly (e.g., simple syntax, object-oriented)
+* Popular for data science
+* Hundreds of libraries and frameworks for special functionality
+Even though this program only covers one programming language, the concepts you learn will make it easier for you to pick up other languages you may encounter.
+
+## Jupyter
+When people think of programs, most people think of files with lines of code.
+[Jupyter](https://jupyter.org/){:target="_blank"} notebooks are designed to make programming more interactive, allowing you to mix English text, Python code, and visualizations all in the same document.]
+
+## PyCharm
+In theory, you can write all of your programs in a basic text editor (e.g., Notepad) and then run them in your computer's console.
+However, just like how Microsoft Word provides enhanced capabilities to document editing (e.g., spelling and grammar checking, buttons for formatting), there are many integrated development environments (IDE) specifically designed to help you write programs.
+Some of the features provided by most IDEs include a debugging tool, code auto-complete, syntax checking, and package management.
+During the later stages of the course, we will use [PyCharm](https://www.jetbrains.com/pycharm/){:target="_blank"} for Python development.
+
+## Google Colaboratory (Google Colab)
+[Google Colab](https://colab.research.google.com/notebooks/intro.ipynb){:target="_blank"} is a browser-based environment that allows you to work on Jupyter notebooks without any setup. 
+We will start off the course using Google Colab so that you build confidence in your skills.
 
 ## Installation (MacOS / Linux)
 
