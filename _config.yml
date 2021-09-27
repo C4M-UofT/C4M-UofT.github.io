@@ -31,11 +31,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: C4M Course Webpage
-subtitle: Fall 2020 - Winter 2021
+subtitle: Fall 2021 - Winter 2022
 description: >- # this means to ignore newlines until "baseurl:"
-  Course Website for C4M 2020 to 2021
-author: John Chen
-email: your-email@example.com
+  Course Website for C4M 2021 to 2022
+author: Alex Mariakakis
+email: mariakakis@cs.toronto.edu
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
@@ -59,4 +59,4 @@ google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
 remote_theme: chrisbobbe/jekyll-theme-prologue
-collections: [sections]
+collections: [phase1lectures, phase2lectures, phase3lectures]

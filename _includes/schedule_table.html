@@ -1,0 +1,58 @@
+<div style="overflow-x:auto;">
+<table>
+  <colgroup>
+    <col style="width: 10%;">
+    <col style="width: 60%;">
+    <col style="width: 30%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Materials</th>
+      <th>Homework</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign sorted_lectures = include.lectures | sort:'index' %}
+    {% for lecture in sorted_lectures %}
+      <!-- Extract the attributes of the lecture -->
+      {% assign title = lecture.title %}
+      {% assign date = lecture.date %}
+      {% assign materials = lecture.materials %}
+      {% assign assignments = lecture.assignments %}
+      <tr>
+        <!-- Date -->
+        <td>{{ date | date: "%A, %B %d, %Y"}}</td>
+        <!-- Materials -->
+        <td>
+          <b>{{ title }}</b>
+          <ul>
+          {% for material in materials %}
+            <li>
+              {{ material.topic }}
+              [{% for file in material.files %}
+                <a href="{{ file.url }}">{{ file.type }}</a>,
+              {% endfor %}]
+            </li>
+          {% endfor %}
+          </ul>
+        </td>
+        <!-- Assignments -->
+        <td>
+          {% if assignments.size > 0 %}
+            <b>{{ assignments.text }}</b>
+            <ul>
+            {% for file in assignments.files %}
+              <li>
+                <a href="{{ file.url }}">{{ file.type }}</a>
+              </li>
+            {% endfor %}
+            </ul>
+            <b>Due Date:</b> <br>
+            {{ assignments.due_date | date: "%A, %B %d, %Y %I:%M %p" }}
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

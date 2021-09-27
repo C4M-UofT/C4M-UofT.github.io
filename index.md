@@ -6,38 +6,40 @@ weight: 10
 id: Overview
 ---
 
+Welcome to the webpage for the 2021-2022 Computing for Medicine (C4M) Workshops.
+This three-phase program offers medical students hands-on experience learning basic computing skills in the `Python` programming language, althouth the concepts learned in this program should translate to most other languages.
 
-Welcome to the webpage for the 2020-2021 Computing for Medicine workshops.
-This three-phased program offers medical students hands-on experience to learn basic computing skills. You will be assigned either Beginner or Advanced level based on a skills-testing exercise during Session 1. Phase 1 will be optional for students in the advanced cohort.
-
-**Note**: Please make sure to go through all the required software installations prior to the first session!
-
+Before the first lecture, each student should take the [skills assessment](https://colab.research.google.com/drive/1ZXEx2mUiVEzdrzff8JUjYSD0qqrLR3oH) to determine whether the first few courses will benefit you. 
+Phase 1 of the program is optional for students who pass the assessment.
 
 ## Course Objectives
 
-
-#### Phase 1: Programming bootcamp  (October to December 2020)
+### Phase 1: Programming Bootcamp (October–December 2021)
 - Write very basic Python programs involving variables, conditionals, iteration, functions in simple combinations.
 - Trace basic Python programs involving lists, dictionaries and files.
 - Recognize good practices in software design (modular design and conventional naming standards).
 
-#### Phase 2: Project-Based Learning  (January to March 2021)
+### Phase 2: Project-Based Learning (January–March 2022)
 - Write programs that combine concepts from Phase 1: conditionals, iteration, functions, lists, dictionaries and files.
-- Given a problem description in English, write programs to solve the problem.
-- Consistently use good practice in software design (modular design, documentation and conventional naming standards).
 - Use a debugger to find mistakes in a program written by another author.
+- Consistently use good practice in software design (modular design, documentation and conventional naming standards).
+- Given a problem description in English, write programs to solve the problem.
 
-#### Phase 3: Independent Medical Data Science Project (April 2021 to May 2021)
-- Devise algorithmic solutions to real-world problems and implement prototypes of the solutions in Python. 
-- Have familiarity with several applications of computer science in the fields of medicine and biomedical research and will have experience with building prototypes in those domains.
+### Phase 3: Independent Medical Data Science Project (April–May 2022)
+- Devise algorithmic solutions to real-world problems and implement prototypes of the solutions in Python.
 
-
-## Course Staff
+## Course Logistics
 
 ### Instructor:
-- Marzyeh Ghassemi
+- [Alex Mariakakis](https://mariakakis.github.io/)
 
-### Teaching assistants:
-- John Chen
+### Teaching Assistants:
 - Alister D'Costa
-- Salaar Liaqat
+- Blue Lin
+- Ian Ruffalo
+
+### Dates:
+- Wednesdays 1-4 PM
+
+### Location:
+- TBD
