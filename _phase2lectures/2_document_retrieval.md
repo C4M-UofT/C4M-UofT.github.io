@@ -18,4 +18,5 @@ materials:
 assignments:
   text: "Project 1"
   due_date: 2021-02-25 11:59 PM
+  submission: https://q.utoronto.ca/courses/257297/assignments/716367
 ---

@@ -7,10 +7,10 @@ id: Overview
 ---
 
 Welcome to the webpage for the 2021-2022 Computing for Medicine (C4M) Workshops.
-This three-phase program offers medical students hands-on experience learning basic computing skills in the `Python` programming language, althouth the concepts learned in this program should translate to most other languages.
+This three-phase program offers medical students hands-on experience learning basic computing skills in the Python programming language, althouth the concepts learned in this program should translate to most other languages.
 
-Before the first lecture, each student should take the [skills assessment](https://colab.research.google.com/drive/1ZXEx2mUiVEzdrzff8JUjYSD0qqrLR3oH) to determine whether the first few courses will benefit you. 
-Phase 1 of the program is optional for students who pass the assessment.
+During the first session, all students will be asked to take this [skills assessment](https://colab.research.google.com/drive/1ZXEx2mUiVEzdrzff8JUjYSD0qqrLR3oH). 
+Attendance to Sessions 1 (second half), 2, and 3 in Phase 1 will be optional for students who pass the assessments, although they will still be asked to complete the corresponding assignments.
 
 ## Course Objectives
 

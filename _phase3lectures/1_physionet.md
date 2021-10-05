@@ -18,4 +18,5 @@ materials:
 assignments:
   text: "Project 3"
   due_date: 2021-05-26 11:59 PM
+  submission: https://q.utoronto.ca/courses/257297/assignments/716369
 ---

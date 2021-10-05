@@ -32,6 +32,7 @@ materials:
 assignments:
   text: "Project 2"
   due_date: 2021-03-25 11:59 PM
+  submission: https://q.utoronto.ca/courses/257297/assignments/716368
   files:
   - type: "notebook (part 1)" 
     url: notebooks/2020-2021/Phase2_Project2Part1.ipynb
