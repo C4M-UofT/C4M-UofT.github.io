@@ -17,6 +17,6 @@ materials:
   #   url: https://physionet.org/users/shared/challenge-2019/training_setA.zip
 assignments:
   text: "Project 3"
-  due_date: 2022-05-26 11:59 PM
+  due_date: 2022-05-25 11:59 PM
   submission: https://q.utoronto.ca/courses/257297/assignments/716369
 ---
