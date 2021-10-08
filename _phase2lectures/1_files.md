@@ -35,7 +35,8 @@ materials:
     url: notebooks/phase2/session1/broken_is_teenager.pdf
 assignments:
   text: "Project 1 Preparation Exercises"
-  due_date: 2021-02-19 11:59 PM
+  due_date: 2022-02-15 11:59 PM
+  submission: https://q.utoronto.ca/courses/257297/assignments/716366
   files:
   - type: "notebook (parts 1, 2a, and 3a)" 
     url: notebooks/2020-2021/Phase2_Project1PreparationExercises.ipynb

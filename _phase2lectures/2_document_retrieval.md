@@ -17,5 +17,6 @@ materials:
     url: projects/project1/tester.py
 assignments:
   text: "Project 1"
-  due_date: 2021-02-25 11:59 PM
+  due_date: 2022-02-23 11:59 PM
+  submission: https://q.utoronto.ca/courses/257297/assignments/716367
 ---

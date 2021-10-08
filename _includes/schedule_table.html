@@ -49,7 +49,7 @@
             {% endfor %}
             </ul>
             <b>Due Date:</b> <br>
-            {{ assignments.due_date | date: "%A, %B %d, %Y %I:%M %p" }}
+            {{ assignments.due_date | date: "%A, %B %d, %Y %I:%M %p" }} (<a href="{{ assignments.submission }}">link</a>)
           {% endif %}
         </td>
       </tr>

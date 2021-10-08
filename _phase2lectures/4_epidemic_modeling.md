@@ -1,5 +1,5 @@
 ---
-title: "Project 2: Human Mobility and Epidemic Modelling"
+title: "Project 2: Human Mobility and Epidemic Modeling"
 index: 4
 date: 2022-03-09
 materials:
@@ -31,7 +31,8 @@ materials:
     url: http://c4m.cdf.toronto.edu/summerphase/hw/simulation.py
 assignments:
   text: "Project 2"
-  due_date: 2021-03-25 11:59 PM
+  due_date: 2022-03-23 11:59 PM
+  submission: https://q.utoronto.ca/courses/257297/assignments/716368
   files:
   - type: "notebook (part 1)" 
     url: notebooks/2020-2021/Phase2_Project2Part1.ipynb

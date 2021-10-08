@@ -45,7 +45,8 @@ materials:
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session2/more_strings.ipynb
 assignments:
   text: "Session 2 Homework"
-  due_date: 2021-11-24 11:59 PM
+  due_date: 2021-11-23 11:59 PM
+  submission: https://q.utoronto.ca/courses/257297/assignments/716363
   files:
   - type: "colab" 
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session2/phase1session2_homework.ipynb
