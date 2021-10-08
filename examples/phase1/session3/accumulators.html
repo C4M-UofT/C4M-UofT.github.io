@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>variables</title>
+<title>accumulators</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13082,21 +13082,54 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Variables">Variables<a class="anchor-link" href="#Variables">&#182;</a></h1>
+<h1 id="Accumulators">Accumulators<a class="anchor-link" href="#Accumulators">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Variable-Expressions">Variable Expressions<a class="anchor-link" href="#Variable-Expressions">&#182;</a></h2>
+<h2 id="Numeric-Accumulator">Numeric Accumulator<a class="anchor-link" href="#Numeric-Accumulator">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>When writing programs, we often want to name values so that we can refer to them later. A name that refers to a value is called a <strong>variable</strong>, and we create variables using <strong>assignment statements</strong> like the following:</p>
+<p>Suppose we want to compute the sum of all the values in a list. We can use a <code>for</code> loop to accumulate all of the elements into a single value called an <strong>accumulator</strong>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Here is an English description of what we will want to do:</p>
+<p><em>Set up a variable called total that starts at 0, then go through the elements in the list one-by-one and add them to the total</em></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Since our code is getting more complicated, we can write our description to look a bit more like code:</p>
+
+<pre><code>Create a total that starts at 0
+For each element in the earnings:
+    Add the element to the total
+return the total
+
+</code></pre>
+<p>The description above is called <strong>psuedocode</strong>. It is an outline of what our code will look like, but it doesn't follow all of the rules of Python syntax.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now here is what the code looks like:</p>
 
 </div>
 </div>
@@ -13106,7 +13139,17 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">earnings</span> <span class="o">=</span> <span class="p">[</span><span class="mi">361681</span><span class="p">,</span> <span class="mi">740741</span><span class="p">,</span> <span class="mi">396105</span><span class="p">,</span>  <span class="mi">284600</span><span class="p">,</span> <span class="mi">249154</span><span class="p">]</span>
+
+<span class="c1"># Initialize the accumulator</span>
+<span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">earnings</span><span class="p">)):</span>
+    <span class="c1"># Add the element to the accumulator</span>
+    <span class="n">total</span> <span class="o">=</span> <span class="n">total</span> <span class="o">+</span> <span class="n">earnings</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;At iteration&quot;</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="s2">&quot;total = &quot;</span><span class="p">,</span> <span class="n">total</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Final total:&quot;</span><span class="p">,</span> <span class="n">total</span><span class="p">)</span>   
 </pre></div>
 
     </div>
@@ -13117,14 +13160,11 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The general form of an assignment statement is:
- <code>«variable» = «expression»</code></p>
-<p>An assignment statement is executed as follows:</p>
+<p>Notice a couple of things with this example:</p>
 <ul>
-<li>Evaluate the expression on the right-hand side to produce a value. This value has a memory address.</li>
-<li>Store that memory address in the variable on the left-hand side. </li>
+<li>It isn't necessary to print out the intermediate values of <code>total</code>, but it can be a good habit if you want to make sure your code is behaving as expected</li>
+<li>Some of the pseudocode is written as comments above corresponding parts of the text. How many comments you leave is up to you, but it can help you plan out what your code is going to do and remember what it does when you revisit it</li>
 </ul>
-<p>Note: If the variable name has never been used before, a new variable is created. Otherwise, whatever value is associated with the variable name is replaced with the new one.</p>
 
 </div>
 </div>
@@ -13132,83 +13172,36 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We can now retrieve the value that <code>x</code> refers to by typing <code>x</code> in the shell:</p>
-
+<h2 id="String-Accumulator">String Accumulator<a class="anchor-link" href="#String-Accumulator">&#182;</a></h2>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We computed things like <code>10 + 5</code> before. Now we can use variables in place of actual numbers:</p>
+<p>We can do something similar with strings. In this example, our goal is to loop over the characters of a string and build a new string made up of only the vowels in that string.</p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">+</span> <span class="mi">5</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The code <code>x + 5</code> is an expression, just like <code>10</code> and <code>10 + 5</code> are, so we can store the result in a variable:</p>
+<p>Here is an English description of what we will want to do:</p>
+<p><em>Set up an empty string, then go through each character in the argument. If it is a vowel, append it to the empty string</em></p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">5</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Because the expression on the right is computed first, you can also get some variable expressions that would not make sense in normal math, but do make sense in programming:</p>
+<p>And here is the psuedocode:</p>
+
+<pre><code>Create an empty string called vowels
+For each character in the string:
+    Append the character to vowels if it is a vowel
+return vowels</code></pre>
 
 </div>
 </div>
@@ -13218,7 +13211,28 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">collect_vowels</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (str) -&gt; str</span>
+
+<span class="sd">    Return the vowels from s.  Do not treat the letter</span>
+<span class="sd">    y as a vowel.</span>
+
+<span class="sd">    &gt;&gt;&gt; collect_vowels(&#39;Happy Anniversary!&#39;)</span>
+<span class="sd">    &#39;aAiea&#39;</span>
+<span class="sd">    &gt;&gt;&gt; collect_vowels(&#39;xyz&#39;)</span>
+<span class="sd">    &#39;&#39;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># Initialize the accumulator</span>
+    <span class="n">vowels</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+
+    <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">char</span> <span class="ow">in</span> <span class="s1">&#39;aeiouAEIOU&#39;</span><span class="p">:</span>
+            <span class="c1"># When we encounter a vowel, concatenate it to the accumulator</span>
+            <span class="n">vowels</span> <span class="o">=</span> <span class="n">vowels</span> <span class="o">+</span> <span class="n">char</span>  
+            
+    <span class="c1"># Return the string that we bulit</span>
+    <span class="k">return</span> <span class="n">vowels</span>
 </pre></div>
 
     </div>
@@ -13231,20 +13245,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">collect_vowels</span><span class="p">(</span><span class="s1">&#39;Happy Anniversary!&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13255,7 +13256,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Variable expressions should not be interpreted as mathematical equations, but rather as statements that assign one value to another.</p>
+<p>We won't write detailed comments and psuedocode every time to keep the examples short, but remember that it can be helpful if you don't know where to start.</p>
 
 </div>
 </div>
@@ -13263,75 +13264,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Variable-Names">Variable Names<a class="anchor-link" href="#Variable-Names">&#182;</a></h2>
+<h2 id="Practice-Exercise:-Conditionals-+-Loops">Practice Exercise: Conditionals + Loops<a class="anchor-link" href="#Practice-Exercise:-Conditionals-+-Loops">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Variable names must start with a letter or an underscore, and they can only include letters, digits, and underscores. Variable names are case-sensitive.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_F</span> <span class="o">=</span> <span class="mi">75</span>
-<span class="n">Temp_F</span> <span class="o">=</span> <span class="mi">70</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_F</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Temp_F</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_f</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>You will see that most of our early code examples will use generic variable names like <code>x</code>, <code>y</code>, <code>num</code>, etc. As your code gets longer and more sophisticated, you will want to think about having descriptive variable names like <code>patient_id</code> and <code>rolling_sum</code> so that you remember their purpose.</p>
+<p>Compute the average of <code>earnings</code>, but exclude any earnings that are outside the range from 250000 (inclusive) to 400000 (exclusive). Your answer should be $347,462.</p>
 
 </div>
 </div>
@@ -13339,17 +13279,10 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Practice-Exercise:-Working-with-Variables">Practice Exercise: Working with Variables<a class="anchor-link" href="#Practice-Exercise:-Working-with-Variables">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Hint:</strong> There are two ways of going about this:</p>
 <ol>
-<li>Consider this code:
-<pre><code>j = 7</code></pre>
-Write an assignment statement that creates a new variable <code>k</code> that refers to three times <code>j</code>'s value.</li>
+<li>Maintain two accumulators: one for the numerator (sum) and one for the denominator (count)</li>
+<li>Append all of the relevant values to a list and then compute the average at the end.</li>
 </ol>
 
 </div>
@@ -13360,7 +13293,8 @@ Write an assignment statement that creates a new variable <code>k</code> that re
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write the assignment statement here</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">earnings</span> <span class="o">=</span> <span class="p">[</span><span class="mi">361681</span><span class="p">,</span> <span class="mi">740741</span><span class="p">,</span> <span class="mi">396105</span><span class="p">,</span> <span class="mi">284600</span><span class="p">,</span> <span class="mi">249154</span><span class="p">]</span>
+<span class="c1"># Write your code here</span>
 </pre></div>
 
     </div>
@@ -13371,46 +13305,14 @@ Write an assignment statement that creates a new variable <code>k</code> that re
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>Consider this code:
-<pre><code>patient_a = 3
-patient_b = 4
-patient_a = 5</code></pre>
-After the code above is executed, what is <code>patient_a</code>'s value?<br>
-After the code above is executed, what is <code>patient_b</code>'s value?  </li>
-</ol>
-
+<h2 id="Practice-Exercise:-Reading-DNA-Sequences">Practice Exercise: Reading DNA Sequences<a class="anchor-link" href="#Practice-Exercise:-Reading-DNA-Sequences">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>Consider this code:
-<pre><code>x = 4
-y = x + 2
-x = y + 1</code></pre>
-After the code above is executed, what is <code>x</code>'s value?<br>
-After the code above is executed, what is <code>y</code>'s value?  </li>
-</ol>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Practice-Exercise:-Solving-a-Problem-Using-Variables">Practice Exercise: Solving a Problem Using Variables<a class="anchor-link" href="#Practice-Exercise:-Solving-a-Problem-Using-Variables">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Fridericia's formula estimates the corrected QT interval ($QTc$) in a person's ECG signal based on the measured QT interval ($QT$) and the R-R interval ($RR$): 
-$$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
-<p>The R-R interval is measured in seconds, and can be ontained using $60/hr$, where hr is the heart rate. Given the <code>hr</code> and <code>qt</code> variables below, and calculate the <code>qtc</code>.</p>
+<p>Write a function that has two parameters representing a DNA sequence and one of the four bases (A, C, G, and T) and returns the number of occurences of that base in the sequence. Do not use <code>str.count</code> to solve this problem.</p>
 
 </div>
 </div>
@@ -13420,8 +13322,30 @@ $$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hr</span> <span class="o">=</span> <span class="mi">70</span>
-<span class="n">qt</span> <span class="o">=</span> <span class="mi">300</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">count_base</span><span class="p">(</span><span class="n">dna</span><span class="p">,</span> <span class="n">base</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (str, str) -&gt; int</span>
+<span class="sd">    </span>
+<span class="sd">    Return the number of occurences of base in dna.</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; count_base(&#39;GGTCAG&#39;, &#39;A&#39;)</span>
+<span class="sd">    1    </span>
+<span class="sd">    &gt;&gt;&gt; count_base(&#39;GGTCAGATC&#39;, &#39;G&#39;)</span>
+<span class="sd">    3</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Write your code here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your code here</span>
 </pre></div>
 
     </div>
@@ -13432,7 +13356,34 @@ $$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The corrected QT interval should be: 315.817979882819 seconds.</p>
+<h2 id="Practice-Exercise:-Putting-Everything-Together">Practice Exercise: Putting Everything Together<a class="anchor-link" href="#Practice-Exercise:-Putting-Everything-Together">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Consider a list of strings that are represent handedness of subjects in a study:</p>
+
+<pre><code>hands = ["left", "right", "right", "right", "left", "mixed", "right", "mixed"]
+
+</code></pre>
+<p>The only possible elements in the list are the strings <code>"right"</code>, <code>"left"</code>, or <code>"mixed"</code>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Write a function that will work on any such list and print the percentage of subjects from each category of handedness. For example, the example above should print the following:</p>
+
+<pre><code>Right-handed: 50%
+Left-handed: 25%
+Mixed-handed: 25%
+
+</code></pre>
+<p>Don’t worry about the format of the numbers.</p>
 
 </div>
 </div>
@@ -13442,7 +13393,20 @@ $$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write your code here</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write your function here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function here</span>
 </pre></div>
 
     </div>

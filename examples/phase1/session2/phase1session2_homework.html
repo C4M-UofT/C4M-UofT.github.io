@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>variables</title>
+<title>phase1session2_homework</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13082,49 +13082,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Variables">Variables<a class="anchor-link" href="#Variables">&#182;</a></h1>
+<h1 id="Instructions">Instructions<a class="anchor-link" href="#Instructions">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Variable-Expressions">Variable Expressions<a class="anchor-link" href="#Variable-Expressions">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>When writing programs, we often want to name values so that we can refer to them later. A name that refers to a value is called a <strong>variable</strong>, and we create variables using <strong>assignment statements</strong> like the following:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The general form of an assignment statement is:
- <code>«variable» = «expression»</code></p>
-<p>An assignment statement is executed as follows:</p>
-<ul>
-<li>Evaluate the expression on the right-hand side to produce a value. This value has a memory address.</li>
-<li>Store that memory address in the variable on the left-hand side. </li>
-</ul>
-<p>Note: If the variable name has never been used before, a new variable is created. Otherwise, whatever value is associated with the variable name is replaced with the new one.</p>
+<h2 id="Hidden-Code">Hidden Code<a class="anchor-link" href="#Hidden-Code">&#182;</a></h2><p>The notebook contains several hidden code cells, which are displayed as three dots. To run these, select the above cell and press run twice (either by the buttons on the top, or the "shift" + "return" hotkey). Once the hidden code cell runs, a message such as "Done" or your evaluation results should appear. If the code expands, please collapse it using the column on the left. You don't need to edit or understand the code in these cells.</p>
 
 </div>
 </div>
@@ -13132,130 +13097,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We can now retrieve the value that <code>x</code> refers to by typing <code>x</code> in the shell:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>We computed things like <code>10 + 5</code> before. Now we can use variables in place of actual numbers:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">+</span> <span class="mi">5</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The code <code>x + 5</code> is an expression, just like <code>10</code> and <code>10 + 5</code> are, so we can store the result in a variable:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">5</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Because the expression on the right is computed first, you can also get some variable expressions that would not make sense in normal math, but do make sense in programming:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Variable expressions should not be interpreted as mathematical equations, but rather as statements that assign one value to another.</p>
+<h2 id="Starting-Out">Starting Out<a class="anchor-link" href="#Starting-Out">&#182;</a></h2><p>The first cell in the exercise section is titled "Run the hidden code cell before starting". This should be run everytime a new kernel/runtime is started. If run correctly, the message "Done!" should appear underneath.</p>
 
 </div>
 </div>
@@ -13263,121 +13105,12 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Variable-Names">Variable Names<a class="anchor-link" href="#Variable-Names">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Variable names must start with a letter or an underscore, and they can only include letters, digits, and underscores. Variable names are case-sensitive.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_F</span> <span class="o">=</span> <span class="mi">75</span>
-<span class="n">Temp_F</span> <span class="o">=</span> <span class="mi">70</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_F</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Temp_F</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_f</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>You will see that most of our early code examples will use generic variable names like <code>x</code>, <code>y</code>, <code>num</code>, etc. As your code gets longer and more sophisticated, you will want to think about having descriptive variable names like <code>patient_id</code> and <code>rolling_sum</code> so that you remember their purpose.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Practice-Exercise:-Working-with-Variables">Practice Exercise: Working with Variables<a class="anchor-link" href="#Practice-Exercise:-Working-with-Variables">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Exercises">Exercises<a class="anchor-link" href="#Exercises">&#182;</a></h2><p>This is followed by all the exercises of the notebook. An exercise generally consists of 4 cells.</p>
 <ol>
-<li>Consider this code:
-<pre><code>j = 7</code></pre>
-Write an assignment statement that creates a new variable <code>k</code> that refers to three times <code>j</code>'s value.</li>
-</ol>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write the assignment statement here</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>Consider this code:
-<pre><code>patient_a = 3
-patient_b = 4
-patient_a = 5</code></pre>
-After the code above is executed, what is <code>patient_a</code>'s value?<br>
-After the code above is executed, what is <code>patient_b</code>'s value?  </li>
+<li>The first cell provides a description of the function you need to implement. </li>
+<li>The second cell contains the starter code, and contains a comment indicating where you should write your code. Your entire implementation will go in this cell. </li>
+<li>The third cell is a testing cell for your own testing. Feel free to write any code you like here to test your function is working correctly.</li>
+<li>The last cell contains hidden code to run test cases on your function. This cell, when run, will provide a mark on your implementation. If implemented correctly, you should get full marks.</li>
 </ol>
 
 </div>
@@ -13386,14 +13119,7 @@ After the code above is executed, what is <code>patient_b</code>'s value?  </li>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>Consider this code:
-<pre><code>x = 4
-y = x + 2
-x = y + 1</code></pre>
-After the code above is executed, what is <code>x</code>'s value?<br>
-After the code above is executed, what is <code>y</code>'s value?  </li>
-</ol>
+<h2 id="Completion">Completion<a class="anchor-link" href="#Completion">&#182;</a></h2><p>The completion cell runs all the test cases in the notebook on all the functions. If this cell returns full marks, this means the notebook is complete and you can submit it.</p>
 
 </div>
 </div>
@@ -13401,17 +13127,14 @@ After the code above is executed, what is <code>y</code>'s value?  </li>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Practice-Exercise:-Solving-a-Problem-Using-Variables">Practice Exercise: Solving a Problem Using Variables<a class="anchor-link" href="#Practice-Exercise:-Solving-a-Problem-Using-Variables">&#182;</a></h2>
+<h1 id="Phase-1:-Session-2-Homework">Phase 1: Session 2 Homework<a class="anchor-link" href="#Phase-1:-Session-2-Homework">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Fridericia's formula estimates the corrected QT interval ($QTc$) in a person's ECG signal based on the measured QT interval ($QT$) and the R-R interval ($RR$): 
-$$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
-<p>The R-R interval is measured in seconds, and can be ontained using $60/hr$, where hr is the heart rate. Given the <code>hr</code> and <code>qt</code> variables below, and calculate the <code>qtc</code>.</p>
-
+<h2 id="Important:-Run-the-hidden-code-cell-before-starting">Important: Run the hidden code cell before starting<a class="anchor-link" href="#Important:-Run-the-hidden-code-cell-before-starting">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -13420,8 +13143,14 @@ $$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hr</span> <span class="o">=</span> <span class="mi">70</span>
-<span class="n">qt</span> <span class="o">=</span> <span class="mi">300</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">test_name</span><span class="p">,</span> <span class="n">actual</span><span class="p">,</span> <span class="n">expected</span><span class="p">):</span>
+  <span class="k">if</span><span class="p">(</span><span class="n">actual</span> <span class="o">==</span> <span class="n">expected</span><span class="p">):</span>
+    <span class="k">return</span> <span class="mi">1</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Test failed. &quot;</span> <span class="o">+</span> <span class="n">test_name</span> <span class="o">+</span> <span class="s2">&quot; expected &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">expected</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;, got &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">actual</span><span class="p">))</span>
+    <span class="k">return</span> <span class="mi">0</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Done!&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13432,7 +13161,9 @@ $$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The corrected QT interval should be: 315.817979882819 seconds.</p>
+<h2 id="Exercise-1:-Fecal-Occult-Blood-Test">Exercise 1: Fecal Occult Blood Test<a class="anchor-link" href="#Exercise-1:-Fecal-Occult-Blood-Test">&#182;</a></h2><p>It is recommended that a focal occult blood test (FOBT) is given once every year for colorectal cancer screening. The patient brings home a kit to do the testing and sends it back to the lab. There are three tests within the kit and each test result is either negative or positive. If all three are negative, the test will be repeated in a year. If at least 1 of the 3 comes back positive, then the patient should be sent for a colonoscopy.</p>
+<p>Write a function <code>fobt()</code> that has three boolean parameters representing the results of the three tests. We will use <code>True</code> to represent a positive test and <code>False</code> to represent a negative test. Your function should either return <code>'Repeat tests in 1 year'</code> or <code>'Book for colonoscopy'</code> according to the test results.</p>
+<p>Follow the Function Design Recipe and write your docstring first.</p>
 
 </div>
 </div>
@@ -13442,7 +13173,190 @@ $$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write your code here</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write your function here</span>
+<span class="k">def</span> <span class="nf">fobt</span><span class="p">(</span><span class="n">test1</span><span class="p">,</span> <span class="n">test2</span><span class="p">,</span> <span class="n">test3</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; </span>
+<span class="sd">    </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Run-the-hidden-code-cell-to-evaluate-Exercise-1">Run the hidden code cell to evaluate Exercise 1<a class="anchor-link" href="#Run-the-hidden-code-cell-to-evaluate-Exercise-1">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Do not edit this cell</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Only first test is positive&quot;</span><span class="p">,</span> <span class="n">fobt</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span> <span class="s2">&quot;Book for colonoscopy&quot;</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Only second test is positive&quot;</span><span class="p">,</span> <span class="n">fobt</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span> <span class="s2">&quot;Book for colonoscopy&quot;</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;All tests are negative&quot;</span><span class="p">,</span> <span class="n">fobt</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span> <span class="s2">&quot;Repeat tests in 1 year&quot;</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;First and Third tests positive&quot;</span><span class="p">,</span> <span class="n">fobt</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span> <span class="s2">&quot;Book for colonoscopy&quot;</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;All tests are positive&quot;</span><span class="p">,</span> <span class="n">fobt</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">),</span> <span class="s2">&quot;Book for colonoscopy&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All test cases passed!&quot;</span><span class="p">)</span>
+  
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Exercise-2:-Checking-String-Casing">Exercise 2: Checking String Casing<a class="anchor-link" href="#Exercise-2:-Checking-String-Casing">&#182;</a></h2><p>Complete this function according to its docstring description.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">upper_lower</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (str) -&gt; bool</span>
+<span class="sd">    </span>
+<span class="sd">    Return True if and only if there is at least one alphabetic character in s and the alphabetic characters in s</span>
+<span class="sd">    are either all uppercase or all lowercase.</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; upper_lower(&#39;abc&#39;)</span>
+<span class="sd">    True</span>
+<span class="sd">    &gt;&gt;&gt; upper_lower(&#39;abcXYZ&#39;)</span>
+<span class="sd">    False</span>
+<span class="sd">    &gt;&gt;&gt; upper_lower(&#39;XYZ&#39;)</span>
+<span class="sd">    True</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Write your code here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Run-hidden-code-cell-to-evaluate-Exercise-2">Run hidden code cell to evaluate Exercise 2<a class="anchor-link" href="#Run-hidden-code-cell-to-evaluate-Exercise-2">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># (Do not edit this cell)</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">5</span>
+
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;all lowercase&quot;</span><span class="p">,</span> <span class="n">upper_lower</span><span class="p">(</span><span class="s1">&#39;abcdef&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;all uppercase&quot;</span><span class="p">,</span> <span class="n">upper_lower</span><span class="p">(</span><span class="s1">&#39;ABCDEF&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;mix of upper and lower&quot;</span><span class="p">,</span> <span class="n">upper_lower</span><span class="p">(</span><span class="s1">&#39;abcXYZ&#39;</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;mix of letters and non-letters&quot;</span><span class="p">,</span> <span class="n">upper_lower</span><span class="p">(</span><span class="s1">&#39;XYZ123&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;all numeric&quot;</span><span class="p">,</span> <span class="n">upper_lower</span><span class="p">(</span><span class="s1">&#39;123&#39;</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All test cases passed!&quot;</span><span class="p">)</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Homework-Completion">Homework Completion<a class="anchor-link" href="#Homework-Completion">&#182;</a></h1><p>Run this hidden code cell to check that you've successfully completed all of the exercises.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">17</span>
+
+<span class="k">try</span><span class="p">:</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;is_multiple_of_3(15)&quot;</span><span class="p">,</span> <span class="n">is_multiple_of_3</span><span class="p">(</span><span class="mi">15</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;is_multiple_of_3(7)&quot;</span><span class="p">,</span> <span class="n">is_multiple_of_3</span><span class="p">(</span><span class="mi">8</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;is_multiple_of_3(11)&quot;</span><span class="p">,</span> <span class="n">is_multiple_of_3</span><span class="p">(</span><span class="mi">11</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;is_multiple_of_3(-3)&quot;</span><span class="p">,</span> <span class="n">is_multiple_of_3</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;is_multiple(15, 3)&quot;</span><span class="p">,</span> <span class="n">is_multiple</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;is_multiple(7, 2)&quot;</span><span class="p">,</span> <span class="n">is_multiple</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;is_multiple(-2, 2)&quot;</span><span class="p">,</span> <span class="n">is_multiple</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Only first test is positive&quot;</span><span class="p">,</span> <span class="n">fobt</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span> <span class="s2">&quot;Book for colonoscopy&quot;</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Only second test is positive&quot;</span><span class="p">,</span> <span class="n">fobt</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span> <span class="s2">&quot;Book for colonoscopy&quot;</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;All tests are negative&quot;</span><span class="p">,</span> <span class="n">fobt</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span> <span class="s2">&quot;Repeat tests in 1 year&quot;</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;First and Third tests positive&quot;</span><span class="p">,</span> <span class="n">fobt</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span> <span class="s2">&quot;Book for colonoscopy&quot;</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;All tests are positive&quot;</span><span class="p">,</span> <span class="n">fobt</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">),</span> <span class="s2">&quot;Book for colonoscopy&quot;</span><span class="p">)</span>
+
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;all lowercase&quot;</span><span class="p">,</span> <span class="n">upper_lower</span><span class="p">(</span><span class="s1">&#39;abcdef&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;all uppercase&quot;</span><span class="p">,</span> <span class="n">upper_lower</span><span class="p">(</span><span class="s1">&#39;ABCDEF&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;mix of upper and lower&quot;</span><span class="p">,</span> <span class="n">upper_lower</span><span class="p">(</span><span class="s1">&#39;abcXYZ&#39;</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;mix of letters and non-letters&quot;</span><span class="p">,</span> <span class="n">upper_lower</span><span class="p">(</span><span class="s1">&#39;XYZ123&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;all numeric&quot;</span><span class="p">,</span> <span class="n">upper_lower</span><span class="p">(</span><span class="s1">&#39;123&#39;</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">NameError</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Oops! It seems like some of your functions are not implemented.&quot;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Congratulations! All tests passed. Homework Complete!&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">score</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+   <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Some of your functions are working, but all test cases haven&#39;t passed yet. Keep on trying!&quot;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
 </pre></div>
 
     </div>
