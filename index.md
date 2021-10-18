@@ -36,7 +36,7 @@ Attendance to Sessions 1 (second half), 2, and 3 in Phase 1 will be optional for
 ### Teaching Assistants:
 - Alister D'Costa
 - Blue Lin
-- Ian Ruffalo
+- Ian Ruffolo
 
 ### Delivery Method:
 - Wednesdays 1-4 PM
