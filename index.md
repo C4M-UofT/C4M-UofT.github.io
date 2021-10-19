@@ -36,10 +36,10 @@ Attendance to Sessions 1 (second half), 2, and 3 in Phase 1 will be optional for
 ### Teaching Assistants:
 - Alister D'Costa
 - Blue Lin
-- Ian Ruffalo
+- Ian Ruffolo
 
-### Dates:
+### Delivery Method:
 - Wednesdays 1-4 PM
-
-### Location:
-- TBD
+- First session virtual, rest of Phase 1 hybrid
+- Zoom link: [see Quercus](https://q.utoronto.ca/courses/257297)
+- Physical room: Medical Sciences Building Collaboration Space (MS2278)
