@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>variables</title>
+<title>for_loops</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13082,21 +13082,21 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Variables">Variables<a class="anchor-link" href="#Variables">&#182;</a></h1>
+<h1 id="for-Loops"><code>for</code> Loops<a class="anchor-link" href="#for-Loops">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Variable-Expressions">Variable Expressions<a class="anchor-link" href="#Variable-Expressions">&#182;</a></h2>
+<h2 id="What-Is-a-for-Loop?">What Is a <code>for</code> Loop?<a class="anchor-link" href="#What-Is-a-for-Loop?">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>When writing programs, we often want to name values so that we can refer to them later. A name that refers to a value is called a <strong>variable</strong>, and we create variables using <strong>assignment statements</strong> like the following:</p>
+<p>If we wanted to print the elements of a <code>list</code>, we could do the following:</p>
 
 </div>
 </div>
@@ -13106,7 +13106,24 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">earnings</span> <span class="o">=</span> <span class="p">[</span><span class="mi">361681</span><span class="p">,</span> <span class="mi">740741</span><span class="p">,</span> <span class="mi">396105</span><span class="p">,</span>  <span class="mi">284600</span><span class="p">,</span> <span class="mi">249154</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">earnings</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">earnings</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">earnings</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">earnings</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">earnings</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
 </pre></div>
 
     </div>
@@ -13117,14 +13134,34 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The general form of an assignment statement is:
- <code>«variable» = «expression»</code></p>
-<p>An assignment statement is executed as follows:</p>
+<p>This is fine if there are a handful of elements in the list, but what if there were 100 or 100,000 elements?</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The only thing that varies in each line of code above is the index. In situations like these where we want to use the same code over and over again with little to no modifications, we can use something called a <strong>loop</strong>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The first kind of loop we will use is a <strong><code>for</code> loop</strong>, which operates for a fixed number of iterations. A <code>for</code> loop has this general form:</p>
+
+<pre><code>for &lt;&lt;variable&gt;&gt; in &lt;&lt;sequence&gt;&gt;:
+    &lt;&lt;body&gt;&gt;
+
+</code></pre>
+<p>The <code>for</code> loop consists of the following keywords and expressions:</p>
 <ul>
-<li>Evaluate the expression on the right-hand side to produce a value. This value has a memory address.</li>
-<li>Store that memory address in the variable on the left-hand side. </li>
+<li><code>body</code>: The code that you want to run repeatedly</li>
+<li><code>sequence</code>: An expression that dictates how many times your loop operates and how the <code>body</code> will vary slightly each time</li>
+<li><code>variable</code>: The name of a variable that can be used within the body each time so that it operates differently</li>
 </ul>
-<p>Note: If the variable name has never been used before, a new variable is created. Otherwise, whatever value is associated with the variable name is replaced with the new one.</p>
 
 </div>
 </div>
@@ -13132,7 +13169,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We can now retrieve the value that <code>x</code> refers to by typing <code>x</code> in the shell:</p>
+<h2 id="Iterating-Over-Ranges">Iterating Over Ranges<a class="anchor-link" href="#Iterating-Over-Ranges">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Perhaps the most basic sequence that people use when creating <code>for</code> loops is a <code>range</code>:</p>
 
 </div>
 </div>
@@ -13142,7 +13186,8 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13153,7 +13198,22 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We computed things like <code>10 + 5</code> before. Now we can use variables in place of actual numbers:</p>
+<p>In this case, the loop runs 10 times, and the value of <code>i</code> changes each time. Note that <code>i</code> and <code>j</code> are very common names for iteration variables.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Iterating-Over-Lists">Iterating Over Lists<a class="anchor-link" href="#Iterating-Over-Lists">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Going back to the <code>earnings</code> example, we can use both a <code>for</code> loop and a <code>range</code> to print all of the values in the list:</p>
 
 </div>
 </div>
@@ -13163,7 +13223,8 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">+</span> <span class="mi">5</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">earnings</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
 </pre></div>
 
     </div>
@@ -13174,7 +13235,15 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The code <code>x + 5</code> is an expression, just like <code>10</code> and <code>10 + 5</code> are, so we can store the result in a variable:</p>
+<p>Let's use the Python Visualizer to trace <a href="https://pythontutor.com/csc108h.html#code=earnings%20%3D%20%5B361681,%20740741,%20396105,%20%20284600,%20249154%5D%0Afor%20i%20in%20range%285%29%3A%0A%20%20%20%20print%28earnings%5Bi%5D%29&amp;curInstr=0&amp;mode=display&amp;origin=csc108h.js&amp;py=3&amp;rawInputLstJSON=%5B%5D">this code</a>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We can make the code even more general and replace <code>5</code> with the length of the list, so that this code will work regardless of the number of items in <code>earnings</code>:</p>
 
 </div>
 </div>
@@ -13184,7 +13253,244 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">5</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">earnings</span><span class="p">)):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">earnings</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In fact, we can even treat the <code>earnings</code> as a sequence itself and iterate over the items directly:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">salary</span> <span class="ow">in</span> <span class="n">earnings</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">salary</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Iterating-Over-Strings">Iterating Over Strings<a class="anchor-link" href="#Iterating-Over-Strings">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Strings are basically sequences of characters, so we can iterate over strings one character at a time using a <code>for</code> loop:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s1">&#39;medicine&#39;</span>
+<span class="k">for</span> <span class="n">ch</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">ch</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Combining-Loops-and-Conditionals">Combining Loops and Conditionals<a class="anchor-link" href="#Combining-Loops-and-Conditionals">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Let's write code to print the items of <code>earnings</code> that are less than 300,000.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Here is an English description of what we will want to do:</p>
+<p><em>For each item in earnings, check whether it is less than 300000 and if so, print it.</em></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>And here is the code:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">earnings</span> <span class="o">=</span> <span class="p">[</span><span class="mi">361681</span><span class="p">,</span> <span class="mi">740741</span><span class="p">,</span> <span class="mi">396105</span><span class="p">,</span> <span class="mi">284600</span><span class="p">,</span> <span class="mi">249154</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">earnings</span><span class="p">)):</span>
+    <span class="k">if</span> <span class="n">earnings</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">300000</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">earnings</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Let's again go to the Python Visualizer to trace <a href="https://pythontutor.com/visualize.html#code=earnings%20%3D%20%5B361681,%20740741,%20396105,%20%20284600,%20249154%5D%0Afor%20i%20in%20range%28len%28earnings%29%29%3A%0A%20%20%20%20if%20earnings%5Bi%5D%20%3C%20300000%3A%0A%20%20%20%20%20%20%20%20print%28earnings%5Bi%5D%29&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=true&amp;mode=display&amp;origin=opt-frontend.js&amp;py=3&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false">this code</a>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>An alternative approach is to iterate over the list directly:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">salary</span> <span class="ow">in</span> <span class="n">gross_earnings</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">salary</span> <span class="o">&lt;</span> <span class="mi">300000</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">salary</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We can also trace <a href="https://pythontutor.com/visualize.html#code=earnings%20%3D%20%5B361681,%20740741,%20396105,%20%20284600,%20249154%5D%0Afor%20salary%20in%20earnings%3A%0A%20%20%20%20if%20salary%20%3C%20300000%3A%0A%20%20%20%20%20%20%20%20print%28salary%29&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=true&amp;mode=display&amp;origin=opt-frontend.js&amp;py=3&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false">the code above</a> using the Python Visualizer to see how it differs from the previous version.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Finishing-Early">Finishing Early<a class="anchor-link" href="#Finishing-Early">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>There might be cases when you don't need to go through the entire sequence to make a decision.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Let's use a <code>for</code> loop to check if a string is a valid IP address. For now, we only care that the IP address contains just digits and periods; in other words, we do not care about how big the numbers are.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">is_IP_address</span><span class="p">(</span><span class="n">address</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (str) -&gt; bool    </span>
+
+<span class="sd">    Return True iff address contains only digits and periods.</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; is_IP_address(&#39;128.100.31.52&#39;)</span>
+<span class="sd">    True</span>
+<span class="sd">    &gt;&gt;&gt; is_IP_address(&#39;40 St. George St&#39;)</span>
+<span class="sd">    False</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We can see that the first example in our docstring should return <code>True</code> because it only has digits and periods, but the second example should return <code>False</code> since it contains an <code>'S'</code> after the number <code>'40'</code> (amongst other issues). So how will we translate that way of thinking into code?</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Here is an English description of what we want to do:</p>
+<p><em>Go through each character one-by-one, and if the character is not a digit or a period, return <code>False</code>. If we have made our way through all of the characters, return <code>True</code>.</em></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Let's turn this into code:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">is_IP_address</span><span class="p">(</span><span class="n">address</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (str) -&gt; bool    </span>
+
+<span class="sd">    Return True iff address contains only digits and periods.</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; is_IP_address(&#39;128.100.31.52&#39;)</span>
+<span class="sd">    True</span>
+<span class="sd">    &gt;&gt;&gt; is_IP_address(&#39;40 St. George St&#39;)</span>
+<span class="sd">    False</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    
+    <span class="k">for</span> <span class="n">ch</span> <span class="ow">in</span> <span class="n">address</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">ch</span><span class="o">.</span><span class="n">isdigit</span><span class="p">()</span> <span class="ow">and</span> <span class="n">ch</span> <span class="o">!=</span> <span class="s1">&#39;.&#39;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span>
+    <span class="k">return</span> <span class="kc">True</span>
 </pre></div>
 
     </div>
@@ -13197,28 +13503,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Because the expression on the right is computed first, you can also get some variable expressions that would not make sense in normal math, but do make sense in programming:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">is_IP_address</span><span class="p">(</span><span class="s1">&#39;128.100.31.52&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13231,7 +13516,88 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">is_IP_address</span><span class="p">(</span><span class="s1">&#39;40 St. George St&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>As soon as we have found a character that is not a digit or a period, we know that the string is not an IP address. Therefore, there is no need to look any further. In this case, we can return <code>False</code>. If the code makes it out of the loop without ending early, that must mean that all of the characters passed our check, in which case we can return <code>True</code>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>But what if we don't want to return something and still want the code to end early? For that, we can do something called a <strong><code>break</code> statement</strong>. As soon as your program hits a <code>break</code>, it jumps outside of the loop and continues with the rest of the program.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Here is how we could write the same function as before using a <code>break</code> statement:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">is_IP_address</span><span class="p">(</span><span class="n">address</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (str) -&gt; bool    </span>
+
+<span class="sd">    Return True iff address contains only digits and periods.</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; is_IP_address(&#39;128.100.31.52&#39;)</span>
+<span class="sd">    True</span>
+<span class="sd">    &gt;&gt;&gt; is_IP_address(&#39;40 St. George St&#39;)</span>
+<span class="sd">    False</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    
+    <span class="n">result</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="k">for</span> <span class="n">ch</span> <span class="ow">in</span> <span class="n">address</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">ch</span><span class="o">.</span><span class="n">isdigit</span><span class="p">()</span> <span class="ow">and</span> <span class="n">ch</span> <span class="o">!=</span> <span class="s1">&#39;.&#39;</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="kc">False</span>
+            <span class="k">break</span>
+    <span class="k">return</span> <span class="n">result</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Practice-Exercise:-Checking-Elevated-Heart-Rates">Practice Exercise: Checking Elevated Heart Rates<a class="anchor-link" href="#Practice-Exercise:-Checking-Elevated-Heart-Rates">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Tachycardia is the medical term for a heart rate over 100 beats per minute. Create a function that takes in a list of <code>heart_rates</code> (in beats per minute) and returns a boolean to indicate whether any of the values are elevated.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write your function here</span>
 </pre></div>
 
     </div>
@@ -13244,205 +13610,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Variable expressions should not be interpreted as mathematical equations, but rather as statements that assign one value to another.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Variable-Names">Variable Names<a class="anchor-link" href="#Variable-Names">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Variable names must start with a letter or an underscore, and they can only include letters, digits, and underscores. Variable names are case-sensitive.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_F</span> <span class="o">=</span> <span class="mi">75</span>
-<span class="n">Temp_F</span> <span class="o">=</span> <span class="mi">70</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_F</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Temp_F</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_f</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>You will see that most of our early code examples will use generic variable names like <code>x</code>, <code>y</code>, <code>num</code>, etc. As your code gets longer and more sophisticated, you will want to think about having descriptive variable names like <code>patient_id</code> and <code>rolling_sum</code> so that you remember their purpose.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Practice-Exercise:-Working-with-Variables">Practice Exercise: Working with Variables<a class="anchor-link" href="#Practice-Exercise:-Working-with-Variables">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>Consider this code:
-<pre><code>j = 7</code></pre>
-Write an assignment statement that creates a new variable <code>k</code> that refers to three times <code>j</code>'s value.</li>
-</ol>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write the assignment statement here</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>Consider this code:
-<pre><code>patient_a = 3
-patient_b = 4
-patient_a = 5</code></pre>
-After the code above is executed, what is <code>patient_a</code>'s value?<br>
-After the code above is executed, what is <code>patient_b</code>'s value?  </li>
-</ol>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>Consider this code:
-<pre><code>x = 4
-y = x + 2
-x = y + 1</code></pre>
-After the code above is executed, what is <code>x</code>'s value?<br>
-After the code above is executed, what is <code>y</code>'s value?  </li>
-</ol>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Practice-Exercise:-Solving-a-Problem-Using-Variables">Practice Exercise: Solving a Problem Using Variables<a class="anchor-link" href="#Practice-Exercise:-Solving-a-Problem-Using-Variables">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Fridericia's formula estimates the corrected QT interval ($QTc$) in a person's ECG signal based on the measured QT interval ($QT$) and the R-R interval ($RR$): 
-$$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
-<p>The R-R interval is measured in seconds, and can be ontained using $60/hr$, where hr is the heart rate. Given the <code>hr</code> and <code>qt</code> variables below, and calculate the <code>qtc</code>.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hr</span> <span class="o">=</span> <span class="mi">70</span>
-<span class="n">qt</span> <span class="o">=</span> <span class="mi">300</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The corrected QT interval should be: 315.817979882819 seconds.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write your code here</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function here</span>
 </pre></div>
 
     </div>

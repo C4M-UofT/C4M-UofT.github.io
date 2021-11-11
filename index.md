@@ -9,7 +9,7 @@ id: Overview
 Welcome to the webpage for the 2021-2022 Computing for Medicine (C4M) Workshops.
 This three-phase program offers medical students hands-on experience learning basic computing skills in the Python programming language, althouth the concepts learned in this program should translate to most other languages.
 
-During the first session, all students will be asked to take this [skills assessment](https://colab.research.google.com/drive/1ZXEx2mUiVEzdrzff8JUjYSD0qqrLR3oH). 
+During the first session, all students will be asked to take this [skills assessment](https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/c4m_intro_quiz.ipynb). 
 Attendance to Sessions 1 (second half), 2, and 3 in Phase 1 will be optional for students who pass the assessments, although they will still be asked to complete the corresponding assignments.
 
 ## Course Objectives
