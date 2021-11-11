@@ -14,6 +14,7 @@ Python is a popoular programming language for a variety of reasons; here are jus
 * Beginner-friendly (e.g., simple syntax, object-oriented)
 * Popular for data science
 * Hundreds of libraries and frameworks for special functionality
+
 Even though this program only covers one programming language, the concepts you learn will make it easier for you to pick up other languages you may encounter.
 
 ## Jupyter
