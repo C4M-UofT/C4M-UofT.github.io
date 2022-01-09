@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>variables</title>
+<title>phase1session3_homework</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13082,49 +13082,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Variables">Variables<a class="anchor-link" href="#Variables">&#182;</a></h1>
+<h1 id="Instructions">Instructions<a class="anchor-link" href="#Instructions">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Variable-Expressions">Variable Expressions<a class="anchor-link" href="#Variable-Expressions">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>When writing programs, we often want to name values so that we can refer to them later. A name that refers to a value is called a <strong>variable</strong>, and we create variables using <strong>assignment statements</strong> like the following:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The general form of an assignment statement is:
- <code>«variable» = «expression»</code></p>
-<p>An assignment statement is executed as follows:</p>
-<ul>
-<li>Evaluate the expression on the right-hand side to produce a value. This value has a memory address.</li>
-<li>Store that memory address in the variable on the left-hand side. </li>
-</ul>
-<p>Note: If the variable name has never been used before, a new variable is created. Otherwise, whatever value is associated with the variable name is replaced with the new one.</p>
+<h2 id="Hidden-Code">Hidden Code<a class="anchor-link" href="#Hidden-Code">&#182;</a></h2><p>The notebook contains several hidden code cells, which are displayed as three dots. To run these, select the above cell and press run twice (either by the buttons on the top, or the "shift" + "return" hotkey). Once the hidden code cell runs, a message such as "Done" or your evaluation results should appear. If the code expands, please collapse it using the column on the left. You don't need to edit or understand the code in these cells.</p>
 
 </div>
 </div>
@@ -13132,130 +13097,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We can now retrieve the value that <code>x</code> refers to by typing <code>x</code> in the shell:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>We computed things like <code>10 + 5</code> before. Now we can use variables in place of actual numbers:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">+</span> <span class="mi">5</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The code <code>x + 5</code> is an expression, just like <code>10</code> and <code>10 + 5</code> are, so we can store the result in a variable:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">5</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Because the expression on the right is computed first, you can also get some variable expressions that would not make sense in normal math, but do make sense in programming:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Variable expressions should not be interpreted as mathematical equations, but rather as statements that assign one value to another.</p>
+<h2 id="Starting-Out">Starting Out<a class="anchor-link" href="#Starting-Out">&#182;</a></h2><p>The first cell in the exercise section is titled "Run the hidden code cell before starting". This should be run everytime a new kernel/runtime is started. If run correctly, the message "Done!" should appear underneath.</p>
 
 </div>
 </div>
@@ -13263,121 +13105,12 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Variable-Names">Variable Names<a class="anchor-link" href="#Variable-Names">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Variable names must start with a letter or an underscore, and they can only include letters, digits, and underscores. Variable names are case-sensitive.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_F</span> <span class="o">=</span> <span class="mi">75</span>
-<span class="n">Temp_F</span> <span class="o">=</span> <span class="mi">70</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_F</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Temp_F</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_f</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>You will see that most of our early code examples will use generic variable names like <code>x</code>, <code>y</code>, <code>num</code>, etc. As your code gets longer and more sophisticated, you will want to think about having descriptive variable names like <code>patient_id</code> and <code>rolling_sum</code> so that you remember their purpose.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Practice-Exercise:-Working-with-Variables">Practice Exercise: Working with Variables<a class="anchor-link" href="#Practice-Exercise:-Working-with-Variables">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Exercises">Exercises<a class="anchor-link" href="#Exercises">&#182;</a></h2><p>This is followed by all the exercises of the notebook. An exercise generally consists of 4 cells.</p>
 <ol>
-<li>Consider this code:
-<pre><code>j = 7</code></pre>
-Write an assignment statement that creates a new variable <code>k</code> that refers to three times <code>j</code>'s value.</li>
-</ol>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write the assignment statement here</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>Consider this code:
-<pre><code>patient_a = 3
-patient_b = 4
-patient_a = 5</code></pre>
-After the code above is executed, what is <code>patient_a</code>'s value?<br>
-After the code above is executed, what is <code>patient_b</code>'s value?  </li>
+<li>The first cell provides a description of the function you need to implement. </li>
+<li>The second cell contains the starter code, and contains a comment indicating where you should write your code. Your entire implementation will go in this cell. </li>
+<li>The third cell is a testing cell for your own testing. Feel free to write any code you like here to test your function is working correctly.</li>
+<li>The last cell contains hidden code to run test cases on your function. This cell, when run, will provide a mark on your implementation. If implemented correctly, you should get full marks.</li>
 </ol>
 
 </div>
@@ -13386,14 +13119,7 @@ After the code above is executed, what is <code>patient_b</code>'s value?  </li>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>Consider this code:
-<pre><code>x = 4
-y = x + 2
-x = y + 1</code></pre>
-After the code above is executed, what is <code>x</code>'s value?<br>
-After the code above is executed, what is <code>y</code>'s value?  </li>
-</ol>
+<h2 id="Completion">Completion<a class="anchor-link" href="#Completion">&#182;</a></h2><p>The completion cell runs all the test cases in the notebook on all the functions. If this cell returns full marks, this means the notebook is complete and you can submit it.</p>
 
 </div>
 </div>
@@ -13401,17 +13127,14 @@ After the code above is executed, what is <code>y</code>'s value?  </li>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Practice-Exercise:-Solving-a-Problem-Using-Variables">Practice Exercise: Solving a Problem Using Variables<a class="anchor-link" href="#Practice-Exercise:-Solving-a-Problem-Using-Variables">&#182;</a></h2>
+<h1 id="Phase-1:-Session-3-Homework">Phase 1: Session 3 Homework<a class="anchor-link" href="#Phase-1:-Session-3-Homework">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Fridericia's formula estimates the corrected QT interval ($QTc$) in a person's ECG signal based on the measured QT interval ($QT$) and the R-R interval ($RR$): 
-$$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
-<p>The R-R interval is measured in seconds, and can be ontained using $60/hr$, where hr is the heart rate. Given the <code>hr</code> and <code>qt</code> variables below, and calculate the <code>qtc</code>.</p>
-
+<h2 id="Important:-Run-the-hidden-code-cell-before-starting">Important: Run the hidden code cell before starting<a class="anchor-link" href="#Important:-Run-the-hidden-code-cell-before-starting">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -13420,8 +13143,15 @@ $$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hr</span> <span class="o">=</span> <span class="mi">70</span>
-<span class="n">qt</span> <span class="o">=</span> <span class="mi">300</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#@title Run this cell before starting. </span>
+<span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">test_name</span><span class="p">,</span> <span class="n">actual</span><span class="p">,</span> <span class="n">expected</span><span class="p">):</span>
+  <span class="k">if</span><span class="p">(</span><span class="n">actual</span> <span class="o">==</span> <span class="n">expected</span><span class="p">):</span>
+    <span class="k">return</span> <span class="mi">1</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Test failed. &quot;</span> <span class="o">+</span> <span class="n">test_name</span> <span class="o">+</span> <span class="s2">&quot; expected &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">expected</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;, got &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">actual</span><span class="p">))</span>
+    <span class="k">return</span> <span class="mi">0</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Done!&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13432,7 +13162,14 @@ $$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The corrected QT interval should be: 315.817979882819 seconds.</p>
+<h2 id="Exercise-1:-Looping-with-Strings">Exercise 1: Looping with Strings<a class="anchor-link" href="#Exercise-1:-Looping-with-Strings">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise-1a:-Count-Non-Digits">Exercise 1a: Count Non-Digits<a class="anchor-link" href="#Exercise-1a:-Count-Non-Digits">&#182;</a></h3><p>Complete the following function according to its docstring:</p>
 
 </div>
 </div>
@@ -13442,7 +13179,921 @@ $$QTc = \frac{QT}{RR^{\frac{1}{3}}}$$</p>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write your code here</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">count_non_digits</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (str) -&gt; int</span>
+
+<span class="sd">    Return the number of non-digits in s.</span>
+
+<span class="sd">    &gt;&gt;&gt; count_non_digits(&#39;abc12d&#39;)</span>
+<span class="sd">    4</span>
+<span class="sd">    &gt;&gt;&gt; count_non_digits(&#39;135&#39;)</span>
+<span class="sd">    0</span>
+<span class="sd">    &gt;&gt;&gt; count_non_digits(&#39;A.4&#39;)</span>
+<span class="sd">    2</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Write your code here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Run-the-hidden-code-cell-to-evaluate-Exercise-1a">Run the hidden code cell to evaluate Exercise 1a<a class="anchor-link" href="#Run-the-hidden-code-cell-to-evaluate-Exercise-1a">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># (Do not edit this cell)</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">3</span>
+
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Letter and digits&quot;</span><span class="p">,</span> <span class="n">count_non_digits</span><span class="p">(</span><span class="s1">&#39;abc12d&#39;</span><span class="p">),</span> <span class="mi">4</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Only digits&quot;</span><span class="p">,</span> <span class="n">count_non_digits</span><span class="p">(</span><span class="s1">&#39;135&#39;</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;A letter and punctuation&quot;</span><span class="p">,</span> <span class="n">count_non_digits</span><span class="p">(</span><span class="s1">&#39;A.4&#39;</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All test cases passed!&quot;</span><span class="p">)</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise-1b:-Checking-for-Lowercase-Vowels">Exercise 1b: Checking for Lowercase Vowels<a class="anchor-link" href="#Exercise-1b:-Checking-for-Lowercase-Vowels">&#182;</a></h3><p>Complete the following function according to its docstring description. The letter y is not considered a vowel.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">contains_no_lowercase_vowels</span><span class="p">(</span><span class="n">phrase</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (str) -&gt; bool</span>
+
+<span class="sd">    Return True iff (if and only if) phrase does not contain any lowercase vowels.</span>
+
+<span class="sd">    &gt;&gt;&gt; contains_no_lowercase_vowels(&#39;syzygy&#39;)</span>
+<span class="sd">    True</span>
+<span class="sd">    &gt;&gt;&gt; contains_no_lowercase_vowels(&#39;e&#39;)</span>
+<span class="sd">    False</span>
+<span class="sd">    &gt;&gt;&gt; contains_no_lowercase_vowels(&#39;abc&#39;)</span>
+<span class="sd">    False</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Write your code here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Run-the-hidden-code-cell-to-evaluate-Exercise-1b">Run the hidden code cell to evaluate Exercise 1b<a class="anchor-link" href="#Run-the-hidden-code-cell-to-evaluate-Exercise-1b">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># (Do not edit this cell)</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">6</span>
+
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Empty string.&quot;</span><span class="p">,</span> <span class="n">contains_no_lowercase_vowels</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">),</span> <span class="kc">True</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Long word, no vowels.&quot;</span><span class="p">,</span> <span class="n">contains_no_lowercase_vowels</span><span class="p">(</span><span class="s1">&#39;syzygy&#39;</span><span class="p">),</span> <span class="kc">True</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single lowercase vowel.&quot;</span><span class="p">,</span> <span class="n">contains_no_lowercase_vowels</span><span class="p">(</span><span class="s1">&#39;e&#39;</span><span class="p">),</span> <span class="kc">False</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Lots of uppercase vowels.&quot;</span><span class="p">,</span> <span class="n">contains_no_lowercase_vowels</span><span class="p">(</span><span class="s1">&#39;AIEEEEEE&#39;</span><span class="p">),</span> <span class="kc">True</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Lowercase vowel first.&quot;</span><span class="p">,</span> <span class="n">contains_no_lowercase_vowels</span><span class="p">(</span><span class="s1">&#39;abc&#39;</span><span class="p">),</span> <span class="kc">False</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Lowercase vowel last.&quot;</span><span class="p">,</span> <span class="n">contains_no_lowercase_vowels</span><span class="p">(</span><span class="s1">&#39;bcde&#39;</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All test cases passed!&quot;</span><span class="p">)</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise-1c:-Password-Validity">Exercise 1c: Password Validity<a class="anchor-link" href="#Exercise-1c:-Password-Validity">&#182;</a></h3><p>Complete the following function according to its docstring:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">check_password</span><span class="p">(</span><span class="n">passwd</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (str) -&gt; bool</span>
+
+<span class="sd">    A strong password has a length greater than or equal to 6, contains at</span>
+<span class="sd">    least one lowercase letter, at least one uppercase letter, and at least</span>
+<span class="sd">    one digit.  Return True iff passwd is considered strong.</span>
+
+<span class="sd">    &gt;&gt;&gt; check_password(&#39;I&lt;3csc108&#39;)</span>
+<span class="sd">    True</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Write your code here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Run-the-hidden-code-cell-to-evaluate-Exercise-1c">Run the hidden code cell to evaluate Exercise 1c<a class="anchor-link" href="#Run-the-hidden-code-cell-to-evaluate-Exercise-1c">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># (Do not edit this cell)</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">14</span>
+
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Too short.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;dE6gh&#39;</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Empty string.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Exactly six letters, at least one of each kind that we need.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;dE6ghi&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;More than six letters, at least one of each kind that we need.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;dE6ghijklm&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Ends in digit.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;!!!!eF9&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Ends in uppercase.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;!!!!e9F&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Ends in lowercase.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;!!!!E9f&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Starts with lowercase.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;a2C!!!g&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Starts with digit.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;2bC!!!g&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Starts with uppercase.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;Ab3!!!g&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;All sandwiched in between.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;!!!aB3!&#39;</span><span class="p">),</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Missing digit.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;aaaaaaB&#39;</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Missing uppercase.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;aaaaaa1&#39;</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Missing lowercase.&quot;</span><span class="p">,</span> <span class="n">check_password</span><span class="p">(</span><span class="s1">&#39;AAAAAA1&#39;</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All test cases passed!&quot;</span><span class="p">)</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Exercise-2:-Looping-with-Lists">Exercise 2: Looping with Lists<a class="anchor-link" href="#Exercise-2:-Looping-with-Lists">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise-2a:-Find-an-Even-Number">Exercise 2a: Find an Even Number<a class="anchor-link" href="#Exercise-2a:-Find-an-Even-Number">&#182;</a></h3><p>Complete the following function according to its docstring using a <code>for</code> loop:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">first_even</span><span class="p">(</span><span class="n">items</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (list of int) -&gt; int</span>
+<span class="sd">    </span>
+<span class="sd">    Return the first even number from items. Return -1 if items contains no even numbers.</span>
+
+<span class="sd">    &gt;&gt;&gt; first_even([5, 8, 3, 2])</span>
+<span class="sd">    8</span>
+<span class="sd">    &gt;&gt;&gt; first_even([7, 1])</span>
+<span class="sd">    -1</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Write your code here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Run-the-hidden-code-cell-to-evaluate-Exercise-2a">Run the hidden code cell to evaluate Exercise 2a<a class="anchor-link" href="#Run-the-hidden-code-cell-to-evaluate-Exercise-2a">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># (Do not edit this cell)</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">6</span>
+
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;The list does not start with an even number&quot;</span><span class="p">,</span> <span class="n">first_even</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">]),</span> <span class="mi">4</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;The list is empty&quot;</span><span class="p">,</span> <span class="n">first_even</span><span class="p">([]),</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;The list contains only even numbers&quot;</span><span class="p">,</span> <span class="n">first_even</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">]),</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;The list contains odd integers: there are no even numbers&quot;</span><span class="p">,</span> <span class="n">first_even</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">]),</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;The list contains several odd integers followed by one even integer: the even integer is the last item in the list&quot;</span><span class="p">,</span> <span class="n">first_even</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">]),</span> <span class="mi">8</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;The list is empty&quot;</span><span class="p">,</span> <span class="n">first_even</span><span class="p">([</span><span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">]),</span> <span class="mi">8</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All test cases passed!&quot;</span><span class="p">)</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise-2b:-Searching-a-Closet">Exercise 2b: Searching a Closet<a class="anchor-link" href="#Exercise-2b:-Searching-a-Closet">&#182;</a></h3><p>Complete the following function according to its docstring using a <code>for</code> loop. String method <code>startswith()</code> may come in handy here.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">search_closet</span><span class="p">(</span><span class="n">items</span><span class="p">,</span> <span class="n">colour</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (list of str, str) -&gt; list of str</span>
+<span class="sd">    </span>
+<span class="sd">    items is a list containing descriptions of the contents of a closet where</span>
+<span class="sd">    every description has the form &#39;colour item&#39;, where each colour is one word</span>
+<span class="sd">    and each item is one or more word.  For example:</span>
+
+<span class="sd">        [&#39;grey summer jacket&#39;, &#39;orange spring jacket&#39;, &#39;red shoes&#39;, &#39;green hat&#39;]</span>
+
+<span class="sd">    colour is a colour that is being searched for in items. </span>
+<span class="sd">    </span>
+<span class="sd">    Return a list containing only the items that match the colour.</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; search_closet([&#39;red summer jacket&#39;, &#39;orange spring jacket&#39;, &#39;red shoes&#39;, &#39;green hat&#39;], &#39;red&#39;)</span>
+<span class="sd">    [&#39;red summer jacket&#39;, &#39;red shoes&#39;]</span>
+<span class="sd">    &gt;&gt;&gt; search_closet([&#39;red shirt&#39;, &#39;green pants&#39;], &#39;blue&#39;)</span>
+<span class="sd">    []</span>
+<span class="sd">    &gt;&gt;&gt; search_closet([], &#39;mauve&#39;)</span>
+<span class="sd">    []</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Write your code here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Run-the-hidden-code-cell-to-evaluate-Exercise-2b">Run the hidden code cell to evaluate Exercise 2b<a class="anchor-link" href="#Run-the-hidden-code-cell-to-evaluate-Exercise-2b">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># (Do not edit this cell)</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">11</span>
+
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches item name, but not closet item colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat Black&#39;</span><span class="p">],</span> <span class="s1">&#39;Black&#39;</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Non-matching colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;z&#39;</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches first item&#39;s colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Red&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches last item&#39;s colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Cat&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Cat toe&#39;</span><span class="p">]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches middle item&#39;s colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Far&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Far bar&#39;</span><span class="p">]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches multiple items&#39; colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Zing baff&#39;</span><span class="p">,</span> <span class="s1">&#39;Purple spaghetti&#39;</span><span class="p">,</span> <span class="s1">&#39;Far rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Far&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Far rally&#39;</span><span class="p">]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Empty closet.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([],</span> <span class="s1">&#39;Far&#39;</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches first item&#39;s colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Purple Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Purple&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Purple Foo&#39;</span><span class="p">]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches last item&#39;s colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Black toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Black&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Black toe&#39;</span><span class="p">]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches middle item&#39;s colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Orange rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Far&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Far bar&#39;</span><span class="p">]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches multiple items&#39; colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Yellow bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Zing baff&#39;</span><span class="p">,</span> <span class="s1">&#39;Yellow spaghetti&#39;</span><span class="p">,</span> <span class="s1">&#39;Far rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Yellow toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Yellow&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Yellow bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Yellow spaghetti&#39;</span><span class="p">,</span> <span class="s1">&#39;Yellow toe&#39;</span><span class="p">])</span>
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All test cases passed!&quot;</span><span class="p">)</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise-2c:-Collecting-Underperformers">Exercise 2c: Collecting Underperformers<a class="anchor-link" href="#Exercise-2c:-Collecting-Underperformers">&#182;</a></h3><p>Complete the examples in the docstring and then complete the function body.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">collect_underperformers</span><span class="p">(</span><span class="n">nums</span><span class="p">,</span> <span class="n">threshold</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (list of number, int) -&gt; list of number</span>
+
+<span class="sd">    Return a new list consisting of those numbers in nums that are below threshold,</span>
+<span class="sd">    in the same order as in nums.</span>
+
+<span class="sd">    &gt;&gt;&gt; collect_underperformers([1, 2, 3, 4], 3)</span>
+<span class="sd">    [1, 2]</span>
+<span class="sd">    &gt;&gt;&gt; collect_underperformers([1, 2, 108, 3, 4], 50)</span>
+<span class="sd">    # TODO Replace this comment with the return value for the function call.</span>
+<span class="sd">    &gt;&gt;&gt; collect_underperformers([], 7)</span>
+<span class="sd">    # TODO Replace this comment with the return value for the function call.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Write your code here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test you function here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Run-the-hidden-code-cell-to-evaluate-Exercise-2c">Run the hidden code cell to evaluate Exercise 2c<a class="anchor-link" href="#Run-the-hidden-code-cell-to-evaluate-Exercise-2c">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># (Do not edit this cell)</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">11</span>
+
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Empty list.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([],</span> <span class="mi">100</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element list, no underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">5</span><span class="p">],</span> <span class="mi">3</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element list, no underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">2</span><span class="p">],</span> <span class="mi">1</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element list, underperformer.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">2</span><span class="p">],</span> <span class="mi">5</span><span class="p">),</span> <span class="p">[</span><span class="mi">2</span><span class="p">]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element list, underperformer.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">7</span><span class="p">],</span> <span class="mi">8</span><span class="p">),</span> <span class="p">[</span><span class="mi">7</span><span class="p">]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple element list, no underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="mi">2</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple element list, no underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">7</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">9</span><span class="p">],</span> <span class="mi">4</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple element list, some underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="mi">5</span><span class="p">),</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple element list, some underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">88</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="mi">3</span><span class="p">),</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple element list, all underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">13</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="p">],</span> <span class="mi">50</span><span class="p">),</span> <span class="p">[</span><span class="mi">13</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>  <span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple element list, all underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="p">],</span> <span class="mi">10</span><span class="p">),</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="p">])</span>
+
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All test cases passed!&quot;</span><span class="p">)</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Exericse-3:-Modifying-Lists">Exericse 3: Modifying Lists<a class="anchor-link" href="#Exericse-3:-Modifying-Lists">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Complete the following function according to its docstring.</p>
+<p><strong>Note:</strong> this function should return None. Its job is to modify the list passed as its argument.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">swap_name</span><span class="p">(</span><span class="n">name_list</span><span class="p">):</span> 
+    <span class="sd">&quot;&quot;&quot; (list of str) -&gt; NoneType </span>
+<span class="sd"> </span>
+<span class="sd">    name_list contains a single person&#39;s name. Modify name_list so that the first name and last name are swapped. </span>
+<span class="sd">                 </span>
+<span class="sd">    &gt;&gt;&gt; name = [&#39;John&#39;, &#39;Smith&#39;] </span>
+<span class="sd">    &gt;&gt;&gt; swap_name(name) </span>
+<span class="sd">    &gt;&gt;&gt; name </span>
+<span class="sd">    [&#39;Smith&#39;, &#39;John&#39;] </span>
+<span class="sd">    &gt;&gt;&gt; name = [&#39;John&#39;, &#39;Andrew&#39;, &#39;Gleeson&#39;, &#39;Smith&#39;] </span>
+<span class="sd">    &gt;&gt;&gt; swap_name(name) </span>
+<span class="sd">    &gt;&gt;&gt; name </span>
+<span class="sd">    [&#39;Smith&#39;, &#39;Andrew&#39;, &#39;Gleeson&#39;, &#39;John&#39;] </span>
+<span class="sd">    &quot;&quot;&quot;</span> 
+    <span class="c1"># Write your code here    </span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Run-the-hidden-code-cell-to-evaluate-Exercise-3a">Run the hidden code cell to evaluate Exercise 3a<a class="anchor-link" href="#Run-the-hidden-code-cell-to-evaluate-Exercise-3a">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># (Do not edit this cell)</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">2</span>
+
+<span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Boo&#39;</span><span class="p">,</span> <span class="s1">&#39;Yah&#39;</span><span class="p">];</span>
+<span class="n">swap_name</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;A person with no middle names.&quot;</span><span class="p">,</span> <span class="n">lst</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;Yah&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo&#39;</span><span class="p">])</span>
+
+
+<span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Boo&#39;</span><span class="p">,</span> <span class="s1">&#39;Yah&#39;</span><span class="p">,</span> <span class="s1">&#39;Kah&#39;</span><span class="p">,</span> <span class="s1">&#39;Aaaah&#39;</span><span class="p">,</span> <span class="s1">&#39;Shah&#39;</span><span class="p">];</span>
+<span class="n">swap_name</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;A person with 3 middle names.&quot;</span><span class="p">,</span> <span class="n">lst</span><span class="p">,</span>  <span class="p">[</span><span class="s1">&#39;Shah&#39;</span><span class="p">,</span> <span class="s1">&#39;Yah&#39;</span><span class="p">,</span> <span class="s1">&#39;Kah&#39;</span><span class="p">,</span> <span class="s1">&#39;Aaaah&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo&#39;</span><span class="p">])</span>
+
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All test cases passed!&quot;</span><span class="p">)</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Exercise-4:-Looping-with-Indices">Exercise 4: Looping with Indices<a class="anchor-link" href="#Exercise-4:-Looping-with-Indices">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise-4a:-Scale-Midterm-Grades">Exercise 4a: Scale Midterm Grades<a class="anchor-link" href="#Exercise-4a:-Scale-Midterm-Grades">&#182;</a></h3><p>Complete the examples in the docstring and then complete the function body.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="n">multiplier</span><span class="p">,</span> <span class="n">bonus</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; (list of number, number, number) -&gt; NoneType</span>
+
+<span class="sd">    Modify each grade in grades by multiplying it by multiplier and then</span>
+<span class="sd">    adding bonus. Cap grades at 100.</span>
+
+<span class="sd">    &gt;&gt;&gt; grades = [45, 50, 55, 95]</span>
+<span class="sd">    &gt;&gt;&gt; scale_midterm_grades(grades, 1, 10)</span>
+<span class="sd">    &gt;&gt;&gt; grades</span>
+<span class="sd">    # TODO Replace this comment with the list that grades should refer to.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Write your code here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Run-the-hidden-code-cell-to-evaluate-Exercise-4a">Run the hidden code cell to evaluate Exercise 4a<a class="anchor-link" href="#Run-the-hidden-code-cell-to-evaluate-Exercise-4a">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># (Do not edit this cell)</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">11</span>
+
+<span class="n">grades</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Empty list.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[])</span>
+
+<span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">50</span><span class="p">]</span>
+<span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element, no change.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">50</span><span class="p">])</span>  
+
+<span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">60</span><span class="p">]</span>
+<span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element, no change.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">60</span><span class="p">])</span>  
+
+<span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">50</span><span class="p">]</span>
+<span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element, multiplier.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">100</span><span class="p">])</span>  
+
+<span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">40</span><span class="p">]</span>
+<span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element, multiplier.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">80</span><span class="p">])</span>  
+
+<span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">20</span><span class="p">];</span>
+<span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element, bonus.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">100</span><span class="p">])</span>  
+
+<span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">50</span><span class="p">]</span>
+<span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element, bonus.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">100</span><span class="p">])</span>  
+
+<span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">56</span><span class="p">,</span> <span class="mi">76</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">55</span><span class="p">]</span>
+<span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple elements, no change.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">56</span><span class="p">,</span> <span class="mi">76</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">55</span><span class="p">])</span>  
+
+<span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">86</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">99</span><span class="p">]</span>
+<span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple elements, no change.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">86</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">99</span><span class="p">])</span>  
+
+<span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">54</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="mi">66</span><span class="p">,</span> <span class="mi">25</span><span class="p">]</span>
+<span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mf">1.2</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple elements, modified.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mf">94.8</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">60</span><span class="p">])</span>  
+
+<span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">54</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="mi">66</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">99</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">]</span>
+<span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple elements, modified.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">72</span><span class="p">,</span> <span class="mi">74</span><span class="p">])</span> 
+
+
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All test cases passed!&quot;</span><span class="p">)</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise-4b:-Weight-Watchers">Exercise 4b: Weight Watchers<a class="anchor-link" href="#Exercise-4b:-Weight-Watchers">&#182;</a></h3><p>A patient is trying to lose weight and you have a list of weekly weight measurements. The first measurement in the list is the weight from the initial visit, the second from 1 week later, the next from 2 weeks later etc. The goal is to lose 10%.</p>
+<p>Write a function that takes this list as a parameter and returns the number of weeks until the patient loses 10% of the original weight. (If the weight fluxuates, just report the first time that the weight is below 90% of the original value.)</p>
+<p>If the patient never reaches the goal, return -1.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">weeks_to_goal</span><span class="p">(</span><span class="n">weights</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;  (list of number) -&gt; int</span>
+
+<span class="sd">    Return the number of weeks until the patient has lost at least 10% </span>
+<span class="sd">    of the original weight using the measurements from weights.</span>
+<span class="sd">    Return -1 if goal is never reached.</span>
+
+<span class="sd">    &gt;&gt;&gt; weeks_to_first_goal([100, 95, 93.4, 92, 91.5, 89.5, 88, 80])</span>
+<span class="sd">    5</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Write your code here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Run-the-hidden-code-cell-to-evaluate-Exercise-4b">Run the hidden code cell to evaluate Exercise 4b<a class="anchor-link" href="#Run-the-hidden-code-cell-to-evaluate-Exercise-4b">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># (Do not edit this cell)</span>
+<span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">4</span>
+
+
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Example from description&quot;</span><span class="p">,</span> <span class="n">weeks_to_goal</span><span class="p">([</span><span class="mi">100</span><span class="p">,</span> <span class="mi">95</span><span class="p">,</span> <span class="mf">93.4</span><span class="p">,</span> <span class="mi">92</span><span class="p">,</span> <span class="mf">91.5</span><span class="p">,</span> <span class="mf">89.5</span><span class="p">,</span> <span class="mi">88</span><span class="p">,</span> <span class="mi">80</span><span class="p">]),</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Goal never reached&quot;</span><span class="p">,</span> <span class="n">weeks_to_goal</span><span class="p">([</span><span class="mi">100</span><span class="p">,</span> <span class="mi">95</span><span class="p">,</span> <span class="mf">93.4</span><span class="p">,</span> <span class="mi">92</span><span class="p">,</span> <span class="mf">91.5</span><span class="p">,</span> <span class="mf">93.5</span><span class="p">,</span> <span class="mi">98</span><span class="p">,</span> <span class="mi">100</span><span class="p">]),</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Another example&quot;</span><span class="p">,</span> <span class="n">weeks_to_goal</span><span class="p">([</span><span class="mi">100</span><span class="p">,</span> <span class="mi">95</span><span class="p">,</span> <span class="mf">93.4</span><span class="p">,</span> <span class="mf">89.5</span><span class="p">,</span> <span class="mi">88</span><span class="p">]),</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Example where initial weight is not 100&quot;</span><span class="p">,</span> <span class="n">weeks_to_goal</span><span class="p">([</span><span class="mi">200</span><span class="p">,</span> <span class="mi">190</span><span class="p">,</span> <span class="mf">189.5</span><span class="p">,</span> <span class="mi">188</span><span class="p">,</span> <span class="mi">180</span><span class="p">,</span> <span class="mf">175.4</span><span class="p">]),</span><span class="mi">4</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All test cases passed!&quot;</span><span class="p">)</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Homework-Completion">Homework Completion<a class="anchor-link" href="#Homework-Completion">&#182;</a></h1><p>Run this hidden code cell to check that you've successfully completed all of the exercises.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">54</span>
+
+<span class="k">try</span><span class="p">:</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Letter and digits&quot;</span><span class="p">,</span> <span class="n">count_non_digits</span><span class="p">(</span><span class="s1">&#39;abc12d&#39;</span><span class="p">),</span> <span class="mi">4</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Only digits&quot;</span><span class="p">,</span> <span class="n">count_non_digits</span><span class="p">(</span><span class="s1">&#39;135&#39;</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;A letter and punctuation&quot;</span><span class="p">,</span> <span class="n">count_non_digits</span><span class="p">(</span><span class="s1">&#39;A.4&#39;</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>
+
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Empty string.&quot;</span><span class="p">,</span> <span class="n">contains_no_lowercase_vowels</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">),</span> <span class="kc">True</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Long word, no vowels.&quot;</span><span class="p">,</span> <span class="n">contains_no_lowercase_vowels</span><span class="p">(</span><span class="s1">&#39;syzygy&#39;</span><span class="p">),</span> <span class="kc">True</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single lowercase vowel.&quot;</span><span class="p">,</span> <span class="n">contains_no_lowercase_vowels</span><span class="p">(</span><span class="s1">&#39;e&#39;</span><span class="p">),</span> <span class="kc">False</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Lots of uppercase vowels.&quot;</span><span class="p">,</span> <span class="n">contains_no_lowercase_vowels</span><span class="p">(</span><span class="s1">&#39;AIEEEEEE&#39;</span><span class="p">),</span> <span class="kc">True</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Lowercase vowel first.&quot;</span><span class="p">,</span> <span class="n">contains_no_lowercase_vowels</span><span class="p">(</span><span class="s1">&#39;abc&#39;</span><span class="p">),</span> <span class="kc">False</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Lowercase vowel last.&quot;</span><span class="p">,</span> <span class="n">contains_no_lowercase_vowels</span><span class="p">(</span><span class="s1">&#39;bcde&#39;</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
+
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;The list does not start with an even number&quot;</span><span class="p">,</span> <span class="n">first_even</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">]),</span> <span class="mi">4</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;The list is empty&quot;</span><span class="p">,</span> <span class="n">first_even</span><span class="p">([]),</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;The list contains only even numbers&quot;</span><span class="p">,</span> <span class="n">first_even</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">]),</span> <span class="mi">2</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;The list contains odd integers: there are no even numbers&quot;</span><span class="p">,</span> <span class="n">first_even</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">]),</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;The list contains several odd integers followed by one even integer: the even integer is the last item in the list&quot;</span><span class="p">,</span> <span class="n">first_even</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">]),</span> <span class="mi">8</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;The list is empty&quot;</span><span class="p">,</span> <span class="n">first_even</span><span class="p">([</span><span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">]),</span> <span class="mi">8</span><span class="p">)</span>
+
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches item name, but not closet item colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat Black&#39;</span><span class="p">],</span> <span class="s1">&#39;Black&#39;</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Non-matching colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;z&#39;</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches first item&#39;s colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Red&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches last item&#39;s colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Cat&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Cat toe&#39;</span><span class="p">]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches middle item&#39;s colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Far&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Far bar&#39;</span><span class="p">]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches multiple items&#39; colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Zing baff&#39;</span><span class="p">,</span> <span class="s1">&#39;Purple spaghetti&#39;</span><span class="p">,</span> <span class="s1">&#39;Far rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Far&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Far rally&#39;</span><span class="p">]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Empty closet.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([],</span> <span class="s1">&#39;Far&#39;</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches first item&#39;s colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Purple Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Purple&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Purple Foo&#39;</span><span class="p">]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches last item&#39;s colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Black toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Black&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Black toe&#39;</span><span class="p">]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches middle item&#39;s colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Far bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Orange rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Cat toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Far&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Far bar&#39;</span><span class="p">]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Colour matches multiple items&#39; colour.&quot;</span><span class="p">,</span> <span class="n">search_closet</span><span class="p">([</span><span class="s1">&#39;Red Foo&#39;</span><span class="p">,</span> <span class="s1">&#39;Yellow bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Zing baff&#39;</span><span class="p">,</span> <span class="s1">&#39;Yellow spaghetti&#39;</span><span class="p">,</span> <span class="s1">&#39;Far rally&#39;</span><span class="p">,</span> <span class="s1">&#39;Yellow toe&#39;</span><span class="p">],</span> <span class="s1">&#39;Yellow&#39;</span><span class="p">),</span> <span class="p">[</span><span class="s1">&#39;Yellow bar&#39;</span><span class="p">,</span> <span class="s1">&#39;Yellow spaghetti&#39;</span><span class="p">,</span> <span class="s1">&#39;Yellow toe&#39;</span><span class="p">])</span>
+
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Empty list.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([],</span> <span class="mi">100</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element list, no underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">5</span><span class="p">],</span> <span class="mi">3</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element list, no underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">2</span><span class="p">],</span> <span class="mi">1</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element list, underperformer.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">2</span><span class="p">],</span> <span class="mi">5</span><span class="p">),</span> <span class="p">[</span><span class="mi">2</span><span class="p">]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element list, underperformer.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">7</span><span class="p">],</span> <span class="mi">8</span><span class="p">),</span> <span class="p">[</span><span class="mi">7</span><span class="p">]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple element list, no underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="mi">2</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple element list, no underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">7</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">9</span><span class="p">],</span> <span class="mi">4</span><span class="p">),</span> <span class="p">[]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple element list, some underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="mi">5</span><span class="p">),</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple element list, some underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">88</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="mi">3</span><span class="p">),</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple element list, all underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">13</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="p">],</span> <span class="mi">50</span><span class="p">),</span> <span class="p">[</span><span class="mi">13</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>  <span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple element list, all underperformers.&quot;</span><span class="p">,</span> <span class="n">collect_underperformers</span><span class="p">([</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="p">],</span> <span class="mi">10</span><span class="p">),</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="p">])</span>
+
+  <span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Boo&#39;</span><span class="p">,</span> <span class="s1">&#39;Yah&#39;</span><span class="p">];</span>
+  <span class="n">swap_name</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;A person with no middle names.&quot;</span><span class="p">,</span> <span class="n">lst</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;Yah&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo&#39;</span><span class="p">])</span>
+
+
+  <span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Boo&#39;</span><span class="p">,</span> <span class="s1">&#39;Yah&#39;</span><span class="p">,</span> <span class="s1">&#39;Kah&#39;</span><span class="p">,</span> <span class="s1">&#39;Aaaah&#39;</span><span class="p">,</span> <span class="s1">&#39;Shah&#39;</span><span class="p">];</span>
+  <span class="n">swap_name</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;A person with 3 middle names.&quot;</span><span class="p">,</span> <span class="n">lst</span><span class="p">,</span>  <span class="p">[</span><span class="s1">&#39;Shah&#39;</span><span class="p">,</span> <span class="s1">&#39;Yah&#39;</span><span class="p">,</span> <span class="s1">&#39;Kah&#39;</span><span class="p">,</span> <span class="s1">&#39;Aaaah&#39;</span><span class="p">,</span> <span class="s1">&#39;Boo&#39;</span><span class="p">])</span>
+
+  <span class="n">grades</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Empty list.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[])</span>
+
+  <span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">50</span><span class="p">]</span>
+  <span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element, no change.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">50</span><span class="p">])</span>  
+
+  <span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">60</span><span class="p">]</span>
+  <span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element, no change.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">60</span><span class="p">])</span>  
+
+  <span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">50</span><span class="p">]</span>
+  <span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element, multiplier.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">100</span><span class="p">])</span>  
+
+  <span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">40</span><span class="p">]</span>
+  <span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element, multiplier.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">80</span><span class="p">])</span>  
+
+  <span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">20</span><span class="p">];</span>
+  <span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element, bonus.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">100</span><span class="p">])</span>  
+
+  <span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">50</span><span class="p">]</span>
+  <span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Single element, bonus.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">100</span><span class="p">])</span>  
+
+  <span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">56</span><span class="p">,</span> <span class="mi">76</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">55</span><span class="p">]</span>
+  <span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple elements, no change.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">56</span><span class="p">,</span> <span class="mi">76</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">55</span><span class="p">])</span>  
+
+  <span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">86</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">99</span><span class="p">]</span>
+  <span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple elements, no change.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">86</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">99</span><span class="p">])</span>  
+
+  <span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">54</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="mi">66</span><span class="p">,</span> <span class="mi">25</span><span class="p">]</span>
+  <span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mf">1.2</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple elements, modified.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mf">94.8</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">60</span><span class="p">])</span>  
+
+  <span class="n">grades</span> <span class="o">=</span> <span class="p">[</span><span class="mi">54</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="mi">66</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">99</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">]</span>
+  <span class="n">scale_midterm_grades</span><span class="p">(</span><span class="n">grades</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Multiple elements, modified.&quot;</span><span class="p">,</span> <span class="n">grades</span><span class="p">,</span> <span class="p">[</span><span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">72</span><span class="p">,</span> <span class="mi">74</span><span class="p">])</span> 
+
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Example from description&quot;</span><span class="p">,</span> <span class="n">weeks_to_goal</span><span class="p">([</span><span class="mi">100</span><span class="p">,</span> <span class="mi">95</span><span class="p">,</span> <span class="mf">93.4</span><span class="p">,</span> <span class="mi">92</span><span class="p">,</span> <span class="mf">91.5</span><span class="p">,</span> <span class="mf">89.5</span><span class="p">,</span> <span class="mi">88</span><span class="p">,</span> <span class="mi">80</span><span class="p">]),</span><span class="mi">5</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Goal never reached&quot;</span><span class="p">,</span> <span class="n">weeks_to_goal</span><span class="p">([</span><span class="mi">100</span><span class="p">,</span> <span class="mi">95</span><span class="p">,</span> <span class="mf">93.4</span><span class="p">,</span> <span class="mi">92</span><span class="p">,</span> <span class="mf">91.5</span><span class="p">,</span> <span class="mf">93.5</span><span class="p">,</span> <span class="mi">98</span><span class="p">,</span> <span class="mi">100</span><span class="p">]),</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Another example&quot;</span><span class="p">,</span> <span class="n">weeks_to_goal</span><span class="p">([</span><span class="mi">100</span><span class="p">,</span> <span class="mi">95</span><span class="p">,</span> <span class="mf">93.4</span><span class="p">,</span> <span class="mf">89.5</span><span class="p">,</span> <span class="mi">88</span><span class="p">]),</span><span class="mi">3</span><span class="p">)</span>
+  <span class="n">score</span> <span class="o">+=</span> <span class="n">test</span><span class="p">(</span><span class="s2">&quot;Example where initial weight is not 100&quot;</span><span class="p">,</span> <span class="n">weeks_to_goal</span><span class="p">([</span><span class="mi">200</span><span class="p">,</span> <span class="mi">190</span><span class="p">,</span> <span class="mf">189.5</span><span class="p">,</span> <span class="mi">188</span><span class="p">,</span> <span class="mi">180</span><span class="p">,</span> <span class="mf">175.4</span><span class="p">]),</span><span class="mi">4</span><span class="p">)</span>
+
+<span class="k">except</span> <span class="ne">NameError</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Oops! It seems like some of your functions are not implemented.&quot;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">score</span> <span class="o">==</span> <span class="nb">max</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Congratulations! All tests passed. Homework Complete!&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">score</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+   <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Some of your functions are working, but all test cases haven&#39;t passed yet. Keep on trying!&quot;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mark: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">score</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">))</span>
 </pre></div>
 
     </div>
