@@ -4,17 +4,13 @@ index: 2
 date: 2022-02-16
 materials:
 - topic: "Project Materials"
-  files: 
-  - type: "worksheet"
-    url: projects/project1/project1_worksheet.pdf
+  files:
   - type: "handout"
-    url: projects/project1/C4MPhaseIIProject1.pdf
-  - type: "project1.py"
-    url: projects/project1/project1.py
+    url: projects/project1/project1_handout.pdf
+  - type: "notebook" 
+    url: projects/project1/project1_notebook.ipynb
   - type: "wikipages.zip"
     url: projects/project1/wikipages.zip
-  - type: "tester.py"
-    url: projects/project1/tester.py
 assignments:
   text: "Project 1"
   due_date: 2022-02-23 11:59 PM

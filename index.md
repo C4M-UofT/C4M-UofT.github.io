@@ -39,7 +39,7 @@ Attendance to Sessions 1 (second half), 2, and 3 in Phase 1 will be optional for
 - Ian Ruffolo
 
 ### Delivery Method:
-- Wednesdays 1-4 PM
-- First session virtual, rest of Phase 1 hybrid
+- Course time: Wednesdays 1-4 PM
+- Delivery method: contingent on university regulations
 - Zoom link: [see Quercus](https://q.utoronto.ca/courses/257297)
 - Physical room: Medical Sciences Building Collaboration Space (MS2278)

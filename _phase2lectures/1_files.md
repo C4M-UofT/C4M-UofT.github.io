@@ -34,18 +34,10 @@ materials:
   - type: "broken_is_teenager.pdf"
     url: notebooks/phase2/session1/broken_is_teenager.pdf
 assignments:
-  text: "Project 1 Preparation Exercises"
+  text: "Session 1 Homework"
   due_date: 2022-02-15 11:59 PM
   submission: https://q.utoronto.ca/courses/257297/assignments/716366
   files:
-  - type: "notebook (parts 1, 2a, and 3a)" 
-    url: notebooks/2020-2021/Phase2_Project1PreparationExercises.ipynb
-  - type: "handout (part 2b)" 
-    url: projects/project1/project1_exercise2_partb.pdf
-  - type: "handout (part 3b)" 
-    url: projects/project1/project1_exercise3_partb.pdf
-  - type: "tester.py (part 3b)" 
-    url: projects/project1/ex3_tester.py
-  - type: "sym_data1.txt (part 3b)" 
-    url: projects/project1/sym_data1.txt
+  - type: "notebook" 
+    url: notebooks/phase2/session1/phase2session1_homework.ipynb
 ---

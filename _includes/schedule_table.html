@@ -31,7 +31,8 @@
             <li>
               {{ material.topic }}
               [{% for file in material.files %}
-                <a href="{{ file.url }}">{{ file.type }}</a>,
+                <a href="{{ file.url }}">{{ file.type }}</a>
+                {% if forloop.last %}{% else %}, {% endif %}
               {% endfor %}]
             </li>
           {% endfor %}
