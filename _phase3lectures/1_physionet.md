@@ -8,7 +8,7 @@ materials:
   - type: "website"
     url: https://physionet.org/content/challenge-2019/1.0.0/
   - type: "handout"
-    url: projects/projecct3/project3_handout.pdf
+    url: projects/project3/project3_handout.pdf
   - type: "notebook"
     url: projects/project3/project3_notebook.ipynb
 assignments:
