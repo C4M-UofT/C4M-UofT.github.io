@@ -9,6 +9,8 @@ materials:
     url: projects/project2/project2_handout.pdf
   - type: "notebook" 
     url: projects/project2/project2_notebook.ipynb
+  - type: "colab" 
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/projects/project2/project2_notebook.ipynb
 - topic: "Video Tutorials on Graphs"
   files:
   - type: "Graph representations"
