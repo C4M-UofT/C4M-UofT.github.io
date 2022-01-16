@@ -9,6 +9,8 @@ materials:
     url: projects/project1/project1_handout.pdf
   - type: "notebook" 
     url: projects/project1/project1_notebook.ipynb
+  - type: "colab" 
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/projects/project1/project1_notebook.ipynb
   - type: "wikipages.zip"
     url: projects/project1/wikipages.zip
 assignments:
