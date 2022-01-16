@@ -11,6 +11,8 @@ materials:
     url: projects/project3/project3_handout.pdf
   - type: "notebook"
     url: projects/project3/project3_notebook.ipynb
+  - type: "colab"
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/projects/project3/project3_notebook.ipynb
 assignments:
   text: "Project 3"
   due_date: 2022-05-25 11:59 PM
