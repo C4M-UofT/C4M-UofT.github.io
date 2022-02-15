@@ -36,7 +36,7 @@ materials:
 assignments:
   text: "Session 1 Homework"
   due_date: 2022-02-15 11:59 PM
-  submission: https://q.utoronto.ca/courses/257297/assignments/716366
+  submission: https://q.utoronto.ca/courses/257297/assignments/815361
   files:
   - type: "notebook" 
     url: notebooks/phase2/session1/phase2session1_homework.ipynb
