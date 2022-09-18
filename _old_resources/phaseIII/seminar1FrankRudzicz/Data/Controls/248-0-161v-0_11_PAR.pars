@@ -1,7 +1,0 @@
-(ROOT
-  (S
-    (NP (JJ i) (NN dont))
-    (VP
-      (VBP see)
-      (NP (DT any) (NNS birds))
-      (PP (IN on) (NP (DT the) (NN windowsil))))))

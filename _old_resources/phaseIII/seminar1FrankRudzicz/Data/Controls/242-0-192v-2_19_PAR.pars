@@ -1,6 +1,0 @@
-(ROOT
-  (S
-    (NP (NN hm))
-    (VP
-      (VBZ lets)
-      (VP (VB see) (SBAR (WHNP (WP what)) (S (VP (VBP els))))))))

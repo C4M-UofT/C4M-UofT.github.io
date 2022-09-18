@@ -1,6 +1,0 @@
-(ROOT
-  (S
-    (NP (JJ i) (NN dont))
-    (VP
-      (VBP know)
-      (SBAR (WHNP (WP what)) (S (ADVP (RB else)) (VP (VBZ i)))))))

@@ -1,7 +1,0 @@
-(ROOT
-  (S
-    (VP
-      (VB let)
-      (S
-        (NP (PRP me))
-        (VP (VB see) (SBAR (WHNP (WP what)) (S (VP (VBP els)))))))))

@@ -1,6 +1,0 @@
-(ROOT
-  (FRAG
-    (CC and)
-    (NP
-      (NP (PRP$ his) (NNS girls))
-      (SBAR (S (VP (VBG standing) (PP (IN beside) (NP (PRP him)))))))))

@@ -1,9 +1,0 @@
-(ROOT
-  (FRAG
-    (ADJP (JJ shes))
-    (S
-      (VP
-        (ADVP (RB also))
-        (VBG looking)
-        (PRT (RP out))
-        (NP (DT the) (NN window))))))

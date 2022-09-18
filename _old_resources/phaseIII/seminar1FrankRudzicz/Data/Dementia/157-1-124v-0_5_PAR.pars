@@ -1,9 +1,0 @@
-(ROOT
-  (FRAG
-    (NP (JJ little) (NNS girls))
-    (S
-      (VP
-        (VBG holding)
-        (NP (PRP$ her) (NN hand))
-        (PRT (RP up))
-        (S (VP (VBG telling) (NP (PRP him)) (NP (CD one) (NN tim))))))))
