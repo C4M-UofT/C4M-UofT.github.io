@@ -1,7 +1,7 @@
 ---
 title: "Dictionaries and Files"
 index: 1
-date: 2022-01-26
+date: 2023-01-18
 materials:
 - topic: "Dictionaries"
   files: 

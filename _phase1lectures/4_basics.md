@@ -1,7 +1,7 @@
 ---
 title: "More Lists and Loops"
 index: 4
-date: 2021-12-01
+date: 2022-11-30
 materials:
 - topic: "Parallel lists and strings"
   files: 

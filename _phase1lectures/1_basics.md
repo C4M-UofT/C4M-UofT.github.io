@@ -1,7 +1,7 @@
 ---
 title: "Functions and Variables"
 index: 1
-date: 2021-10-20
+date: 2022-10-19
 materials:
 - topic: "Arithmetic operators and built-in functions"
   files:

@@ -1,7 +1,7 @@
 ---
 title: "Loops and Lists"
 index: 3
-date: 2021-11-24
+date: 2022-11-23
 materials:
 - topic: "Lists, loops, ranges, and slices"
   files:

@@ -1,7 +1,7 @@
 ---
 title: "Project 3: Machine Learning on Sensor Data"
 index: 6
-date: 2022-03-30
+date: 2023-04-12
 materials:
 - topic: "Project Materials"
   files: 
