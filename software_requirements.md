@@ -21,15 +21,15 @@ Even though this program only covers one programming language, the concepts you 
 When people think of programs, most people think of files with lines of code.
 [Jupyter](https://jupyter.org/){:target="_blank"} notebooks are designed to make programming more interactive, allowing you to mix English text, Python code, and visualizations all in the same document.]
 
+## Google Colaboratory (Google Colab)
+[Google Colab](https://colab.research.google.com/notebooks/intro.ipynb){:target="_blank"} is a browser-based environment that allows you to work on Jupyter notebooks without any setup. 
+We will start off the course using Google Colab so that you build confidence in your skills.
+
 ## PyCharm
 In theory, you can write all of your programs in a basic text editor (e.g., Notepad) and then run them in your computer's console.
 However, just like how Microsoft Word provides enhanced capabilities to document editing (e.g., spelling and grammar checking, buttons for formatting), there are many integrated development environments (IDE) specifically designed to help you write programs.
 Some of the features provided by most IDEs include a debugging tool, code auto-complete, syntax checking, and package management.
 During the later stages of the course, we will use [PyCharm](https://www.jetbrains.com/pycharm/){:target="_blank"} for Python development.
-
-## Google Colaboratory (Google Colab)
-[Google Colab](https://colab.research.google.com/notebooks/intro.ipynb){:target="_blank"} is a browser-based environment that allows you to work on Jupyter notebooks without any setup. 
-We will start off the course using Google Colab so that you build confidence in your skills.
 
 ## Installation (MacOS / Linux)
 
