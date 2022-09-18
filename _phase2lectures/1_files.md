@@ -35,7 +35,7 @@ materials:
     url: notebooks/phase2/session1/broken_is_teenager.pdf
 assignments:
   text: "Session 1 Homework"
-  due_date: 2022-02-15 11:59 PM
+  due_date: 2023-02-15 12:00 PM
   submission: https://q.utoronto.ca/courses/257297/assignments/815361
   files:
   - type: "notebook" 

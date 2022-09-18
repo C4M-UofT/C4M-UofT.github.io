@@ -15,6 +15,6 @@ materials:
     url: projects/project1/wikipages.zip
 assignments:
   text: "Project 1"
-  due_date: 2022-02-23 11:59 PM
+  due_date: 2023-02-22 3:00 PM
   submission: https://q.utoronto.ca/courses/257297/assignments/716367
 ---

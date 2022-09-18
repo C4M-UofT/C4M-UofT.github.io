@@ -37,7 +37,7 @@ materials:
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session3/list_mutability.ipynb 
 assignments:
   text: "Session 3 Homework"
-  due_date: 2021-11-30 11:59 PM
+  due_date: 2022-11-30 12:00 PM
   submission: https://q.utoronto.ca/courses/257297/assignments/716364
   files:
   - type: "colab" 
