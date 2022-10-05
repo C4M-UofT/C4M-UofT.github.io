@@ -43,12 +43,12 @@ materials:
     url: notebooks/phase1/session1/type_conversion.ipynb
   - type: "colab"
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/type_conversion.ipynb
-- topic: "Writing programs"
+- topic: "Input and output"
   files:
   - type: "html"
-    url: examples/phase1/session1/programs.html
+    url: examples/phase1/session1/input_and_output.html
   - type: "notebook"
-    url: notebooks/phase1/session1/programs.ipynb
+    url: notebooks/phase1/session1/input_and_output.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/programs.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/input_and_output.ipynb
 ---

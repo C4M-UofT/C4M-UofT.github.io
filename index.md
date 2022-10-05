@@ -9,7 +9,7 @@ id: Overview
 Welcome to the webpage for the 2022-2023 Computing for Medicine (C4M) Workshops.
 This program offers medical students hands-on experience learning basic computing skills in the Python programming language. Nevertheless, the concepts learned in this program should translate to many other popular languages.
 
-During the first session, all students will be asked to take this [skills assessment](https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/c4m_intro_quiz.ipynb). 
+During the first session, all students will be asked to take this [skills assessment](https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/C4M_Pre_course_Skills_Assessment.ipynb). 
 Students who pass this assessment will have the option to skip Sessions 1 (second half), 2, and 3 in Phase 1, although they will still be asked to complete the corresponding assignments.
 
 ## Course Objectives
