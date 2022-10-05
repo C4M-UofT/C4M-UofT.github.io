@@ -5,50 +5,26 @@ date: 2022-10-19
 materials:
 - topic: "Arithmetic operators and built-in functions"
   files:
-  - type: "html"
-    url: examples/phase1/session1/arithmetic.html
-  - type: "notebook"
-    url: notebooks/phase1/session1/arithmetic.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/arithmetic.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/Arithmetic.ipynb
 - topic: "Variables"
   files:
-  - type: "html"
-    url: examples/phase1/session1/variables.html
-  - type: "notebook"
-    url: notebooks/phase1/session1/variables.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/variables.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/Variables.ipynb
 - topic: "Strings"
   files:
-  - type: "html"
-    url: examples/phase1/session1/strings.html
-  - type: "notebook"
-    url: notebooks/phase1/session1/strings.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/strings.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/Strings.ipynb
 - topic: "Functions"
   files:
-  - type: "html"
-    url: examples/phase1/session1/functions.html
-  - type: "notebook"
-    url: notebooks/phase1/session1/functions.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/functions.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/Functions.ipynb
 - topic: "Type conversion"
   files:
-  - type: "html"
-    url: examples/phase1/session1/type_conversion.html
-  - type: "notebook"
-    url: notebooks/phase1/session1/type_conversion.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/type_conversion.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/Type_Conversion.ipynb
 - topic: "Input and output"
   files:
-  - type: "html"
-    url: examples/phase1/session1/input_and_output.html
-  - type: "notebook"
-    url: notebooks/phase1/session1/input_and_output.ipynb
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/input_and_output.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/Input_and_Output.ipynb
 ---
