@@ -20,5 +20,5 @@ materials:
 assignments:
   text: "Project 3"
   due_date: 2023-05-25 11:59 PM
-  submission: https://q.utoronto.ca/courses/257297/assignments/716369
+  submission: https://q.utoronto.ca/courses/300115/assignments/952808
 ---

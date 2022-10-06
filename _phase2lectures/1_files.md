@@ -36,7 +36,7 @@ materials:
 assignments:
   text: "Session 1 Homework"
   due_date: 2023-02-15 12:00 PM
-  submission: https://q.utoronto.ca/courses/257297/assignments/815361
+  submission: https://q.utoronto.ca/courses/300115/assignments/952805
   files:
   - type: "colab" 
     url: notebooks/phase2/session1/phase2session1_homework.ipynb

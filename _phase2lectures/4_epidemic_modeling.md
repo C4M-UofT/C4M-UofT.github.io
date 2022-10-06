@@ -30,5 +30,5 @@ materials:
 assignments:
   text: "Project 2"
   due_date: 2023-03-29 3:00 PM
-  submission: https://q.utoronto.ca/courses/257297/assignments/716368
+  submission: https://q.utoronto.ca/courses/300115/assignments/952807
 ---
