@@ -30,10 +30,7 @@
           {% for material in materials %}
             <li>
               {{ material.topic }}
-              ({% for file in material.files %}
-                <a href="{{ file.url }}">{{ file.type }}</a>
-                {% if forloop.last %}{% else %}, {% endif %}
-              {% endfor %})
+              {% include files_list.html files=material.files %}
             </li>
           {% endfor %}
           </ul>
@@ -42,10 +39,7 @@
         <td>
           {% if assignments.size > 0 %}
             <b>{{ assignments.text }}</b>
-            ({% for file in assignments.files %}
-              <a href="{{ file.url }}">{{ file.type }}</a>
-              {% if forloop.last %}{% else %}, {% endif %}
-            {% endfor %})
+            {% include files_list.html files=assignment.files %}
             <br><br>
             <b>Due Date:</b>
             {{ assignments.due_date | date: "%A, %B %d, %Y %I:%M %p" }} 
