@@ -1,6 +1,7 @@
-{% if include.files > 0 %}
-	AHHHH
-	({% for file in include.files %}
+{% assign files = include.files %}
+
+{% if files.size > 0 %}
+	({% for file in files %}
 	<a href="{{ file.url }}">{{ file.type }}</a>
 	{% if forloop.last %}{% else %}, {% endif %}
 	{% endfor %})
