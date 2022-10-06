@@ -21,10 +21,10 @@ materials:
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase2/session1/testing_debugging.ipynb
   - type: "broken_is_teenager.pdf"
     url: notebooks/phase2/session1/broken_is_teenager.pdf
-assignments:
+assignment:
   text: "Session 1 Homework"
   due_date: 2023-02-15 12:00 PM
-  submission: https://q.utoronto.ca/courses/300115/assignments/952805
+  submission_link: https://q.utoronto.ca/courses/300115/assignments/952805
   files:
   - type: "colab" 
     url: notebooks/phase2/session1/phase2session1_homework.ipynb

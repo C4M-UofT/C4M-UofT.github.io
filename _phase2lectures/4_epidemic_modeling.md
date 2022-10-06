@@ -27,8 +27,8 @@ materials:
     url: https://www.youtube.com/watch?v=z8pO3wexTP0
   - type: "Accompanying code"
     url: http://c4m.cdf.toronto.edu/summerphase/hw/simulation.py
-assignments:
+assignment:
   text: "Project 2"
   due_date: 2023-03-29 3:00 PM
-  submission: https://q.utoronto.ca/courses/300115/assignments/952807
+  submission_link: https://q.utoronto.ca/courses/300115/assignments/952807
 ---

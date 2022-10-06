@@ -37,14 +37,14 @@
         </td>
         <!-- Assignments -->
         <td>
-          {% if assignments.size > 0 %}
-            <b>{{ assignments.text }}</b>
+          {% if assignment.size > 0 %}
+            <b>{{ assignment.text }}</b>
             {% include files_list.html files=assignment.files %}
             <br><br>
             <b>Due Date:</b>
-            {{ assignments.due_date | date: "%A, %B %d, %Y %I:%M %p" }} 
+            {{ assignment.due_date | date: "%A, %B %d, %Y %I:%M %p" }} 
             <br><br>
-            <a href="{{ assignments.submission }}">Submission link</a>
+            <a href="{{ assignment.submission }}">Submission link</a>
           {% endif %}
         </td>
       </tr>

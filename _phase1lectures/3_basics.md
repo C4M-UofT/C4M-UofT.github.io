@@ -19,10 +19,10 @@ materials:
   files:
   - type: "colab"
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session3/List_Mutability.ipynb 
-assignments:
+assignment:
   text: "Session 3 Homework"
   due_date: 2022-11-30 12:00 PM
-  submission: https://q.utoronto.ca/courses/300115/assignments/952810
+  submission_link: https://q.utoronto.ca/courses/300115/assignments/952810
   files:
   - type: "colab" 
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session3/phase1session3_homework.ipynb
