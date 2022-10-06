@@ -1,5 +1,5 @@
 ---
-title: "Project 3: Machine Learning on Sensor Data"
+title: "Project 3: Machine Learning on Vital Sign Data"
 index: 6
 date: 2023-04-12
 materials:

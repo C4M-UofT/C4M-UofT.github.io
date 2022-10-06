@@ -22,7 +22,7 @@ materials:
 assignments:
   text: "Session 2 Homework"
   due_date: 2022-11-23 12:00 PM
-  submission: https://q.utoronto.ca/courses/257297/assignments/716363
+  submission: https://q.utoronto.ca/courses/300115/assignments/952809
   files:
   - type: "colab" 
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session2/phase1session2_homework.ipynb

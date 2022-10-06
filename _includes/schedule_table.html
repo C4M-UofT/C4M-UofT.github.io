@@ -3,7 +3,7 @@
   <colgroup>
     <col style="width: 10%;">
     <col style="width: 60%;">
-    <col style="width: 30%;">
+    <col style="width: 45%;">
   </colgroup>
   <thead>
     <tr>
@@ -46,10 +46,10 @@
               <a href="{{ file.url }}">{{ file.type }}</a>
               {% if forloop.last %}{% else %}, {% endif %}
             {% endfor %})
-            <br>
+            <br><br>
             <b>Due Date:</b>
             {{ assignments.due_date | date: "%A, %B %d, %Y %I:%M %p" }} 
-            <br>
+            <br><br>
             <a href="{{ assignments.submission }}">Submission link</a>
           {% endif %}
         </td>
