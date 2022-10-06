@@ -28,15 +28,10 @@ Students who pass this assessment will have the option to skip Sessions 1 (secon
 
 ## Course Logistics
 
-### Instructor:
-- [Alex Mariakakis](https://mariakakis.github.io/)
+- **Instructor**: [Alex Mariakakis](https://mariakakis.github.io/)
 
-### Teaching Assistants:
-- Dhruv Verma
+- **Teaching Assistants**: [Dhruv Verma](https://dhruv-verma.com/)
 
-### Delivery:
-- Time: Wednesdays 12-3 PM
-- Location: [Discovery Commons Computer Lab](https://dc.med.utoronto.ca/service-provider/discovery-commons) (MSB 3175)
+- **Delivery**: Wednesdays 12-3 PM, [Discovery Commons Computer Lab](https://dc.med.utoronto.ca/service-provider/discovery-commons) (MSB 3175)
 
-### Internal Course Website:
-- [Quercus](https://q.utoronto.ca/courses/300115)
+- **Internal Course Website**: [Quercus](https://q.utoronto.ca/courses/300115)
