@@ -42,12 +42,15 @@
         <td>
           {% if assignments.size > 0 %}
             <b>{{ assignments.text }}</b>
-            ({% for file in material.files %}
+            ({% for file in assignments.files %}
               <a href="{{ file.url }}">{{ file.type }}</a>
               {% if forloop.last %}{% else %}, {% endif %}
             {% endfor %})
-            <b>Due Date:</b> <br>
-            {{ assignments.due_date | date: "%A, %B %d, %Y %I:%M %p" }} (<a href="{{ assignments.submission }}">link</a>)
+            <br>
+            <b>Due Date:</b>
+            {{ assignments.due_date | date: "%A, %B %d, %Y %I:%M %p" }} 
+            <br>
+            <a href="{{ assignments.submission }}">Submission link</a>
           {% endif %}
         </td>
       </tr>
