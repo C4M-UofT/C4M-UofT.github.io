@@ -38,6 +38,6 @@ assignments:
   due_date: 2023-02-15 12:00 PM
   submission: https://q.utoronto.ca/courses/257297/assignments/815361
   files:
-  - type: "notebook" 
+  - type: "colab" 
     url: notebooks/phase2/session1/phase2session1_homework.ipynb
 ---

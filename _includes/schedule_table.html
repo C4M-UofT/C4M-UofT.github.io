@@ -42,13 +42,10 @@
         <td>
           {% if assignments.size > 0 %}
             <b>{{ assignments.text }}</b>
-            <ul>
-            {% for file in assignments.files %}
-              <li>
-                <a href="{{ file.url }}">{{ file.type }}</a>
-              </li>
-            {% endfor %}
-            </ul>
+            ({% for file in material.files %}
+              <a href="{{ file.url }}">{{ file.type }}</a>
+              {% if forloop.last %}{% else %}, {% endif %}
+            {% endfor %})
             <b>Due Date:</b> <br>
             {{ assignments.due_date | date: "%A, %B %d, %Y %I:%M %p" }} (<a href="{{ assignments.submission }}">link</a>)
           {% endif %}
