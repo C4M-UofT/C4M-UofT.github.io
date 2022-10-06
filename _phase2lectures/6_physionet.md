@@ -19,6 +19,6 @@ materials:
     url: projects/project3/ml_c4m.pdf
 assignments:
   text: "Project 3"
-  due_date: 2022-05-25 11:59 PM
+  due_date: 2023-05-25 11:59 PM
   submission: https://q.utoronto.ca/courses/257297/assignments/716369
 ---

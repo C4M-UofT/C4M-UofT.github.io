@@ -29,6 +29,6 @@ materials:
     url: http://c4m.cdf.toronto.edu/summerphase/hw/simulation.py
 assignments:
   text: "Project 2"
-  due_date: 2022-03-29 3:00 PM
+  due_date: 2023-03-29 3:00 PM
   submission: https://q.utoronto.ca/courses/257297/assignments/716368
 ---

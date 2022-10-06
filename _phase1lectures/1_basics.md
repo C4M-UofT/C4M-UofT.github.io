@@ -3,7 +3,7 @@ title: "Functions and Variables"
 index: 1
 date: 2022-10-19
 materials:
-- topic: "Arithmetic operators and built-in functions"
+- topic: "Arithmetic and built-in functions"
   files:
   - type: "colab"
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase1/session1/Arithmetic.ipynb
