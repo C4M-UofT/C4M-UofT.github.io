@@ -6,11 +6,11 @@ materials:
 - topic: "Dictionaries"
   files:
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase2/session1/dictionaries.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase2/session1/Dictionaries.ipynb
 - topic: "Files"
   files: 
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase2/session1/files.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase2/session1/Files.ipynb
   - type: "story.txt"
     url: notebooks/phase2/session1/story.txt
   - type: "january06.txt"
@@ -18,7 +18,7 @@ materials:
 - topic: "Testing and debugging"
   files: 
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase2/session1/testing_debugging.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase2/session1/Testing_and_Debugging.ipynb
   - type: "broken_is_teenager.pdf"
     url: notebooks/phase2/session1/broken_is_teenager.pdf
 assignment:
@@ -27,5 +27,5 @@ assignment:
   submission_link: https://q.utoronto.ca/courses/300115/assignments/952805
   files:
   - type: "colab" 
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase2/session1/phase2session1_homework.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/phase2/session1/P2S1_Homework.ipynb
 ---
