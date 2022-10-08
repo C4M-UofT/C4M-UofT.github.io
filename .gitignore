@@ -4,3 +4,4 @@ Gemfile.lock
 _site/
 .mypy_cache
 .ipynb_checkpoints
+slides/
