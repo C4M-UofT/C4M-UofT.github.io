@@ -27,10 +27,9 @@ Students who pass this assessment will have the option to skip Sessions 1 (secon
 - Given a problem description in English, write programs to solve the problem.
 
 ## Course Logistics
-
+- **Internal Course Website**: [Quercus](https://q.utoronto.ca/courses/300115)
 - **Instructor**: [Alex Mariakakis](https://mariakakis.github.io/)
 - **Teaching Assistants**: [Dhruv Verma](https://dhruv-verma.com/)
 - **Lectures**: Wednesdays 12-3 PM, [Discovery Commons Computer Lab](https://dc.med.utoronto.ca/service-provider/discovery-commons) (MSB 3175)
-- **Instructor Office Hours**: TBD
-- **Teaching Assistant Office Hours**: TBD
-- **Internal Course Website**: [Quercus](https://q.utoronto.ca/courses/300115)
+- **Instructor Office Hours**: Mondays 5-6 PM, virtual (link in Quercus) 
+- **Teaching Assistant Office Hours**: Thursdays 1-2 PM, virtual (link in Quercus)
