@@ -7,10 +7,10 @@ materials:
   files: 
   - type: "handout"
     url: projects/project2/project2_handout.pdf
-  - type: "cities.txt" 
-    url: projects/project2/cities.txt
   - type: "colab" 
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/projects/project2/Project_2.ipynb
+  - type: "cities.txt" 
+    url: projects/project2/cities.txt
 - topic: "Video Tutorials on Graphs"
   files:
   - type: "Graph representations"
