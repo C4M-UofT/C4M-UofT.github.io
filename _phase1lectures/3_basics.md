@@ -1,5 +1,5 @@
 ---
-title: "Loops and Lists"
+title: "Lists and Loops"
 index: 3
 date: 2022-11-23
 materials:
