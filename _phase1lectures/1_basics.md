@@ -1,5 +1,5 @@
 ---
-title: "Functions and Variables"
+title: "Variables and Functions"
 index: 1
 date: 2022-10-19
 materials:

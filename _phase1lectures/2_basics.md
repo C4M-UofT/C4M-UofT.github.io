@@ -1,5 +1,5 @@
 ---
-title: "Conditionals and Organization"
+title: "Conditionals and Scope"
 index: 2
 date: 2022-11-09
 materials:
