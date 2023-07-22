@@ -1,0 +1,44 @@
+<div style="overflow-x:auto;">
+<table>
+  <colgroup>
+    <col style="width: 50%;">
+    <col style="width: 50%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Materials</th>
+      <th>Exercises</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign sorted_lectures = include.lectures | sort:'index' %}
+    {% for lecture in sorted_lectures %}
+      <!-- Extract the attributes of the lecture -->
+      {% assign title = lecture.title %}
+      {% assign date = lecture.date %}
+      {% assign materials = lecture.materials %}
+      {% assign assignment = lecture.assignment %}
+      <tr>
+        <!-- Materials -->
+        <td>
+          <b>{{ title }}</b>
+          <ul>
+          {% for material in materials %}
+            <li>
+              {{ material.topic }}
+              {% include files_list.html files=material.files %}
+            </li>
+          {% endfor %}
+          </ul>
+        </td>
+        <!-- Exercises -->
+        <td>
+          {% if assignment.size > 0 %}
+            <b>{{ assignment.text }}</b>
+            {% include files_list.html files=assignment.files %}
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

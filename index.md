@@ -2,34 +2,37 @@
 layout: page
 title: Overview
 menu: Overview
-weight: 10
+order: 1
 id: Overview
 ---
 
-Welcome to the webpage for the 2022-2023 Computing for Medicine (C4M) Workshops.
-This program offers medical students hands-on experience learning basic computing skills in the Python programming language. Nevertheless, the concepts learned in this program should translate to many other popular languages.
+This program will provide medical students with a comprehensive introduction to data science in the Python programming language. 
+Students in this program will learn how to use powerful tools to analyze time-series data, process images, train machine learning models, and create visualizations. 
+By the end of the program, students will come away with the skills and mindset needed to delve into tasks ranging from speech analysis to image classification.
 
-During the first session, all students will be asked to take this [skills assessment](https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/notebooks/C4M_Pre_course_Skills_Assessment.ipynb). 
-Students who pass this assessment will have the option to skip Sessions 1 (second half), 2, and 3 in Phase 1, although they will still be asked to complete the corresponding assignments.
+Students joining this program are expected to have some familiarity with programming, ideally in the Python programming language. To see the prerequisite knowledge required for the program or to get a refresher in Python programming, students are strongly encouraged to look through the materials in the [Review tab]({{site.url}}/review.html) before the start of the first lecture.
+
+We will be using [Google Colab](https://colab.research.google.com/){:target="_blank"} for most of the lecture materials, in-class exercises, and assignments.
 
 ## Course Objectives
 
-### Phase 1: Programming Bootcamp (October–December 2022)
-- Write very basic Python programs involving variables, conditionals, iteration, functions in simple combinations.
-- Trace basic Python programs involving lists, dictionaries and files.
-- Recognize good practices in software design (modular design and conventional naming standards).
+### Fall: Data Processing
+- To review how to work with tabular data in Python
+- To learn the basics of digital signal processing with time-series data
+- To learn the basics of image processing with image data
+- To become comfortable working with popular Python libraries for working with time-series and image data (e.g., `numpy`, `pandas`, `scipy`, `opencv`)
+- To be able to generate useful visualizations using the `matplotlib` library
 
-### Phase 2: Project-Based Learning (January–April 2023)
-- Write programs that combine concepts from Phase 1: conditionals, iteration, functions, lists, dictionaries and files.
-- Devise algorithmic solutions to real-world problems and implement prototypes of the solutions in Python.
-- Use a debugger to find mistakes in a program written by another author.
-- Consistently use good practice in software design (modular design, documentation and conventional naming standards).
-- Given a problem description in English, write programs to solve the problem.
+### Winter: Machine Learning
+- To understand the terminology used to describe different machine learning approaches
+- To be able to execute and end-to-end pipeline for training and evaluating a machine learning model
+- To learn the basics of `sklearn`, the most popular Python library for machine learning
 
 ## Course Logistics
 - **Internal Course Website**: [Quercus](https://q.utoronto.ca/courses/300115)
 - **Instructor**: [Alex Mariakakis](https://mariakakis.github.io/)
-- **Teaching Assistants**: [Dhruv Verma](https://dhruv-verma.com/)
-- **Lectures**: Wednesdays 12-3 PM, [Discovery Commons Computer Lab](https://dc.med.utoronto.ca/service-provider/discovery-commons) (MSB 3175)
-- **Instructor Office Hours**: Mondays 5-6 PM, virtual (link in Quercus, BA 7266) 
-- **Teaching Assistant Office Hours**: Thursdays 1-2 PM, virtual (link in Quercus)
+- **Lectures**: Select Wednesdays 12-3 PM, [Discovery Commons Computer Lab](https://dc.med.utoronto.ca/service-provider/discovery-commons) (MSB 3175)
+
+[comment]: # - **Teaching Assistants**: [TBD]()
+[comment]: # - **Instructor Office Hours**: Mondays 5-6 PM, virtual (link in Quercus, BA 7266) 
+[comment]: # - **Teaching Assistant Office Hours**: Thursdays 1-2 PM, virtual (link in Quercus) -->
