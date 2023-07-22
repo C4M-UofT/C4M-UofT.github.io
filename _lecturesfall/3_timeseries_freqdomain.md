@@ -6,31 +6,31 @@ materials:
 - topic: "Motivation"
   files:
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3a_motivation.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3 - timeseries_frequencydomain/3a - Motivation.ipynb
 - topic: "Trigonometry"
   files:
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3b_trigonometry.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3b - Trigonometry.ipynb
 - topic: "Fast Fourier Transform"
   files:
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3c_fast_fourier_transform.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3c - Fast Fourier Transform.ipynb
 - topic: "Spectrograms"
   files:
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3d_spectrograms.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3d - Spectrograms.ipynb
 - topic: "Frequency-Domain Features"
   files:
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3e_spectrograms.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3e - Frequency-Domain Features.ipynb
 - topic: "Signal Noise"
   files:
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3f_signal_noise.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3f - Signal Noise.ipynb
 - topic: "Digital Filters"
   files:
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3g_digital_filters.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3g - Digital Filters.ipynb
 assignment:
   text: "Materials in progress"
   due_date: 2023-12-06 12:00 PM

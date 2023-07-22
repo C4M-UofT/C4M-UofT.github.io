@@ -22,5 +22,5 @@ assignment:
   text: "Conditionals and Scope Exercises"
   files:
   - type: "colab" 
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/review/exercises/Conditionals_and_Scope_Exercises.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/review/exercises/Conditionals and Scope Exercises.ipynb
 ---

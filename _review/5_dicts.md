@@ -24,5 +24,5 @@ assignment:
   text: "Dictionaries and Files Exercises"
   files:
   - type: "colab" 
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/review/exercises/Dictionaries_and_Files_Exercises.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/review/exercises/Dictionaries and Files Exercises.ipynb
 ---

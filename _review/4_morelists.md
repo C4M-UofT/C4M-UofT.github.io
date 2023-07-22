@@ -18,5 +18,5 @@ assignment:
   text: "More Lists and Loops Exercises"
   files:
   - type: "colab" 
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/review/exercises/More_Lists_and_Loops_Exercises.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/review/exercises/More Lists and Loops Exercises.ipynb
 ---
