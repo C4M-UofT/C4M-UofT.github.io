@@ -1,12 +1,12 @@
 ---
-title: "Machine Learning – Regression"
-index: 8
-date: 2024-02-21
+title: "Machine Learning – Creating and Evaluating Models"
+index: 7
+date: 2024-02-14
 materials:
 - topic: "Materials in progress"
 assignment:
   text: "Materials in progress"
-  due_date: 2024-03-06 12:00 PM
+  due_date: 2024-02-21 12:00 PM
   submission_link: TBD
   files:
   - type: "colab"
