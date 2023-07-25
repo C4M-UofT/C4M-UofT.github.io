@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning – Creating and Evaluating Models"
+title: "Machine Learning – First Classification Model"
 index: 7
 date: 2024-02-14
 materials:
