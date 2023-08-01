@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning — Interpretability and Bias"
+title: "Interpretability and Bias"
 index: 10
 date: 2024-03-27
 materials:
