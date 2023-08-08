@@ -7,7 +7,10 @@ materials:
   files:
   - type: "colab"
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/winter/8_ml_refining/8a - Refining Our Image Classifier.ipynb
-- topic: "Refining Our Time-Series Regressor: Parkinsonian Gait (in progress)"
+- topic: "Refining Our Time-Series Regressor: Parkinsonian Gait"
+  files:
+  - type: "colab"
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/winter/8_ml_refining/8b - Refining Our Time-Series Regressor.ipynb
 assignment:
   text: "Materials in progress"
   due_date: 2024-03-06 12:00 PM
