@@ -31,8 +31,7 @@ We will be using [Google Colab](https://colab.research.google.com/){:target="_bl
 ## Course Logistics
 - **Internal Course Website**: [Quercus](https://q.utoronto.ca/courses/300115)
 - **Instructor**: [Alex Mariakakis](https://mariakakis.github.io/)
-- **Lectures**: Select Wednesdays 12-3 PM, [Discovery Commons Computer Lab](https://dc.med.utoronto.ca/service-provider/discovery-commons) (MSB 3175)
-
-[comment]: # - **Teaching Assistants**: [TBD]()
-[comment]: # - **Instructor Office Hours**: Mondays 5-6 PM, virtual (link in Quercus, BA 7266) 
-[comment]: # - **Teaching Assistant Office Hours**: Thursdays 1-2 PM, virtual (link in Quercus) -->
+- **Lectures**: Select Wednesdays 12-2:30 PM, MSB 3281
+- **Teaching Assistants**: [TBD]()
+- **Instructor Office Hours**: TBD
+- **Teaching Assistant Office Hours**: TBD
