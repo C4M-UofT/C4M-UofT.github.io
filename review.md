@@ -10,6 +10,6 @@ Students joining C4M are expected to already be familiar with basic programming 
 
 {% include review_table.html lectures=site.review %}
 
-## External Resources
+### External Resources
 * [Tutorials Point](https://www.tutorialspoint.com/python/index.htm)
 * [W3Schools](https://www.w3schools.com/python/)
