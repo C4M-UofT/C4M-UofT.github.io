@@ -16,10 +16,10 @@ materials:
   - type: "colab"
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/1_tabular/1c - Pandas.ipynb
 assignment:
-  text: "Materials in progress"
+  text: "HW 1"
   due_date: 2023-11-15 12:00 PM
-  submission_link: TBD
+  submission_link: https://q.utoronto.ca/courses/342394/assignments/1175768
   files:
   - type: "colab"
-    url: TBD
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/homeworks/1 - HW.ipynb
 ---

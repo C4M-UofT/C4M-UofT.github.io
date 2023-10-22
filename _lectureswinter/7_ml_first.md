@@ -14,7 +14,7 @@ materials:
 assignment:
   text: "Materials in progress"
   due_date: 2024-02-21 12:00 PM
-  submission_link: TBD
+  submission_link: https://q.utoronto.ca/courses/342394/assignments/1175773
   files:
   - type: "colab"
     url: TBD
