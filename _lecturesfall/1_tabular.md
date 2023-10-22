@@ -21,5 +21,5 @@ assignment:
   submission_link: https://q.utoronto.ca/courses/342394/assignments/1175768
   files:
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/homeworks/1 - HW.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/homeworks/HW1.ipynb
 ---
