@@ -29,9 +29,9 @@ We will be using [Google Colab](https://colab.research.google.com/) for most of 
 - To learn the basics of `sklearn`, the most popular Python library for machine learning
 
 ## Course Logistics
-- **Internal Course Website**: [Quercus](https://q.utoronto.ca/courses/300115)
+- **Internal Course Website**: [Quercus](https://q.utoronto.ca/courses/342394)
 - **Instructor**: [Alex Mariakakis](https://mariakakis.github.io/)
 - **Lectures**: Select Wednesdays 12-2:30 PM, MSB 3281
-- **Teaching Assistants**: [TBD]()
-- **Instructor Office Hours**: TBD
-- **Teaching Assistant Office Hours**: TBD
+- **Teaching Assistants**: [Dhruv Verma](https://dhruv-verma.com/)
+- **Instructor Office Hours**: Mondays 5-6 PM, Bahen 7266 or Zoom link in Quercus
+- **Teaching Assistant Office Hours**: Thursdays 3–4 PM, Zoom link in Quercus
