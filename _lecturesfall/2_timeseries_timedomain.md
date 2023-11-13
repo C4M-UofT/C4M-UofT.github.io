@@ -33,5 +33,5 @@ assignment:
   submission_link: https://q.utoronto.ca/courses/342394/assignments/1175769
   files:
   - type: "colab"
-    url: TBD
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/homeworks/HW2.ipynb
 ---
