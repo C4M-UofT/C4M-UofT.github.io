@@ -6,7 +6,7 @@ materials:
 - topic: "Motivation"
   files:
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3 - timeseries_frequencydomain/3a - Motivation.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3a - Motivation.ipynb
 - topic: "Trigonometry"
   files:
   - type: "colab"
