@@ -10,7 +10,7 @@ materials:
 - topic: "Exploring an Image Dataset: Skin Cancer"
   files:
   - type: "colab"
-    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/winter/5_review/5a - Exploring an Image Dataset.ipynb
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/winter/5_review/5b - Exploring an Image Dataset.ipynb
 assignment:
   text: "Materials in progress"
   due_date: 2024-01-31 12:00 PM
