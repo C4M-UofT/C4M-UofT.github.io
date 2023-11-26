@@ -3,11 +3,11 @@ title: "Refining Our Models"
 index: 8
 date: 2024-02-21
 materials:
-- topic: "Refining Our Image Classifier: Skin Cancer"
+- topic: "Refining Our Image Classifier"
   files:
   - type: "colab"
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/winter/8_ml_refining/8a - Refining Our Image Classifier.ipynb
-- topic: "Refining Our Time-Series Regressor: Parkinsonian Gait"
+- topic: "Refining Our Time-Series Regressor"
   files:
   - type: "colab"
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/winter/8_ml_refining/8b - Refining Our Time-Series Regressor.ipynb
