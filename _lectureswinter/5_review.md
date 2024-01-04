@@ -12,10 +12,10 @@ materials:
   - type: "colab"
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/winter/5_review/5b - Exploring an Image Dataset.ipynb
 assignment:
-  text: "Materials in progress"
-  due_date: 2024-01-31 12:00 PM
+  text: "HW 5"
+  due_date: 2024-02-14 12:00 PM
   submission_link: https://q.utoronto.ca/courses/342394/assignments/1175772
   files:
   - type: "colab"
-    url: TBD
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/homeworks/HW5.ipynb
 ---
