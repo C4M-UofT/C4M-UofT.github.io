@@ -24,10 +24,10 @@ materials:
   - type: "colab"
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/winter/9_ml_interpretability/9e - Quantifying Bias.ipynb
 assignment:
-  text: "Materials in progress"
+  text: "HW9"
   due_date: 2024-03-27 12:00 PM
   submission_link: https://q.utoronto.ca/courses/342394/assignments/1175775
   files:
   - type: "colab"
-    url: TBD
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/homeworks/HW9.ipynb
 ---
