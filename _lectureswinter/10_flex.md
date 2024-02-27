@@ -2,7 +2,6 @@
 title: "Flex Day"
 index: 10
 date: 2024-03-27
-- topic: "Guest Lectures (TBD)"
 - topic: "Primer on Image CNNs"
   files:
   - type: "colab"
