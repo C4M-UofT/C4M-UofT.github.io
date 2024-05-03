@@ -14,7 +14,7 @@ materials:
 assignment:
   text: "HW 8"
   due_date: 2024-07-31 7:00 PM
-  submission_link: https://q.utoronto.ca/courses/342394/assignments/1175774
+  submission_link: https://q.utoronto.ca/courses/361095/assignments/1291138
   files:
   - type: "colab"
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/homeworks/HW8.ipynb

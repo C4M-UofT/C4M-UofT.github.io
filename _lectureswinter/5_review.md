@@ -14,7 +14,7 @@ materials:
 assignment:
   text: "HW 5"
   due_date: 2024-07-10 7:00 PM
-  submission_link: https://q.utoronto.ca/courses/342394/assignments/1175772
+  submission_link: https://q.utoronto.ca/courses/361095/assignments/1291136
   files:
   - type: "colab"
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/homeworks/HW5.ipynb
