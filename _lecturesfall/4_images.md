@@ -1,7 +1,7 @@
 ---
 title: "Image Data"
 index: 4
-date: 2023-12-06
+date: 2024-06-26
 materials:
 - topic: "Motivation"
   files:
@@ -33,7 +33,7 @@ materials:
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/4_images/4g - Outlines.ipynb
 assignment:
   text: "HW 4"
-  due_date: 2024-01-17 12:00 PM
+  due_date: 2024-07-03 7:00 PM
   submission_link: https://q.utoronto.ca/courses/342394/assignments/1175771
   files:
   - type: "colab"

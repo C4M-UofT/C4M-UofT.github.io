@@ -1,7 +1,7 @@
 ---
 title: "Time Series Data – Frequency Domain"
 index: 3
-date: 2023-11-22
+date: 2024-06-19
 materials:
 - topic: "Motivation"
   files:
@@ -33,7 +33,7 @@ materials:
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/3_timeseries_frequencydomain/3g - Digital Filters.ipynb
 assignment:
   text: "HW 3"
-  due_date: 2023-12-06 12:00 PM
+  due_date: 2024-06-26 7:00 PM
   submission_link: https://q.utoronto.ca/courses/342394/assignments/1175770
   files:
   - type: "colab"

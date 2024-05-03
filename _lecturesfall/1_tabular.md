@@ -1,7 +1,7 @@
 ---
 title: "Introduction and Tabular Data"
 index: 1
-date: 2023-11-01
+date: 2024-06-05
 materials:
 - topic: "Motivation"
   files:
@@ -17,7 +17,7 @@ materials:
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/lectures/fall/1_tabular/1c - Pandas.ipynb
 assignment:
   text: "HW 1"
-  due_date: 2023-11-15 12:00 PM
+  due_date: 2024-06-12 7:00 PM
   submission_link: https://q.utoronto.ca/courses/342394/assignments/1175768
   files:
   - type: "colab"

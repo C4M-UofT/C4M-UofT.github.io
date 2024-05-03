@@ -31,7 +31,7 @@ We will be using [Google Colab](https://colab.research.google.com/) for most of 
 ## Course Logistics
 - **Internal Course Website**: [Quercus](https://q.utoronto.ca/courses/342394)
 - **Instructor**: [Alex Mariakakis](https://mariakakis.github.io/)
-- **Lectures**: Select Wednesdays 12-2:30 PM, MSB 3281
-- **Teaching Assistants**: [Dhruv Verma](https://dhruv-verma.com/)
-- **Instructor Office Hours**: Mondays 5-6 PM, Bahen 7266 or Zoom link in Quercus
-- **Teaching Assistant Office Hours**: Thursdays 3–4 PM, Zoom link in Quercus
+- **Lectures**: Wednesdays 7-9:30 PM on Zoom (link in Quercus)
+<!-- - **Teaching Assistants**: [Dhruv Verma](https://dhruv-verma.com/) -->
+- **Instructor Office Hours**: Mondays 5-6 PM on Zoom (link in Quercus)
+<!-- - **Teaching Assistant Office Hours**: Thursdays 3–4 PM, Zoom link in Quercus -->
