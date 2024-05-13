@@ -6,7 +6,7 @@ order: 1
 id: Overview
 ---
 
-This program will provide medical students with a comprehensive introduction to data science in the Python programming language. 
+This program will provide learners with a comprehensive introduction to data science in the Python programming language. 
 Students in this program will learn how to use powerful tools to analyze time-series data, process images, train machine learning models, and create visualizations. 
 By the end of the program, students will come away with the skills and mindset needed to delve into tasks ranging from speech analysis to image classification.
 
