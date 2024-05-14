@@ -31,9 +31,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: C4M Course Webpage
-subtitle: Fall 2023 - Winter 2024
-description: >- # this means to ignore newlines until "baseurl:"
-  Course Website for C4M 2023 to 2024
+subtitle: Summer 2024 # Fall 2023 - Winter 2024
+description: >- # this means to ignore newlines until "baseurl:" Course Website for C4M 2023 to 2024
+  Course Website for C4M 2024
 author: Alex Mariakakis
 email: mariakakis@cs.toronto.edu
 avatar: assets/images/avatar.jpg
