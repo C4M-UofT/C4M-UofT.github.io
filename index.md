@@ -16,14 +16,14 @@ We will be using [Google Colab](https://colab.research.google.com/) for most of 
 
 ## Course Objectives
 
-### Fall: Data Processing
+### First Half: Data Processing
 - To review how to work with tabular data in Python
 - To learn the basics of digital signal processing with time-series data
 - To learn the basics of image processing with image data
 - To become comfortable working with popular Python libraries for working with time-series and image data (e.g., `numpy`, `pandas`, `scipy`, `opencv`)
 - To be able to generate useful visualizations using the `matplotlib` library
 
-### Winter: Machine Learning
+### Second Half: Machine Learning
 - To understand the terminology used to describe different machine learning approaches
 - To be able to execute and end-to-end pipeline for training and evaluating a machine learning model
 - To learn the basics of `sklearn`, the most popular Python library for machine learning
