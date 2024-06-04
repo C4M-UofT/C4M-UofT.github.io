@@ -32,6 +32,6 @@ We will be using [Google Colab](https://colab.research.google.com/) for most of 
 - **Internal Course Website**: [Quercus](https://q.utoronto.ca/courses/361095)
 - **Instructor**: [Alex Mariakakis](https://mariakakis.github.io/)
 - **Lectures**: Wednesdays 7-9:30 PM on Zoom (link in Quercus)
-- **Instructor Office Hours**: Mondays 5-6 PM on Zoom (link in Quercus)
+- **Instructor Office Hours**: Mondays 4-5 PM on Zoom (link in Quercus)
 <!-- - **Teaching Assistants**: [Dhruv Verma](https://dhruv-verma.com/) -->
 <!-- - **Teaching Assistant Office Hours**: Thursdays 3–4 PM, Zoom link in Quercus -->
