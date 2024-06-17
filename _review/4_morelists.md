@@ -19,4 +19,6 @@ assignment:
   files:
   - type: "colab" 
     url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/review/exercises/More Lists and Loops Exercises.ipynb
+  - type: "answers" 
+    url: https://colab.research.google.com/github/C4M-UofT/C4M-UofT.github.io/blob/master/review/exercises/More Lists and Loops Answers.ipynb
 ---
