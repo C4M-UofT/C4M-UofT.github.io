@@ -3,7 +3,6 @@ title: "Flex Day"
 index: 10
 date: 2024-08-07
 materials:
-- topic: "Guest Lecture by <a href='https://michaeljohncooper.com/'>Michael Cooper</a>"
 - topic: "Primer on Image CNNs"
   files:
   - type: "colab"
