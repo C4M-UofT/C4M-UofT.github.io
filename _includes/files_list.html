@@ -2,7 +2,11 @@
 
 {% if files.size > 0 %}
 	({% for file in files %}
-	<a href="{{ file.url }}">{{ file.type }}</a>
+	{% if file.type == 'colab' %}
+		<a href="{{ site.github-colab }}{{ file.url }}">{{ file.type }}</a>
+	{% else %}
+		<a href="{{ file.url }}">{{ file.type }}</a>
+	{% endif %}
 	{% if forloop.last %}{% else %}, {% endif %}
 	{% endfor %})
 {% endif %}
