@@ -30,7 +30,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: University of Toronto Computing in Medicine Program
+title: University of Toronto Computing for Medicine Program
 # subtitle: Fall 2023 - Winter 2024
 description: >- # this means to ignore newlines until "baseurl:" Course Website for C4M 2023 to 2024
   Computing for Medicine
