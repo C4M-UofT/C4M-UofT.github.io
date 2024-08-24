@@ -6,8 +6,8 @@ order: 2
 ---
 
 ### Objectives
-- Write very basic Python programs involving variables, conditionals, iteration, functions in simple combinations
-- Trace basic Python programs involving lists, dictionaries and files
-- Recognize good practices in software design (modular design and conventional naming standards)
+- To learn how to write basic Python programs involving variables, conditionals, iteration, functions in simple combinations
+- To learn how to trace basic Python programs involving lists, dictionaries and files
+- To learn how to implement good practices in software design (e.g., conventional naming standards, modular design)
 
 {% include review_table.html lectures=site.module1 %}

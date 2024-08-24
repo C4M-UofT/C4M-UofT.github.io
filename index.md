@@ -5,18 +5,20 @@ icon: fa-house
 order: 1
 ---
 
-This program will provide learners with a comprehensive introduction to data science in the Python programming language. 
-Participants in this program will learn how to use powerful tools to analyze time-series data, process images, train machine learning models, and create visualizations. 
-By the end of the program, participants will come away with the skills and mindset needed to delve into tasks ranging from speech analysis to image classification.
+This website hosts a variety of modules offered at the University of Toronto to provide learners with a comprehensive introduction to data science in the Python programming language.
+This content is unique in that it is specifically designed for people who aim to use data science in healthcare.
+All of the programming is done [Python](https://www.python.org/), but the concepts covered in these modules should generalize to other popular programming languages.
+Most of the lectures center around interactive [Google Colab](https://colab.research.google.com/) notebooks, so learners to work with code in real time with minimal setup requirements on their computer.
 
-Participants joining this program are expected to have some familiarity with programming, ideally in the Python programming language. To see the prerequisite knowledge required for the program or to get a refresher in Python programming, participants are strongly encouraged to look through the materials in the [Review tab]({{site.url}}/review.html) before the start of the first lecture.
+This content may be offered through multiple concurrent programs at any given time, so the sections below provide specific details related to these offerings.
 
-We will be using [Google Colab](https://colab.research.google.com/) for most of the lecture materials, in-class exercises, and assignments.
-
-## Course Logistics
-- **Internal Course Website**: [Quercus](https://q.utoronto.ca/courses/361095)
+### MD Program, Oct 2024 – Mar 2025
 - **Instructor**: [Alex Mariakakis](https://mariakakis.github.io/)
-- **Lectures**: Wednesdays 7-9:30 PM on Zoom (link in Quercus)
-- **Instructor Office Hours**: Tuesdays 7–8 PM on Zoom (link in Quercus)
-- **Teaching Assistants**: [Ian Ruffolo](https://ian.ruffolo.me/)
+- **Internal Course Website**: [Quercus](https://q.utoronto.ca/courses/361095)
+- **Lectures**: Select Wednesdays 12-2:30 PM
+- **Instructor Office Hours**: TBD (link in Quercus)
+<!-- - **Teaching Assistants**: [Ian Ruffolo](https://ian.ruffolo.me/) -->
 <!-- - **Teaching Assistant Office Hours**: Thursdays 3–4 PM, Zoom link in Quercus -->
+
+### T-CAIREM, Jan 2025 – Aug 2025
+Details to be announced
