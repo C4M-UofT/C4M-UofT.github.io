@@ -1,16 +1,19 @@
 <div style="overflow-x:auto;">
 <table>
   <colgroup>
+    <col style="width: 20%;">
     <col style="width: 50%;">
-    <col style="width: 50%;">
+    <col style="width: 30%;">
   </colgroup>
   <thead>
     <tr>
+      <th>Session Title</th>
       <th>Materials</th>
       <th>Exercises</th>
     </tr>
   </thead>
   <tbody>
+    {% assign lectureNum = 1 %}
     {% assign sorted_lectures = include.lectures | sort:'index' %}
     {% for lecture in sorted_lectures %}
       <!-- Extract the attributes of the lecture -->
@@ -19,9 +22,10 @@
       {% assign materials = lecture.materials %}
       {% assign assignment = lecture.assignment %}
       <tr>
+        <!-- Title -->
+        <td><b>Lecture {{ lectureNum }}: {{ title }}</b></td>
         <!-- Materials -->
         <td>
-          <b>{{ title }}</b>
           <ul>
           {% for material in materials %}
             <li>
@@ -34,10 +38,12 @@
         <!-- Exercises -->
         <td>
           {% if assignment.size > 0 %}
-            <b>{{ assignment.text }}</b>
+            <b>Lecture {{ lectureNum }} HW</b>
             {% include files_list.html files=assignment.files %}
           {% endif %}
         </td>
+        <!-- Increment counter -->
+        {% assign lectureNum = lectureNum | plus: 1 %}
       </tr>
     {% endfor %}
   </tbody>
