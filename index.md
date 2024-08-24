@@ -7,7 +7,7 @@ order: 1
 
 This website hosts a variety of modules offered at the University of Toronto to provide learners with a comprehensive introduction to data science in the Python programming language.
 This content is unique in that it is specifically designed for people who aim to use data science in healthcare.
-All of the programming is done [Python](https://www.python.org/), but the concepts covered in these modules should generalize to other popular programming languages.
+All of the programming is done in [Python](https://www.python.org/), but the concepts covered in these modules should generalize to other popular programming languages.
 Most of the lectures center around interactive [Google Colab](https://colab.research.google.com/) notebooks, so learners to work with code in real time with minimal setup requirements on their computer.
 
 This content may be offered through multiple concurrent programs at any given time, so the sections below provide specific details related to these offerings.
