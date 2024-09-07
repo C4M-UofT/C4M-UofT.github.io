@@ -11,4 +11,4 @@ order: 3
 - To learn the basics of image processing with image data using the `opencv` library
 - To learn how to generate useful visualizations using the `matplotlib` library
 
-{% include review_table.html lectures=site.module2 %}
+{% include lecture_table.html lectures=site.module2 %}

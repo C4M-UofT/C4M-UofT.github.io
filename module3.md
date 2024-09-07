@@ -12,4 +12,4 @@ order: 4
 
 **IMPORTANT:** This module focuses on "traditional" machine learning models like logistic regressors and random forest classifiers. It does not cover state-of-the-art deep learning like large language models (LLMs) or foundational models. However, the last lecture will show how the concepts covered in this module are prerequisite for these advanced model architectures.
 
-{% include review_table.html lectures=site.module3 %}
+{% include lecture_table.html lectures=site.module3 %}

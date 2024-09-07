@@ -14,9 +14,9 @@ This content may be offered through multiple concurrent programs at any given ti
 
 ### MD Program, Oct 2024 – Mar 2025
 - **Instructor:** [Alex Mariakakis](https://mariakakis.github.io/)
-- **Modules Covered:** Modules [2](https://c4m-uoft.github.io/module2.html) and [3](https://c4m-uoft.github.io/module3.html)
-- **Internal Course Website:** [Quercus](https://q.utoronto.ca/courses/361095)
-- **Lectures:** Select Wednesdays 12-2:30 PM
+- **Modules Covered:** Modules [2](module2.html) and [3](module3.html)
+- **Internal Course Website:** [Quercus](https://q.utoronto.ca/courses/371302)
+- **Lectures:** Select Wednesdays 12-2:30 PM ([schedule](schedules/c4m-md.html))
 - **Instructor Office Hours:** TBD (link in Quercus)
 <!-- - **Teaching Assistants:** [Ian Ruffolo](https://ian.ruffolo.me/) -->
 <!-- - **Teaching Assistant Office Hours:** Thursdays 3–4 PM, Zoom link in Quercus -->
