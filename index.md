@@ -17,9 +17,9 @@ This content may be offered through multiple concurrent programs at any given ti
 - **Modules Covered:** Modules [2](module2.html) and [3](module3.html)
 - **Internal Course Website:** [Quercus](https://q.utoronto.ca/courses/371302)
 - **Lectures:** Select Wednesdays 12-2:30 PM ([schedule](schedules/c4m-md.html))
-- **Instructor Office Hours:** TBD (link in Quercus)
-<!-- - **Teaching Assistants:** [Ian Ruffolo](https://ian.ruffolo.me/) -->
-<!-- - **Teaching Assistant Office Hours:** Thursdays 3–4 PM, Zoom link in Quercus -->
+- **Instructor Office Hours:** Mondays 5-6 PM (Zoom link in Quercus)
+- **Teaching Assistants:** [Balagopal Unnikrishnan](https://balagopal.me/)
+- **Teaching Assistant Office Hours:** Mondays 10:30–11:30 AM, Zoom link in Quercus
 
 ### T-CAIREM, Jan 2025 – Aug 2025
 Details to be announced

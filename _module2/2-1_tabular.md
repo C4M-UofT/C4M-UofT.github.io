@@ -1,5 +1,5 @@
 ---
-title: "Introduction and Tabular Data"
+title: "Tabular Data"
 index: 1
 materials:
 - topic: "Motivation"
