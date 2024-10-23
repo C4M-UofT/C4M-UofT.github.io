@@ -17,7 +17,7 @@ materials:
 - topic: "Testing and Debugging"
   files: 
   - type: "colab"
-    url: lectures/module1/1-5_dicts/1-5c – Testing_and_Debugging.ipynb
+    url: lectures/module1/1-5_dicts/1-5c – Testing and Debugging.ipynb
   - type: "broken_is_teenager.pdf"
     url: lectures/module1/1-5_dicts/broken_is_teenager.pdf
 assignment:
