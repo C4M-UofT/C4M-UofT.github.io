@@ -25,5 +25,5 @@ materials:
 - topic: "Input and Output"
   files:
   - type: "colab"
-    url: lectures/module1/1-1_variables/HW1-1.ipynb
+    url: lectures/module1/1-1_variables/1-1f – Input and Output.ipynb
 ---
