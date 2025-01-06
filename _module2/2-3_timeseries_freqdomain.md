@@ -22,14 +22,10 @@ materials:
   files:
   - type: "colab"
     url: lectures/module2/2-3_timeseries_frequencydomain/2-3e – Frequency-Domain Features.ipynb
-- topic: "Signal Noise"
-  files:
-  - type: "colab"
-    url: lectures/module2/2-3_timeseries_frequencydomain/2-3f – Signal Noise.ipynb
 - topic: "Digital Filters"
   files:
   - type: "colab"
-    url: lectures/module2/2-3_timeseries_frequencydomain/2-3g – Digital Filters.ipynb
+    url: lectures/module2/2-3_timeseries_frequencydomain/2-3f – Digital Filters.ipynb
 assignment:
   files:
   - type: "colab"
