@@ -13,6 +13,7 @@ Most of the lectures center around interactive [Jupyter notebooks](https://jupyt
 This content may be offered through multiple concurrent programs at any given time, so the sections below provide specific details related to these offerings.
 
 ### MD Program, Nov 2025 – Mar 2026
+**Please note:** A minimum of 20 participants is required for the program to proceed, and applicants will be notified if the program is not running.
 - **Modules Covered:** Modules [2](module2.html) and [3](module3.html)
 - **Internal Course Website:** [Quercus](https://q.utoronto.ca/courses/371302)
 - **Lectures:** Select Wednesdays 12-2:30 PM ([schedule](schedules/c4m-md.html))
